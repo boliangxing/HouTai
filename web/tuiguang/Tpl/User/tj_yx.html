@@ -1,0 +1,50 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>有效用户点击</h2>
+                </header>      
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+							<th>昵称</th>
+                            <th>充值金额</th>
+                            <th>是否付费</th>
+                            <th>关键词</th>
+                            <th>注册IP</th>
+                            <th>地区</th>
+                            <th>访问时间</th>      
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.GameID}</td>
+                            <td>{$vo.NickName}</td>
+                            <td><if condition="$vo.Rechange eq 0 ">{$vo.Rechange}
+                                <else /><span style="color:red">{$vo.Rechange}</span></if></td>
+                            <td><if condition="$vo.IsFF eq 1 "><span style="color:red">是</span>
+                                <else />否</if></td>
+                            <td>{$vo.Info}</td>
+                            <td>{$vo.IP}</td>
+                            <td>{$vo.Area}</td>
+                            <td>{$vo.InsertDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

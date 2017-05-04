@@ -1,0 +1,46 @@
+<?php 
+    require_once('head2.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>库存变更记录</h2>
+                </header>          
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>游戏名</th>
+                            <th>操作人ID</th>
+							<th>变更类型</th>
+                            <th>变更值</th>
+                            <th>变更前</th>
+							<th>变更后</th>
+                            <th>时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.ServerName}</td>
+							<td>{$vo.ConID}</td>
+							<td><if condition="$vo['ChangeType'] eq 0">大玩家</if><if condition="$vo['ConType'] eq 1">小玩家</if></td>
+							<td>{$vo.ChangeScore}</td>
+							<td>{$vo.ScoreBefore}</td>
+							<td>{$vo.ScoreAfter}</td>
+							<td>{$vo.InsertDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>最近500条离开记录</h2>
+                </header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>游戏房间</th>
+							<th>进入时间</th>
+                            <th>离开时间</th>
+							<th>离开原因</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.KindName}-{$vo.ServerName}</a></td>
+							<td>{$vo.EnterTime}</td>
+							<td>{$vo.LeaveTime}</td>
+							<td><if condition="$vo['LeaveReason'] eq 5">条件限制</if><if condition="$vo['LeaveReason'] eq 4">人满为患</if><if condition="$vo['LeaveReason'] eq 3">用户冲突</if><if condition="$vo['LeaveReason'] eq 2">网络原因</if><if condition="$vo['LeaveReason'] eq 1">系统原因</if><if condition="$vo['LeaveReason'] eq 0">常规离开</if></td>
+                            
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+<script type="text/javascript">
+</script>
+</div>  
+</body>
+</html>

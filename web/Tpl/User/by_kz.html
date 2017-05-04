@@ -1,0 +1,58 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>捕鱼kz记录</h2>
+                </header>    
+                <form action="<?php echo WEB_ROOT?>index.php/User/by_kz" method="GET">
+                    <span>请输入游戏ID</span>
+                    <input type="text" class="user_search_input" style="width:150px" name="GameID" value={$GameID}>
+                    <input class="user_search_submit" type="submit" value="查询">                 
+                </form>       
+                <div id="table_w">
+				<span>最近100条添加kz信息</span>
+                <table id="num">
+                    <thead>
+                        <tr>	
+							<th>序号</th>
+                            <th>游戏ID</th>
+							<th>操作人ID</th>
+                            <th>kz类型</th>
+                            <th>比例</th>
+                            <th>最大值</th>
+                            <th>开始时间</th>
+                            <th>结束时间</th>
+                            <th>记录类型</th>
+                            <th>设置时间</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+							<td>{$vo.GameID}</td>
+							<td>{$vo.ControlID}</td>
+							<td><if condition="$vo['ManageType'] eq -1">收<else/>放</if></td>
+                            <td>{$vo.ManageRate}</td>
+                            <td>{$vo.ManageScore}</td>
+							<td>{$vo.StartDate}</td>
+							<td>{$vo.EndDate}</td>
+                            <td><if condition="$vo['Type'] eq 1">添加<else/>删除</if></td>
+                            <td>{$vo.InsertDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+    
+</div>  
+</body>
+</html>

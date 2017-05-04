@@ -1,0 +1,157 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="cx_form">	
+				<header>
+                    <h2>当日排行</h2>
+                </header>		
+				<form action="<?php echo WEB_ROOT?>index.php/User/inout_record" metdod="GET">
+                    <span style="margin-left:200px;">查询日期&nbsp;&nbsp;</span>
+					<input name="date" type="text" class="datepick" value="{$date}">
+					<input class="submit" type="submit" value="查询">
+                </form>
+			</article>
+			<article class="cx_form">
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>时间点</th>
+							<th>vip转出</th>
+							<th>转入vip</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>{$zc['t1']}</td>
+							<td>{$zr['t1']}</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>{$zc['t2']}</td>
+							<td>{$zr['t2']}</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>{$zc['t3']}</td>
+							<td>{$zr['t3']}</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>{$zc['t4']}</td>
+							<td>{$zr['t4']}</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>{$zc['t5']}</td>
+							<td>{$zr['t5']}</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>{$zc['t6']}</td>
+							<td>{$zr['t6']}</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>{$zc['t7']}</td>
+							<td>{$zr['t7']}</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>{$zc['t8']}</td>
+							<td>{$zr['t8']}</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>{$zc['t9']}</td>
+							<td>{$zr['t9']}</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>{$zc['t10']}</td>
+							<td>{$zr['t10']}</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>{$zc['t11']}</td>
+							<td>{$zr['t11']}</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>{$zc['t12']}</td>
+							<td>{$zr['t12']}</td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td>{$zc['t13']}</td>
+							<td>{$zr['t13']}</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>{$zc['t14']}</td>
+							<td>{$zr['t14']}</td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>{$zc['t15']}</td>
+							<td>{$zr['t15']}</td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td>{$zc['t16']}</td>
+							<td>{$zr['t16']}</td>
+						</tr>
+						<tr>
+							<td>17</td>
+							<td>{$zc['t17']}</td>
+							<td>{$zr['t17']}</td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td>{$zc['t18']}</td>
+							<td>{$zr['t18']}</td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>{$zc['t19']}</td>
+							<td>{$zr['t19']}</td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>{$zc['t20']}</td>
+							<td>{$zr['t20']}</td>
+						</tr>
+						<tr>
+							<td>21</td>
+							<td>{$zc['t21']}</td>
+							<td>{$zr['t21']}</td>
+						</tr>
+						<tr>
+							<td>22</td>
+							<td>{$zc['t22']}</td>
+							<td>{$zr['t22']}</td>
+						</tr>
+						<tr>
+							<td>23</td>
+							<td>{$zc['t23']}</td>
+							<td>{$zr['t23']}</td>
+						</tr>
+						<tr>
+							<td>24</td>
+							<td>{$zc['t24']}</td>
+							<td>{$zr['t24']}</td>
+						</tr>
+
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+		</section>
+	</div>
+</div>	
+</body>
+</html>

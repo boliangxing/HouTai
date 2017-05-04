@@ -1,0 +1,52 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>可疑用户</h2>
+                </header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>游戏房间</th>
+                            <th>游戏</th>
+                            <th>银行</th>
+                            <th>总</th>
+							<th>地区</th>
+                            <th>时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td><if condition="$vo.LockMobileFrom eq 1 "><span style="color:blue">★</span>
+                                </if><if condition="$vo.IsOpenTokenLock eq 1 "><span style="color:red">★</span>
+                                </if><if condition="$vo.nozz eq 0 "><span style="color:#7b09d2">{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if></td>
+							<td>{$vo.ServerName}</td>
+							<td>{$vo.Score}</td>
+							<td>{$vo.InsureScore}</td>
+                            <td>{$vo.Total}</td>
+							<td>{$vo.Logon_city.country}</td>
+                            <td>{$vo.CollectDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+<script type="text/javascript">
+setTimeout("self.location.reload();",60000);
+</script>
+</div>  
+</body>
+</html>

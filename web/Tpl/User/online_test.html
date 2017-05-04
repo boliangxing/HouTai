@@ -1,0 +1,44 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>当前游戏（普通）<span style="margin-left:30px;font-size:14px;"><a href="<?php echo WEB_ROOT?>index.php/User/online_user?type=2"><span style="color:#2996cc;">当前游戏（vip）</span></a></span><span style='padding-left:310px;'>在线金币总:{$score_sum} <br>付费用户:{$user_ff}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免费用户:{$user_mf}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总在线人数:{$count_online}</br>付费(ios:{$user_login['ios']}&nbsp;&nbsp;android:{$user_login['android']}&nbsp;&nbsp;pc:{$user_login['pc']}&nbsp;&nbsp;)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免费(ios:{$user_login_mf['ios']}&nbsp;&nbsp;android:{$user_login_mf['android']}&nbsp;&nbsp;pc:{$user_login_mf['pc']}&nbsp;&nbsp;)</span></h2>
+                </header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+                            <th>昵称</th>
+							<th>登录方式</th>
+							<th><a href="<?php echo WEB_ROOT?>index.php/User/new_version">版本号</a></th>
+                            <th><a href="<?php echo WEB_ROOT?>index.php/User/online_user?type=1&order=2">时间</a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td><if condition="$vo.ProtectID eq 1 "><span style="color:red">{$vo.no}</span>
+                                <else />{$vo.no}</if></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.CustomID}</td>
+							<td>{$vo.LockMobileKindID}</td>
+                            <td>{$vo.SerialNumber}</td>
+							<td>{$vo.CollectDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

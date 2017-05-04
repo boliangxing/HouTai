@@ -1,0 +1,73 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="expand_query">
+				<header>
+					<h2>统计查询</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Sta/goldCountSearch" method="GET">
+					<span>起止日期：&nbsp;&nbsp;</span>
+					<input type="text" class="datepick" name="start">&nbsp;-
+					<input type="text" class="datepick" name="end">
+					<input class="querybutton" type="submit" value="查询">					
+				</form>
+			</article>
+			<article class="goldinfo">
+				<header>
+					<h2>金币统计</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序列号</th>
+							<th>时间</th>
+							<th>用户金币</th>
+							<th>用户银行</th>
+							<th>用户金币+银行</th>
+							<th>机器人金币</th>
+							<th>机器人银行</th>
+							<th>机器人金币+银行</th>
+							<th>总额与昨日对比</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>						
+							<td>{$vo.insert_date}</td>
+							<td>{$vo.user_gold}</td>
+							<td>{$vo.user_bank}</td>
+							<td>{$vo.user_sum}</td>
+							<td>{$vo.android_gold}</td>
+							<td>{$vo.android_bank}</td>
+							<td>{$vo.android_sum}</td>
+							<td>{$vo.sum_add}</td>
+						</tr>
+						</foreach>	
+					</tbody>
+					
+				</table></div>
+			</article>	
+
+		</section>
+	</div>
+	<footer>
+		<ol class="pagination">
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/goldCountSearch?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>&start=<?php echo $start ?>&end=<?php echo $end ?>" rel="prev">上页</a></li>
+			<?php 
+				for($i=1;$i<=$pageNum;$i++){?>
+					
+					<li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Sta/goldCountSearch?pageNo=<?php echo $i?>&start=<?php echo $start ?>&end=<?php echo $end ?>"><?php echo $i?></a></li>
+				
+			<?php }
+			?>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/goldCountSearch?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>&start=<?php echo $start ?>&end=<?php echo $end ?>" rel="next">下页</a></li>	
+		</ol>				
+	</footer>
+</div>	
+</body>
+</html>
+
+

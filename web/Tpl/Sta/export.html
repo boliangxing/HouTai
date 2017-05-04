@@ -1,0 +1,25 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="expand_query">
+				<header>
+					<h2>数据导出</h2>
+				</header>			
+				<form method="GET" action="<?php echo WEB_ROOT?>index.php/Sta/excel">
+					<span>起止日期&nbsp;&nbsp;</span>
+					<input name="start" type="text" class="datepick">&nbsp;-
+					<input name="end" type="text" class="datepick">
+					<input class="querybutton" type="submit" value="导出">									
+				</form>
+			</article>
+
+		</section>
+	</div>
+</div>	
+</body>
+</html>
+
+
+
+

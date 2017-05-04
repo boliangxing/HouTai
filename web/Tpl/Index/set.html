@@ -1,0 +1,69 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="newcard">
+				<header>
+					<h2>新手卡设置</h2>
+				</header>
+				<form action='<?php echo WEB_ROOT?>index.php/Index/updateUser' method="get" id="form">
+					<table>
+						<tr >
+						<th >新手卡序列号</th>
+						<td style="width:120px;"><input class="numinput" value="{$result.start_num}" name='start_num'></td>
+						<td style="width:120px;"><input class="numinput" value="{$result.end_num}" name='end_num'></td>
+					</tr>
+					<tr >
+						<th>推广员姓名</th>
+						<td colspan="2" ><input class="nameinput" value="{$result.username}" name='username'></td>		
+					</tr>
+					<tr>
+						<th>推广地区</th>
+						<td colspan="2" ><input  class="areainput" value="{$result.area}" name='area'></td>	
+					</tr>
+					<tr>
+						<th>推广类型</th>
+						<td colspan="2" style="width:250px;">
+						<div id='type' name='{$result.type}'>
+								<input type="checkbox" name="type[]" value="网吧"/>网吧
+								<input type="checkbox" name="type[]" value="市场"/>市场
+								<input type="checkbox" name="type[]" value="网络"/>网络
+								<input type="checkbox" name="type[]" value="会所"/>会所
+								<input type="checkbox" name="type[]" value="数码城"/>数码城
+							</div></td>	
+						<input name='id' type='hidden' value='{$result.id}'>
+					</tr>						
+					</table>
+					<div>
+						<input class="save" type="submit" onclick="submit()" value="保存">
+					</div>
+				</form>
+			</article>
+		</section>
+	</div>
+</div>	
+<script type="text/javascript">
+	function submit(){
+		document.getElementById('form').submit();
+	}
+	function in_array(needle, haystack) {
+		if(typeof needle == 'string' || typeof needle == 'number') {
+			for(var i in haystack) {
+				if(haystack[i] == needle) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	var type_str = document.getElementById("type").attributes.getNamedItem("name").nodeValue;
+	var type_array = type_str.split(',');
+	var type_checkbox = document.getElementById('type').getElementsByTagName('input');
+	for(var i=0;i<type_checkbox.length;i++){
+		if(in_array(type_checkbox[i].value,type_array)){
+			type_checkbox[i].checked = true;
+		}
+	}
+</script>
+</body>
+</html>

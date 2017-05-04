@@ -1,0 +1,92 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="user_search">
+				<header>
+					<h2>进出查询</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/User/jc_search" method="GET" style="padding-left:160px;">
+					<span style="padding-left:100px;">起止日期：&nbsp;&nbsp;</span>
+                    <input type="text" style='height:24px;width:100px;' class="datepick" name="start_date" value={$start_date}>&nbsp;-
+                    <input type="text" style='height:24px;width:100px;' class="datepick" name="end_date" value={$end_date}></br>
+					<span>请输入游戏ID：</span>
+					<input type="text" class="user_search_input" style="width:100px" name="GameID" value={$GameID}>
+					<span>请输入游戏ID2：</span>
+					<input type="text" class="user_search_input" style="width:100px" name="GameID2" value={$GameID2}>
+					<input class="user_search_submit" type="submit" value="查询">					
+				</form>
+			</article>
+			<article class="user_info">
+				<span style="padding-left:290px;">{$NickName}&nbsp;&nbsp;转出到&nbsp;&nbsp;{$NickName2}&nbsp;&nbsp;总额：{$sum1}</span>
+				<div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>转账时间</th>
+                            <th>支付人ID</th>
+                            <th>支付人</th>
+                            <th>接收人ID</th>
+                            <th>接收人</th>
+                            <th>支付金额</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='rs2' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.CollectDate}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.SourceUserID}" target="_blank">{$GameID}</a></td>
+                            <td><if condition="$vo['MemberOrder1'] gt 0"><span style="color:red">{$vo.NickName1}</span><else/>{$vo.NickName1}</if></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.TargetUserID}" target="_blank">{$GameID2}</a></td>
+                            <td><if condition="$vo['MemberOrder2'] gt 0"><span style="color:red">{$vo.NickName2}</span><else/>{$vo.NickName2}</if></td>
+                            <td>{$vo.SwapScore}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div> 
+			</article>	
+			<article class="user_info">
+				<span style="padding-left:290px;">{$NickName2}&nbsp;&nbsp;转出到&nbsp;&nbsp;{$NickName}&nbsp;&nbsp;总额：{$sum2}</span>
+				<div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>转账时间</th>
+                            <th>支付人ID</th>
+                            <th>支付人</th>
+                            <th>接收人ID</th>
+                            <th>接收人</th>
+                            <th>支付金额</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='rs3' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.CollectDate}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.SourceUserID}" target="_blank">{$GameID2}</a></td>
+                            <td><if condition="$vo['MemberOrder1'] gt 0"><span style="color:red">{$vo.NickName2}</span><else/>{$vo.NickName2}</if></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.TargetUserID}" target="_blank">{$GameID}</a></td>
+                            <td><if condition="$vo['MemberOrder2'] gt 0"><span style="color:red">{$vo.NickName1}</span><else/>{$vo.NickName1}</if></td>
+                            <td>{$vo.SwapScore}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div> 
+			</article>			
+		</section>
+	</div>
+	<footer>
+		
+	</footer>
+</div>	
+</body>
+</html>
+

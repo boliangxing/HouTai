@@ -1,0 +1,53 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>今日点击<span style='padding-left: 50px;'><a href="<?php echo WEB_ROOT?>index.php/User/tj_ip" target='_blank' style='color:#2996cc'>ip查询</a></span></h2>
+                </header>
+                <form action="<?php echo WEB_ROOT?>index.php/User/jiechi" method="GET" style='padding:20px 80px;'>
+                    <span>起止日期：&nbsp;&nbsp;</span>
+                        <input type="text" style='width:130px;' name="start_date" value="{$start_date}">&nbsp;-
+                        <input type="text" style='width:130px;' name="end_date" value="{$end_date}">
+                    <input class="submit" type="submit" value="查询"></br></br>
+                </form>     
+<span style='padding-left20px;'>时间段：{$start_date}&nbsp;&nbsp;--&nbsp;&nbsp;{$end_date}&nbsp;&nbsp;&nbsp;&nbsp;下载次数:&nbsp;&nbsp;{$xz}&nbsp;&nbsp;&nbsp;&nbsp;注册帐号:&nbsp;&nbsp;{$zc}&nbsp;&nbsp;&nbsp;&nbsp;有效用户数量:&nbsp;&nbsp;{$yx}&nbsp;&nbsp;&nbsp;&nbsp;<a href='<?php echo WEB_ROOT?>index.php/User/jiechi_user?start_date=<?php echo $start_date;?>&end_date=<?php echo $end_date;?>'>实际用户</a></span>             
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>关键词</th>
+                            <th>编号</th>
+                            <th>点击数</th>
+                            <th>下载数</th>
+                            <th>注册用户</th>
+                            <th>有效用户</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+							<td><if condition="$vo.yx_c eq 0 ">{$vo.Info}
+                                <else /><span style="color:red">{$vo.Info}</span></if></td>
+                            <td>{$vo.GjcID}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/GjcRecord?GjcID={$vo.GjcID}&start_date={$start_date}&end_date={$end_date}" target="_blank">{$vo.c}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/GjcDlRecord?GjcID={$vo.GjcID}&start_date={$start_date}&end_date={$end_date}" target="_blank">{$vo.dl_c}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/tj_zc?GjcID={$vo.GjcID}&start_date={$start_date}&end_date={$end_date}" target="_blank">{$vo.zc_c}</a></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/tj_yx?GjcID={$vo.GjcID}&start_date={$start_date}&end_date={$end_date}" target="_blank">{$vo.yx_c}</a></td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

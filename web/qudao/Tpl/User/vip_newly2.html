@@ -1,0 +1,70 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="user_info">    
+                <div class="expand_query">         
+                    <form action="<?php echo WEB_ROOT?>index.php/User/vipRecord" method="GET"  style="padding-left:270px;padding-right:0">
+                        <span>起止日期：&nbsp;&nbsp;</span>
+                        <input type="text" class="datepick" name="start_date" value={$start_date}>--<input type="text" class="datepick" name="end_date" value={$end_date}>
+                        <input class="querybutton" type="submit" id="date_submit" value="查询">                  
+                    </form>
+                </div>             
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>游戏</th>
+                            <th>桌子编号</th>
+                            <th>损耗</th>
+                            <th>记录时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='rs' item='vo'>
+                        <tr class="youxirow">
+                            <td>{$vo.KindName}-{$vo.ServerName}</td>
+                            <td>{$vo.TableID}</td>
+                            <td>{$vo.Waste}</td>
+                            <td>{$vo.InsertTime}</td>
+                        </tr>
+                        <tr class="youxiin">
+                           <td  colspan="7" > 
+                                <table class="youxi" >
+                                    <tr >
+                                        <th>用户名</th>
+                                        <th>输赢积分</th>
+                                        <th>税收/服务费</th>
+                                        <th>游戏时长</th>
+                                    </tr>
+                        <?php
+                        	for($i=0;$i<count($vo['users']);$i++){
+						?>
+                                    <tr >
+                                        <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo['users'][$i]['UserID']}" target="_blank"><if condition="$vo['users'][$i]['MemberOrder'] eq 0">{$vo['users'][$i]['NickName']}<else/><span style='color:red'>{$vo['users'][$i]['NickName']}</span></if></a></td>
+
+                                        <td>{$vo['users'][$i]['Score']}</td>
+                                        <td>{$vo['users'][$i]['Revenue']}</td>
+                                        <td>{$vo['users'][$i]['PlayTimeCount']}</td>
+                                    </tr>
+                        <?php
+                        	}
+						?>            
+                                </table>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>    
+                     
+            </article>
+        </section>
+    </div>
+</div>  
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>

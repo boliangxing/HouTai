@@ -1,0 +1,3 @@
+<?php
+//000000001800a:6:{i:0;a:2:{s:12:"SourceUserID";i:1000055;s:9:"swapscore";s:6:"280400";}i:1;a:2:{s:12:"SourceUserID";i:1000090;s:9:"swapscore";s:7:"2002400";}i:2;a:2:{s:12:"SourceUserID";i:1000096;s:9:"swapscore";s:7:"2032600";}i:3;a:2:{s:12:"SourceUserID";i:1000288;s:9:"swapscore";s:7:"1000000";}i:4;a:2:{s:12:"SourceUserID";i:1000299;s:9:"swapscore";s:7:"4031200";}i:5;a:2:{s:12:"SourceUserID";i:1000401;s:9:"swapscore";s:6:"880000";}}
+?>

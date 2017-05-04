@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查询系统-登录</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>styles/main.css">
+</head>
+<body>
+	<div class="login">
+		<header>
+			<h1 style="width:800px;">查询系统（仅限超级用户使用）</h1>
+		</header>
+		<form action="<?php echo WEB_ROOT?>index.php/Login/vipUserCheck" class="login-form-wrap"  method="POST">
+			<div class="name">
+				<label for="name">用户名</label>
+				<div>
+					<input id="name" type="text" name="username">
+				</div>
+			</div>
+			<div class="password" >
+				<label for="password">密&nbsp;&nbsp;&nbsp;码</label>
+				<div>
+					<input id="password" type="password" name="password">
+				</div>
+			</div>
+			<div class="name" id="code">
+				<label for="name">验证码</label>
+				<div>
+					<input id="code" type="text" name="code">
+					
+				</div>
+				<img src="<?php echo WEB_ROOT?>index.php/Login/verify" width="75" height="35" onclick="this.src = '<?php echo WEB_ROOT?>index.php/Login/verify?t='+new Date().getTime();"   title="看不清，点击换下一张" />
+			</div>
+			<div class="button">
+				<input type="submit" value="登录">
+			</div>	
+
+		</form>	
+	</div>
+</body>
+</html>

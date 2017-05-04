@@ -1,0 +1,91 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="newcard">
+				<header>
+					<h2>新手卡设置</h2>
+				</header>
+				
+				<form action='<?php echo WEB_ROOT?>index.php/Index/addUser' method="get" id="form">
+					<table>
+						<tr >
+						<th >新手卡序列号</th>
+						<td style="width:120px;"><input class="numinput" value="" name='start_num' id='start_num' onblur="check('start_num')"></td>
+						<td style="width:120px;"><input class="numinput" value="" name='end_num' id='end_num' onblur="check('end_num')"></td>
+					</tr>
+					<tr >
+						<th>推广员姓名</th>
+						<td colspan="2" ><input class="nameinput" value="" name='username'></td>		
+					</tr>
+					<tr>
+						<th>推广地区</th>
+						<td colspan="2" ><input  class="areainput" value="" name='area'></td>	
+					</tr>
+					<tr>
+						<th>推广类型</th>
+						<td colspan="2" style="width:250px;">
+						<div id='type' name=''>
+								<input type="checkbox" name="type[]" value="网吧"/>网吧
+								<input type="checkbox" name="type[]" value="市场"/>市场
+								<input type="checkbox" name="type[]" value="网络"/>网络
+								<input type="checkbox" name="type[]" value="会所"/>会所
+								<input type="checkbox" name="type[]" value="数码城"/>数码城
+							</div></td>	
+					</tr>						
+					</table>
+					<div>
+						<input class="save" type="submit"  value="保存">
+					</div>
+					<div id="start_num_prompt" class="prompt" style="display:none">请输入正确的序列号！</div>
+					<div id="end_num_prompt" class="prompt" style="display:none">请输入正确的序列号！</div>
+				</form>
+			</article>
+		</section>
+	</div>
+</div>	
+<style>
+	form{
+		position: relative;
+	}
+	.prompt{
+		position: absolute;
+		top:9px;
+		right: 106px;
+		font-size: 13px;
+		color: red;
+	}
+</style>
+<script type="text/javascript">
+
+
+
+$('#form').submit(function() {
+	var name1 =document.getElementById("start_num").value;
+	var name2=document.getElementById("end_num").value;
+	var prompt =document.getElementById("start_num_prompt").style;
+	var reCat = /^hs[0-9]{5}/;
+
+	if(!reCat.test(name1)||!reCat.test(name2)){
+		prompt.display="inline-block";
+		return false;
+	}
+});
+
+
+function check(name){
+
+	var nameValue = document.getElementById(name).value;
+	var prompt =document.getElementById(name+"_prompt").style;
+	var reCat = /^hs[0-9]{5}/;
+	if (!reCat.test(nameValue)){
+		return prompt.display="inline-block";
+	};
+	prompt.display="none";
+}
+
+
+	
+</script>
+</body>
+</html>

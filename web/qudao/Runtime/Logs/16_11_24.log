@@ -1,0 +1,963 @@
+[ 2016-11-24T00:40:26+08:00 ] http://m.baidu.com/?rands=_1765871530026683563511552 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T00:40:26+08:00 ] http://m.baidu.com/?rands=_1765871530026683563511552 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001652s ]
+[ 2016-11-24T00:40:26+08:00 ] http://m.baidu.com/?rands=_1765871530026683563511552 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001777s ]
+[ 2016-11-24T00:40:26+08:00 ] http://www.sogou.com/?rands=_148269149402754990903476 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T00:40:26+08:00 ] http://www.sogou.com/?rands=_148269149402754990903476 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001094s ]
+[ 2016-11-24T00:40:26+08:00 ] http://www.sogou.com/?rands=_148269149402754990903476 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001222s ]
+[ 2016-11-24T04:08:25+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T04:08:25+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001691s ]
+[ 2016-11-24T04:08:25+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001857s ]
+[ 2016-11-24T06:33:25+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T06:33:25+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001677s ]
+[ 2016-11-24T06:33:25+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001843s ]
+[ 2016-11-24T08:46:55+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T08:46:55+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001672s ]
+[ 2016-11-24T08:46:55+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001843s ]
+[ 2016-11-24T08:52:41+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T08:52:41+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001679s ]
+[ 2016-11-24T08:52:41+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001843s ]
+[ 2016-11-24T10:04:59+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T10:04:59+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002157s ]
+[ 2016-11-24T10:04:59+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002281s ]
+[ 2016-11-24T11:32:55+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T11:32:55+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001640s ]
+[ 2016-11-24T11:32:55+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001771s ]
+[ 2016-11-24T13:11:59+08:00 ] 163mx02.mxmail.netease.com:25 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T13:11:59+08:00 ] 163mx02.mxmail.netease.com:25 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001310s ]
+[ 2016-11-24T13:11:59+08:00 ] 163mx02.mxmail.netease.com:25 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001484s ]
+[ 2016-11-24T13:13:00+08:00 ] http://m.baidu.com/?rands=_46642222423119323823496 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T13:13:00+08:00 ] http://m.baidu.com/?rands=_46642222423119323823496 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001669s ]
+[ 2016-11-24T13:13:00+08:00 ] http://m.baidu.com/?rands=_46642222423119323823496 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001835s ]
+[ 2016-11-24T13:13:00+08:00 ] http://www.sogou.com/?rands=_657670539086424925232 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T13:13:00+08:00 ] http://www.sogou.com/?rands=_657670539086424925232 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001094s ]
+[ 2016-11-24T13:13:00+08:00 ] http://www.sogou.com/?rands=_657670539086424925232 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001254s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002318s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002453s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001655s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001766s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001982s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002117s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017987s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018104s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001729s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001853s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001542s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001970s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007396s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002274s ]
+[ 2016-11-24T15:24:50+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002380s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002294s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002420s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002155s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002259s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002439s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002554s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.019337s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019448s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001727s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001835s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001520s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001938s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007302s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001975s ]
+[ 2016-11-24T15:24:59+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002077s ]
+[ 2016-11-24T16:16:46+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:16:46+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001675s ]
+[ 2016-11-24T16:16:46+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001805s ]
+[ 2016-11-24T16:16:46+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:16:46+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001101s ]
+[ 2016-11-24T16:16:46+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001233s ]
+[ 2016-11-24T16:36:41+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:41+08:00 ] /qudao/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001651s ]
+[ 2016-11-24T16:36:41+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001778s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002356s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002478s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001068s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001169s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002162s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002277s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.019767s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019878s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001713s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001855s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001670s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001970s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007493s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001999s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002099s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001785s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001927s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001080s ]
+[ 2016-11-24T16:36:42+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001185s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001648s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001774s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002996s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.003119s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001085s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001188s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002737s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002852s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.020506s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020619s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.002117s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001882s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001554s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002027s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007886s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002015s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002118s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.002831s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.002958s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001078s ]
+[ 2016-11-24T16:36:43+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001182s ]
+[ 2016-11-24T16:36:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002834s ]
+[ 2016-11-24T16:36:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002964s ]
+[ 2016-11-24T16:36:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001078s ]
+[ 2016-11-24T16:36:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001303s ]
+[ 2016-11-24T16:36:45+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002823s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002950s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001070s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001174s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002233s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002347s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.019148s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019259s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001467s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001855s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001528s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001975s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007114s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002082s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002185s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.002806s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.002930s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001068s ]
+[ 2016-11-24T16:36:47+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001173s ]
+[ 2016-11-24T16:36:53+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:53+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002450s ]
+[ 2016-11-24T16:36:53+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002580s ]
+[ 2016-11-24T16:36:53+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:53+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001651s ]
+[ 2016-11-24T16:36:53+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001756s ]
+[ 2016-11-24T16:36:53+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T16:36:54+08:00 ] /qudao/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T16:36:54+08:00 ] /qudao/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.001731s ]
+[ 2016-11-24T16:36:54+08:00 ] /qudao/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.001856s ]
+[ 2016-11-24T16:36:54+08:00 ] /qudao/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T16:36:54+08:00 ] /qudao/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001354s ]
+[ 2016-11-24T16:36:54+08:00 ] /qudao/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001458s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002010s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002143s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.019937s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020050s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001739s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.002081s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001533s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001973s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007612s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001994s ]
+[ 2016-11-24T16:36:56+08:00 ] /qudao/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002096s ]
+[ 2016-11-24T17:54:39+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T17:54:39+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002166s ]
+[ 2016-11-24T17:54:39+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002292s ]
+[ 2016-11-24T18:28:08+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T18:28:08+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001641s ]
+[ 2016-11-24T18:28:08+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001764s ]
+[ 2016-11-24T19:29:45+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T19:29:45+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001660s ]
+[ 2016-11-24T19:29:45+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001787s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002565s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002681s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001960s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002056s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002441s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002545s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017728s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017829s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001562s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001686s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001390s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001777s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006672s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001810s ]
+[ 2016-11-24T20:44:29+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001902s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002312s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002736s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001642s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001747s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001970s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002102s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017258s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017371s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001785s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001847s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001532s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001951s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007402s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001982s ]
+[ 2016-11-24T20:44:38+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002084s ]
+[ 2016-11-24T21:13:11+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:13:11+08:00 ] /qudao/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001666s ]
+[ 2016-11-24T21:13:11+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001830s ]
+[ 2016-11-24T21:13:11+08:00 ] /qudao/index.php/User/index | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:13:11+08:00 ] /qudao/index.php/User/index | INFO: Run CheckRoute Behavior [ RunTime:0.002329s ]
+[ 2016-11-24T21:13:11+08:00 ] /qudao/index.php/User/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002491s ]
+[ 2016-11-24T21:13:11+08:00 ] /qudao/index.php/User/index | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:13:11+08:00 ] /qudao/index.php/User/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001083s ]
+[ 2016-11-24T21:13:11+08:00 ] /qudao/index.php/User/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001191s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002255s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002388s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021426s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021543s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run ContentReplace Behavior [ RunTime:0.001749s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run TokenBuild Behavior [ RunTime:0.001887s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001594s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001976s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007507s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001998s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.002104s ]
+[ 2016-11-24T21:13:12+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:13:12+08:00 ] /qudao/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001658s ]
+[ 2016-11-24T21:13:12+08:00 ] /qudao/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001820s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run CheckRoute Behavior [ RunTime:0.002355s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002521s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001108s ]
+[ 2016-11-24T21:13:13+08:00 ] /qudao/index.php/User/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001214s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001848s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002012s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001097s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001203s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001979s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002099s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017579s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017695s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001869s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001864s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001523s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001980s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007536s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002013s ]
+[ 2016-11-24T21:13:15+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002119s ]
+[ 2016-11-24T21:13:16+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:13:16+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001760s ]
+[ 2016-11-24T21:13:16+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001920s ]
+[ 2016-11-24T21:13:16+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:13:16+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001087s ]
+[ 2016-11-24T21:13:16+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001193s ]
+[ 2016-11-24T21:14:24+08:00 ] /qudao/index.php/Login/verify?t=1479993242463 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:24+08:00 ] /qudao/index.php/Login/verify?t=1479993242463 | INFO: Run CheckRoute Behavior [ RunTime:0.002347s ]
+[ 2016-11-24T21:14:24+08:00 ] /qudao/index.php/Login/verify?t=1479993242463 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002513s ]
+[ 2016-11-24T21:14:24+08:00 ] /qudao/index.php/Login/verify?t=1479993242463 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:24+08:00 ] /qudao/index.php/Login/verify?t=1479993242463 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001666s ]
+[ 2016-11-24T21:14:24+08:00 ] /qudao/index.php/Login/verify?t=1479993242463 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001776s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001790s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001963s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001102s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001212s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002719s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002839s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.060277s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.060424s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001795s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001905s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001538s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002014s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007559s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002166s ]
+[ 2016-11-24T21:14:25+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002288s ]
+[ 2016-11-24T21:14:33+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:33+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.002869s ]
+[ 2016-11-24T21:14:33+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.003039s ]
+[ 2016-11-24T21:14:33+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:33+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002196s ]
+[ 2016-11-24T21:14:33+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002303s ]
+[ 2016-11-24T21:14:39+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:39+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002355s ]
+[ 2016-11-24T21:14:39+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002530s ]
+[ 2016-11-24T21:14:39+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:39+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001672s ]
+[ 2016-11-24T21:14:39+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001780s ]
+[ 2016-11-24T21:14:39+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001776s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001949s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001293s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001402s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001963s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002081s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.018170s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018285s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001723s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001857s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001529s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001984s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007394s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002223s ]
+[ 2016-11-24T21:14:41+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002329s ]
+[ 2016-11-24T21:14:44+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:44+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001776s ]
+[ 2016-11-24T21:14:44+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001950s ]
+[ 2016-11-24T21:14:44+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:44+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001093s ]
+[ 2016-11-24T21:14:44+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001201s ]
+[ 2016-11-24T21:14:54+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:54+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002342s ]
+[ 2016-11-24T21:14:54+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002508s ]
+[ 2016-11-24T21:14:54+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:54+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001670s ]
+[ 2016-11-24T21:14:54+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001778s ]
+[ 2016-11-24T21:14:54+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001760s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001923s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001101s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001209s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001987s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002109s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017351s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017471s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001900s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001885s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001552s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002004s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007653s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002045s ]
+[ 2016-11-24T21:14:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002155s ]
+[ 2016-11-24T21:18:51+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:18:51+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001657s ]
+[ 2016-11-24T21:18:51+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001786s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002902s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.003025s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002173s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002278s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002696s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002809s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.019600s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019713s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001725s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001854s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001668s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001974s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007517s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002021s ]
+[ 2016-11-24T21:20:56+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002124s ]
+[ 2016-11-24T21:21:12+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:21:12+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002296s ]
+[ 2016-11-24T21:21:12+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002423s ]
+[ 2016-11-24T21:21:12+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:21:12+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001638s ]
+[ 2016-11-24T21:21:12+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001740s ]
+[ 2016-11-24T21:21:12+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001738s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001863s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001179s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002277s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002392s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.018822s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018934s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001720s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001844s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001523s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001964s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007340s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002013s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002118s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001867s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001991s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001066s ]
+[ 2016-11-24T21:21:14+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001169s ]
+[ 2016-11-24T21:22:03+08:00 ] /qudao/index.php/Login/verify?t=1479993701929 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:22:03+08:00 ] /qudao/index.php/Login/verify?t=1479993701929 | INFO: Run CheckRoute Behavior [ RunTime:0.001751s ]
+[ 2016-11-24T21:22:03+08:00 ] /qudao/index.php/Login/verify?t=1479993701929 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001887s ]
+[ 2016-11-24T21:22:03+08:00 ] /qudao/index.php/Login/verify?t=1479993701929 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:22:03+08:00 ] /qudao/index.php/Login/verify?t=1479993701929 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001080s ]
+[ 2016-11-24T21:22:03+08:00 ] /qudao/index.php/Login/verify?t=1479993701929 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001183s ]
+[ 2016-11-24T21:22:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:22:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.001738s ]
+[ 2016-11-24T21:22:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001863s ]
+[ 2016-11-24T21:22:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:22:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+[ 2016-11-24T21:22:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001180s ]
+[ 2016-11-24T21:22:06+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001733s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001855s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001080s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001183s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.000934s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001048s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017712s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017824s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001731s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001858s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001542s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002018s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007440s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002015s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002118s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001725s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001846s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001398s ]
+[ 2016-11-24T21:22:08+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001501s ]
+[ 2016-11-24T21:24:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:24:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002306s ]
+[ 2016-11-24T21:24:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002429s ]
+[ 2016-11-24T21:24:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:24:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001651s ]
+[ 2016-11-24T21:24:06+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001755s ]
+[ 2016-11-24T21:24:06+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001735s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001858s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001079s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001181s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002689s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002804s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.019903s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020016s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001715s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001844s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001603s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001967s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007419s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001997s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002099s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001724s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001846s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001068s ]
+[ 2016-11-24T21:24:07+08:00 ] /qudao/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001169s ]
+[ 2016-11-24T21:24:13+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:24:13+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.001742s ]
+[ 2016-11-24T21:24:13+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001870s ]
+[ 2016-11-24T21:24:13+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:24:13+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001077s ]
+[ 2016-11-24T21:24:13+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001182s ]
+[ 2016-11-24T21:24:13+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:26:15+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:26:15+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002305s ]
+[ 2016-11-24T21:26:15+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002429s ]
+[ 2016-11-24T21:26:15+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:26:15+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001647s ]
+[ 2016-11-24T21:26:15+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001752s ]
+[ 2016-11-24T21:26:15+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:29:41+08:00 ] /qudao/index.php/Login/verify?t=1479994160185 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:29:41+08:00 ] /qudao/index.php/Login/verify?t=1479994160185 | INFO: Run CheckRoute Behavior [ RunTime:0.002292s ]
+[ 2016-11-24T21:29:41+08:00 ] /qudao/index.php/Login/verify?t=1479994160185 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002424s ]
+[ 2016-11-24T21:29:41+08:00 ] /qudao/index.php/Login/verify?t=1479994160185 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:29:41+08:00 ] /qudao/index.php/Login/verify?t=1479994160185 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001638s ]
+[ 2016-11-24T21:29:41+08:00 ] /qudao/index.php/Login/verify?t=1479994160185 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001741s ]
+[ 2016-11-24T21:29:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:29:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.001740s ]
+[ 2016-11-24T21:29:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001870s ]
+[ 2016-11-24T21:29:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:29:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001072s ]
+[ 2016-11-24T21:29:45+08:00 ] /qudao/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001174s ]
+[ 2016-11-24T21:29:45+08:00 ] /qudao/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:29:46+08:00 ] /qudao/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:29:46+08:00 ] /qudao/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.001729s ]
+[ 2016-11-24T21:29:46+08:00 ] /qudao/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.001854s ]
+[ 2016-11-24T21:29:46+08:00 ] /qudao/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:29:46+08:00 ] /qudao/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001068s ]
+[ 2016-11-24T21:29:46+08:00 ] /qudao/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001172s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002556s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002682s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.021018s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021131s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001745s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001859s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001530s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.002357s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007782s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001979s ]
+[ 2016-11-24T21:29:47+08:00 ] /qudao/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002082s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002297s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002424s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001640s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001742s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001941s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002056s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.019361s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019474s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001738s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001849s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001528s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002066s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007473s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001985s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002088s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001730s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001853s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001066s ]
+[ 2016-11-24T21:31:08+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001168s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:31:39+08:00 ] /index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002814s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002945s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:31:39+08:00 ] /index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002162s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002266s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:31:39+08:00 ] /index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:31:39+08:00 ] /index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.002818s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.002944s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:31:39+08:00 ] /index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002163s ]
+[ 2016-11-24T21:31:39+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002267s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002521s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002647s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.020824s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020935s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001744s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001856s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001520s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001946s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007353s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001973s ]
+[ 2016-11-24T21:31:41+08:00 ] /index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002075s ]
+[ 2016-11-24T21:49:49+08:00 ] /index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:49:49+08:00 ] /index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.002856s ]
+[ 2016-11-24T21:49:49+08:00 ] /index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.002995s ]
+[ 2016-11-24T21:49:49+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:49:49+08:00 ] /index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002179s ]
+[ 2016-11-24T21:49:49+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002284s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002797s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002928s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.021394s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021506s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001746s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001880s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001528s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001980s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007420s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001993s ]
+[ 2016-11-24T21:49:53+08:00 ] /index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002095s ]
+[ 2016-11-24T21:50:00+08:00 ] /index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:00+08:00 ] /index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.002909s ]
+[ 2016-11-24T21:50:00+08:00 ] /index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.003036s ]
+[ 2016-11-24T21:50:00+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:00+08:00 ] /index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002178s ]
+[ 2016-11-24T21:50:00+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002283s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002473s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002599s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.021001s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021111s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001802s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001870s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001521s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001968s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007450s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001988s ]
+[ 2016-11-24T21:50:01+08:00 ] /index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002088s ]
+[ 2016-11-24T21:50:20+08:00 ] /index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:20+08:00 ] /index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.002316s ]
+[ 2016-11-24T21:50:20+08:00 ] /index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.002449s ]
+[ 2016-11-24T21:50:20+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:20+08:00 ] /index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001656s ]
+[ 2016-11-24T21:50:20+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001762s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002005s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002137s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.018546s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018658s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001209s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001340s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001002s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001435s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005273s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001978s ]
+[ 2016-11-24T21:50:21+08:00 ] /index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002081s ]
+[ 2016-11-24T21:50:32+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:32+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.002844s ]
+[ 2016-11-24T21:50:32+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002975s ]
+[ 2016-11-24T21:50:32+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:32+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002192s ]
+[ 2016-11-24T21:50:32+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002296s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002751s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002881s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.021134s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021246s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.001732s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001876s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001519s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.002169s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007583s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001992s ]
+[ 2016-11-24T21:50:34+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002093s ]
+[ 2016-11-24T21:50:35+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=1dc1157d34e00e0ed10c45cd610a42e0_dc6fdaf06c502ffe5f85e3e58ea8395c | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:35+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=1dc1157d34e00e0ed10c45cd610a42e0_dc6fdaf06c502ffe5f85e3e58ea8395c | INFO: Run CheckRoute Behavior [ RunTime:0.002828s ]
+[ 2016-11-24T21:50:35+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=1dc1157d34e00e0ed10c45cd610a42e0_dc6fdaf06c502ffe5f85e3e58ea8395c | INFO: Tag[ route_check ] --END-- [ RunTime:0.002956s ]
+[ 2016-11-24T21:50:35+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=1dc1157d34e00e0ed10c45cd610a42e0_dc6fdaf06c502ffe5f85e3e58ea8395c | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:35+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=1dc1157d34e00e0ed10c45cd610a42e0_dc6fdaf06c502ffe5f85e3e58ea8395c | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002432s ]
+[ 2016-11-24T21:50:35+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=1dc1157d34e00e0ed10c45cd610a42e0_dc6fdaf06c502ffe5f85e3e58ea8395c | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002536s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002880s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.003018s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002242s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002347s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002799s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002914s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.020228s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020340s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001777s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001904s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001616s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002033s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007618s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002060s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002272s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.002828s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.002955s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002175s ]
+[ 2016-11-24T21:50:37+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002278s ]
+[ 2016-11-24T21:50:46+08:00 ] /index.php/Login/verify?t=1479995436920 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:46+08:00 ] /index.php/Login/verify?t=1479995436920 | INFO: Run CheckRoute Behavior [ RunTime:0.001752s ]
+[ 2016-11-24T21:50:46+08:00 ] /index.php/Login/verify?t=1479995436920 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001885s ]
+[ 2016-11-24T21:50:46+08:00 ] /index.php/Login/verify?t=1479995436920 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:46+08:00 ] /index.php/Login/verify?t=1479995436920 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001081s ]
+[ 2016-11-24T21:50:46+08:00 ] /index.php/Login/verify?t=1479995436920 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001184s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:55+08:00 ] /index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002314s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002447s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:55+08:00 ] /index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001664s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001773s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2016-11-24T21:50:55+08:00 ] /index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:50:55+08:00 ] /index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.001736s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.001866s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:50:55+08:00 ] /index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001075s ]
+[ 2016-11-24T21:50:55+08:00 ] /index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001180s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.001986s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002114s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.018685s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018798s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001742s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001867s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001523s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001968s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007388s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001991s ]
+[ 2016-11-24T21:50:57+08:00 ] /index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002093s ]
+[ 2016-11-24T21:51:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:51:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.002314s ]
+[ 2016-11-24T21:51:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002447s ]
+[ 2016-11-24T21:51:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:51:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001644s ]
+[ 2016-11-24T21:51:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001749s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002038s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002177s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.020059s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020172s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.001736s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001867s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001518s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.002039s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007450s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001984s ]
+[ 2016-11-24T21:51:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002086s ]
+[ 2016-11-24T21:52:46+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:52:46+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.002318s ]
+[ 2016-11-24T21:52:46+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002446s ]
+[ 2016-11-24T21:52:46+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:52:46+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001647s ]
+[ 2016-11-24T21:52:46+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001751s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002162s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002290s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.018969s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019104s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.001298s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001406s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001585s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.002034s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006617s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002066s ]
+[ 2016-11-24T21:52:47+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002168s ]
+[ 2016-11-24T21:53:48+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:53:48+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.002333s ]
+[ 2016-11-24T21:53:48+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002465s ]
+[ 2016-11-24T21:53:48+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:53:48+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001654s ]
+[ 2016-11-24T21:53:48+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001758s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002019s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002152s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.019183s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019315s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.001758s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001893s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001529s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.002125s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007599s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002010s ]
+[ 2016-11-24T21:53:50+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002114s ]
+[ 2016-11-24T21:55:53+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:55:53+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.003039s ]
+[ 2016-11-24T21:55:53+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003167s ]
+[ 2016-11-24T21:55:53+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:55:53+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002163s ]
+[ 2016-11-24T21:55:53+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002268s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002779s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002913s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.021622s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021750s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.002053s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001886s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001537s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.001984s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007752s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002004s ]
+[ 2016-11-24T21:55:55+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002107s ]
+[ 2016-11-24T21:57:42+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:57:42+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.002838s ]
+[ 2016-11-24T21:57:42+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002967s ]
+[ 2016-11-24T21:57:42+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:57:42+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002182s ]
+[ 2016-11-24T21:57:42+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002289s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002790s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002924s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.021245s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021358s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.001760s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001892s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001542s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.001985s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007466s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002007s ]
+[ 2016-11-24T21:57:44+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002109s ]
+[ 2016-11-24T21:58:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:58:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.003060s ]
+[ 2016-11-24T21:58:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.003190s ]
+[ 2016-11-24T21:58:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:58:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002230s ]
+[ 2016-11-24T21:58:15+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002335s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002791s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002921s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.021275s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021386s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.001747s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001881s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001527s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.001978s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007422s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002149s ]
+[ 2016-11-24T21:58:17+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002252s ]
+[ 2016-11-24T21:58:25+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T21:58:25+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run CheckRoute Behavior [ RunTime:0.002313s ]
+[ 2016-11-24T21:58:25+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002446s ]
+[ 2016-11-24T21:58:25+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T21:58:25+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001654s ]
+[ 2016-11-24T21:58:25+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001761s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run LocationTemplate Behavior [ RunTime:0.002007s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002137s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ParseTemplate Behavior [ RunTime:0.019204s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019336s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ContentReplace Behavior [ RunTime:0.001236s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run TokenBuild Behavior [ RunTime:0.001369s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001065s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005962s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002012s ]
+[ 2016-11-24T21:58:28+08:00 ] /index.php/User/index?date=2016-11-24&__hash__=eb2da82f0d86a90ff9b511e2a9656823_7cade5ddc2c2954d98584f2de8b45b06 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002116s ]
+[ 2016-11-24T22:12:25+08:00 ] /qudao/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2016-11-24T22:12:25+08:00 ] /qudao/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.002801s ]
+[ 2016-11-24T22:12:25+08:00 ] /qudao/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.002929s ]
+[ 2016-11-24T22:12:25+08:00 ] /qudao/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2016-11-24T22:12:25+08:00 ] /qudao/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002161s ]
+[ 2016-11-24T22:12:25+08:00 ] /qudao/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002264s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002783s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002913s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.021433s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021544s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001735s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001851s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001515s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001952s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007585s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001973s ]
+[ 2016-11-24T22:12:27+08:00 ] /qudao/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002076s ]

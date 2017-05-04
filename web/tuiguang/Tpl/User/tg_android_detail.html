@@ -1,0 +1,64 @@
+<?php
+    require_once('head.html');
+?>
+<style>
+input{
+  border: none;
+  text-align: center;
+}
+</style>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>渠道数据</h2>
+                    <div style="background: #DFDFDF; padding: 10px;">
+                      <span>应用商店:<b>腾讯应用宝</b></span>&nbsp;&nbsp;<span>渠道ID:<b>10012</b></span>&nbsp;&nbsp;<span>产品名称:<b>ffff</b></span>&nbsp;&nbsp;<span>总激活量:<b>100</b></span>&nbsp;&nbsp;<span>总注册量:<b>100</b></span><br/>
+                      <span>总充值:<b>100</b></span>&nbsp;&nbsp;<span>平均次日留存:<b>50</b></span>&nbsp;&nbsp;<span>平均七日留存:<b>50</b></span>&nbsp;&nbsp;<span>总活跃用户:<b>50</b></span>
+                    </div>
+                </header>
+
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>激活量</th>
+                            <th>真注册量</th>
+                            <th>排重注册量</th>
+                            <th>充值用户量</th>
+                            <th>充值</th>
+                            <th>付费用户量</th>
+                            <th>付费</th>
+                            <th>次日留存</th>
+                            <th>七日留存</th>
+                            <th>活跃用户</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>2016.11.28</td>
+                            <td>70</td>
+                            <td>100</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>1000</td>
+                            <td>5</td>
+                            <td>50000</td>
+                            <td>30%</td>
+                            <td>30%</td>
+                            <td>30</td>
+                          </form>
+                      </tr>
+                        </foreach>
+                    </tbody>
+
+                </table>
+                </div>
+            </article>
+
+        </section>
+    </div>
+</div>
+</body>
+</html>

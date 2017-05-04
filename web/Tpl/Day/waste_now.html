@@ -1,0 +1,57 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="giveinfo">
+				<header>
+					<h2>当前损耗<span class="h2_right_2"><a href="<?php echo WEB_ROOT?>index.php/Day/waste">返回</a></span></h2>
+				</header>
+				<div id="table_w1">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>当前时间</th>
+							<th>豪车漂移</th>
+							<th>冠军赛马</th>
+							<th>欢乐斗牛</th>
+							<th>二人斗牛</th>
+							<th>通比牛牛</th>
+							<th>欢乐五张</th>
+							<th>十三张</th>
+							<th>百人角斗场</th>
+							<th>欢乐30秒</th>
+							<th>欢乐小九</th>
+							<th>欢乐两张</th>
+							<th>合计</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>{$result.date}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=108">{$result.G_108}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=114">{$result.G_114}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=27">{$result.G_27}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=102">{$result.G_102}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=28">{$result.G_28}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=19">{$result.G_19}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=7">{$result.G_7}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=104">{$result.G_104}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=122">{$result.G_122}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=109">{$result.G_109}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/game_record?KindID=105">{$result.G_105}</a></td>
+							<td>{$result.sum}</td>
+						</tr>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+
+		</section>
+	</div>
+	
+</div>	
+</body>
+</html>
+
+

@@ -1,0 +1,128 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>申诉记录</h2>
+                </header>
+                <form action="<?php echo WEB_ROOT?>index.php/User/custom_rs" method="GET" style="padding:15px 200px;">
+					<span>请输入游戏ID/申诉编号：</span>
+					<input type="text" class="user_search_input" style="width:150px" name="GameID">
+					<input class="user_search_submit" type="submit" value="查询">					
+				</form>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>申诉GameID</th>
+                            <th>申诉编号</th>
+                            <th>申诉日期</th>
+                            <th>申诉金额</th>
+                            <th>申诉类型</th>
+                            <th>当前状态</th>
+                            <th>提交时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/custom_info?SSID={$vo.SSID}" target="_blank">{$vo.SSID}</a></td>
+							<td>{$vo.SsDate}</td>
+                            <td>{$vo.Score}</td>
+                            <td><if condition="$vo['Type'] eq 1">被盗申诉</if><if condition="$vo['Type'] eq 2">充值申诉</if><if condition="$vo['Type'] eq 3">转账申诉</if></td>
+                            <td><if condition="$vo['Status'] eq 0">处理中</if><if condition="$vo['Status'] eq 1">申诉失败</if><if condition="$vo['Status'] eq 2">申诉成功</if></td>
+                            <td>{$vo.InsertTime}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+    <footer>
+        <ol class="pagination">
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=1" rel="next">首页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+            <?php 
+            	if($pageNum>5){
+					if($pageNo<5){
+						for($i=1;$i<=5;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php               
+            		}else if($pageNo>=5 && $pageNo<$pageNum-2){?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-2;$i<=$pageNo+2;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php
+					}else{?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-3;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php
+						}
+					}	
+				}else{?>
+			<?php
+					for($i=1;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+					}
+				}	
+            ?>
+            
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+            <li class="mt_2">共：<span class='page_num'><?php echo $pageNum?></span>页</li>
+            <li>
+                <input type="text" id="pages">
+                <input type="button" value="go" id="go_2">
+                
+            </li>           
+        </ol>           
+    </footer>
+<script type="text/javascript">
+
+$('#go_2').click(function(){ 
+	var no = parseInt($('#pages').val());
+	var page_num = $('.page_num').html();
+	if(no == null || no == ''){
+		alert('页数不能为空');
+		return false;
+	}
+	if(isNaN(no)){
+		alert('请输入数字');
+		return false;
+	}
+	if(no > page_num || no < 1){
+		alert('页数不能大于总页数，也不能小于1');
+		return false;
+	}    	
+
+	location.href="<?php echo WEB_ROOT?>index.php/User/change_record?pageNo="+no;
+})
+	
+</script>
+</div>  
+</body>
+</html>

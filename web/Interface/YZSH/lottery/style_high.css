@@ -1,0 +1,233 @@
+#main{
+    margin:0 auto;
+    width: 568px;
+
+}
+.act{
+    display: none;
+}
+.act1{
+    /*display: block;*/
+}
+.act4{display: block;}
+.first{
+    width: 568px;
+    height: 198px;
+    margin:0 auto; 
+    background: url(bg1.png) no-repeat;
+    background-size: 568px 198px;
+    position:relative;
+}
+.takebtn1{
+    width: 104px;
+    height: 34px;
+    margin:0 auto; 
+    background: url(takebtn.png) no-repeat;
+    background-size: 104px 34px;
+    position:absolute;
+    top: 140px;
+    left: 400px;
+
+}
+.thank{
+    width: 568px;
+    height: 198px;
+    margin:0 auto; 
+    background: url(bg2.png) no-repeat;
+    background-size: 568px 198px;
+    position:relative;
+}
+#checkBox{
+    width: 68px;
+    height: 80px;
+    position: absolute;
+    top:78px;
+    left: 450px;
+    font-size: 12px;
+}
+.check{
+    width: 68px;
+    height: 16px;
+    color: #535151;
+    text-align: center;
+}
+.takebtn2{
+    width: 104px;
+    height: 34px;
+    margin:0 auto; 
+    background: url(takebtn.png) no-repeat;
+    background-size: 104px 34px;
+    position:absolute;
+    top: 161px;
+    left: 430px;
+
+}
+.data{
+    width: 568px;
+    height: 198px;
+    margin:0 auto; 
+    background: url(bg4.jpg) no-repeat;
+    background-size: 568px 198px;
+    position:relative;
+}
+input{
+    width: 160px;
+    padding: 6px;
+    height: 20px;
+    line-height: 20px;
+    border: 0;
+    outline: none;
+    color: #788b8d;
+
+    
+    background-color: transparent;
+}
+#dateSubmit{
+    width: 100px;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 23px;
+
+}
+#formbody{
+
+    margin-top:14px;
+    margin-left: 64px;
+}
+#text2{
+    width: 61px;
+    height: 40px;
+    position:absolute; 
+    top:15px; right:20px;
+    background: url(text2Btn.png) no-repeat;
+    background-size: 61px 40px;
+
+}
+#text_detail2{
+    display: none;
+    width: 289px;
+    height: 190px;
+    background: url(text_detail2.png) no-repeat;
+
+    background-size: 280px 175px;
+    position:absolute; 
+    left: 130px;
+    top:3px;
+
+}
+/*幸运大转盘*/
+.play{
+    width: 568px;
+    margin:0 auto; 
+    background: url(bg3.jpg) no-repeat;
+    background-size: 568px 198px;
+    position:relative;
+}
+#number{
+    position:absolute; 
+    width: 20px;
+    height: 20px;
+    top:6px; left:210px;
+/*    background-color: blue;*/
+    font-size: 20px;
+    color: white;
+}
+#text{
+    width: 60px;
+    height: 40px;
+    position:absolute; 
+    top:30px; left:260px;
+/*    background-color: green;*/
+}
+#text_detail{
+    display: none;
+    width: 289px;
+    height: 190px;
+    background: url(text_detail.png);
+    background-size: 289px 190px;
+    position:absolute; 
+    left: 50px;
+    top:3px;
+
+}
+#text_exit{
+    position:absolute; 
+    width: 25px;
+    height: 25px;
+    top:1px; left:263px;
+/*    background-color: blue;*/
+}
+.demo{
+    width:198px; 
+    height:198px; 
+    position:relative; 
+    margin:0 auto; 
+    margin-right: 5px;
+}
+#disk{
+    width:198px; 
+    height:198px; 
+    background:url(disk.png) no-repeat; 
+    background-size: 198px 198px;
+
+}
+#start{
+    width:80px; 
+    height:162px; 
+    position:absolute; 
+    top:29px; 
+    left:65px;
+}
+#start img{
+    cursor:pointer
+}
+.startbtn{
+    background-color: red;
+}
+
+
+
+/*活动按钮*/
+.thumb{
+    margin-top: 3px;
+    margin-left: 4px;
+    width:568px; 
+
+}
+.thumb_one{
+    display:  inline-block;
+    background: url(thumb_one.png);
+    background-size: 109px 60px;
+    width: 109px;
+    height: 60px;
+    opacity:0.6;
+}
+#thumb_one_1{
+    background: url(thumb_one_1.png);
+    background-size: 109px 60px;
+    cursor: pointer;
+    opacity:0.6;
+
+
+}
+#thumb_one_2{
+    background: url(thumb_one_2.png);
+    background-size: 109px 60px;
+    cursor: pointer;
+    opacity:0.6;
+
+}
+#thumb_one_3{
+    background: url(thumb_one_lottery.png);
+    background-size: 109px 60px;
+    cursor: pointer;
+    opacity:0.6;
+
+}
+#thumb_one_4{
+    background: url(thumb_one_4.png);
+    background-size: 109px 60px;
+    cursor: pointer;
+    opacity:1;
+
+}

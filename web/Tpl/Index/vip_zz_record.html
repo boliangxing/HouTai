@@ -1,0 +1,109 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="cx_form">
+				<header>
+					<h2>日期查询<span class="h2_right_2"><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz">返回</a></span></h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record" method="GET">
+					<input name="UserID" type="hidden" value="{$UserID}">
+                    <span style="margin-left:200px;">查询日期&nbsp;&nbsp;</span>
+					<input name="date" type="text" class="datepick" value="{$s_date}">
+					<input class="submit" type="submit" value="查询">
+                </form>
+			</article>
+			<article class="cx_form">
+				<header>
+					<h2>转账转出记录<span class="h2_right_2" style="margin-left:50px;"><a href="<?php echo WEB_ROOT?>index.php/Index/vip_wzq_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>">指导费记录</a></span></h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>转出ID</th>
+							<th>转出昵称</th>
+							<th>转入ID</th>
+							<th>转入昵称</th>
+							<th>金额</th>
+							<th>时间</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.user_zc.UserID}" target="_blank">{$vo.user_zc.GameID}</a></td>
+							<td>{$vo.user_zc.NickName}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.user_zr.UserID}" target="_blank">{$vo.user_zr.GameID}</a></td>
+							<td>{$vo.user_zr.NickName}</td>
+							<td>{$vo.SwapScore}</td>
+							<td>{$vo.CollectDate}</td>
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+		</section>
+	</div>
+	<footer>
+        <ol class="pagination">
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=1" rel="next">首页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+            <?php 
+            	if($pageNum>5){
+					if($pageNo<5){
+						for($i=1;$i<=5;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php               
+            		}else if($pageNo>=5 && $pageNo<$pageNum-2){?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-2;$i<=$pageNo+2;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php
+					}else{?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-3;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php
+						}
+					}	
+				}else{?>
+			<?php
+					for($i=1;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+					}
+				}	
+            ?>
+            
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record?UserID=<?php echo $UserID?>&s_date=<?php echo $s_date?>&pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+            <li class="mt_2">共：<span class='page_num'><?php echo $pageNum?></span>页</li>
+            <li>
+                <input type="text" id="pages">
+                <input type="button" value="go" id="go_2">
+                
+            </li>           
+        </ol>  
+    </footer>
+</div>	
+</body>
+</html>

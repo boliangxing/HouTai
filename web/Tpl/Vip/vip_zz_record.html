@@ -1,0 +1,54 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="cx_form">
+				<header>
+					<h2>日期查询<span class="h2_right_2"><a href="<?php echo WEB_ROOT?>index.php/Vip/vip_zz?type={$type}&s_date={$s_date}">返回</a></span></h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Index/vip_zz_record" method="GET">
+					<input name="UserID" type="hidden" value="{$UserID}">
+                    <span style="margin-left:200px;">查询日期&nbsp;&nbsp;</span>
+					<input name="date" type="text" class="datepick" value="{$s_date}">
+					<input class="submit" type="submit" value="查询">
+                </form>
+			</article>
+			<article class="cx_form">
+				<header>
+					<h2>{$title}</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>转出ID</th>
+							<th>转出昵称</th>
+							<th>转入ID</th>
+							<th>转入昵称</th>
+							<th>金额</th>
+							<th>时间</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.zc_UserID}" target="_blank">{$vo.zc_GameID}</a></td>
+							<td>{$vo.zc_NickName}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.zr_UserID}" target="_blank">{$vo.zr_GameID}</a></td>
+							<td>{$vo.zr_NickName}</td>
+							<td>{$vo.SwapScore}</td>
+							<td>{$vo.CollectDate}</td>
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+		</section>
+	</div>
+</div>	
+</body>
+</html>

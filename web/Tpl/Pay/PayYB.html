@@ -1,0 +1,534 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    
+    <link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>style/layout.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>style/global.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>style/pay_layout.css"  />
+    <script src="<?php echo PUBLIC_PATH?>js/jquery-1.5.2.min.js" type="text/javascript"></script>
+    <script src="<?php echo PUBLIC_PATH?>js/utils.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<?php echo PUBLIC_PATH?>js/Common.js"></script>   
+     <style>
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding: 0;}
+body{font-size:12px;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;}
+a,a:link{ color:#000; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+.clear{ height: 1px;background-color: transparent;overflow: hidden;clear: both;}
+
+.clearfix:after {content:".";display: block;clear: both;visibility: hidden;line-height:0;height:0}
+.clearfix {display:block}
+html[xmlns] .clearfix {display: block}
+* html .clearfix {height: 1%}
+
+input, button, select, textarea{outline:none}
+textarea{ resize:none;}
+/*--End Global resets--*/
+.toolbar{ height:29px; line-height:29px; color:#6F6F6F; border-bottom:1px solid #D5D5D5; background:url(http://static.sdg-china.com/vgp/pic/web2/toolbar.png) 0 bottom repeat-x;  font-family:\5b8b\4f53; width:100%; position:fixed; top:0; left:0; box-shadow:0 1px 10px rgba(0, 0, 0, 0.1); z-index:1000;}
+.toolbar .cont{width:984px; margin:0 auto;}
+.toolbar .left{float:left;}
+.toolbar .right{float:right;}
+.toolbar .right li{float:left; height:29px; color:#6F6F6F; padding-left:17px; margin-left:10px}
+.toolbar .right li.no1{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/1.png) 0 5px no-repeat;padding-left:20px}
+.toolbar .right li.no2{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/2.png) 0 6px no-repeat; }
+.toolbar .right li.no3{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/3.png) 0 6px no-repeat}
+.toolbar .right li.no4{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/4.png) 0 5px no-repeat;padding-left:22px}
+.toolbar .left strong{ font-weight:normal; font-family:Verdana, Geneva, sans-serif; margin:0 3px;}
+.toolbar .left em{color:#D92418}
+.toolbar a{color: #646464;  text-decoration: none;}
+.toolbar a:link, .toolbar a:visited{}
+.toolbar a:hover{color:#FC7803;}
+.scpic{height: 132px;}
+
+</style>   
+</head>
+<body>
+
+<div class="toolbar" id="toolbar"> <div class="cont"><div class="left">   <strong><a href="http://v.sdo.com/">传奇微端，传世页游，尽在盛大微网游平台！</a></strong><span id="state_1" class="state_1"><a href="http://v.sdo.com/login/index.htm?returnUrl=http://v.sdo.com/" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;login&quot;)">【登录】</a>或者<a href="http://v.sdo.com/usercenter/register.htm" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;Reg&quot;)">【注册】</a></span></div><div class="right">   <ul>      <li class="no1"><a href="http://v.sdo.com/shortcut.aspx" id="addDesktop" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;desktop&quot;)">保存到桌面</a></li>     <li class="no2"><a href="#" id="setHomepage" hidefoucs="" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;homepage&quot;)">设为首页</a></li>    <li class="no3"><a href="#" id="addFavorite" hidefoucs="" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;favorite&quot;)">加入收藏</a></li>   <li class="no4"><a href="http://weibo.com/u/2738453291" target="_blank" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;weibo&quot;)">关注微博</a></li> </ul></div></div></div>
+<div class="main_top"  style="padding-top:30px;_padding-top:0px;">
+    <div class="top">
+        <div class="left" style="height:83px"><img src="<?php echo PUBLIC_PATH?>images/logo.jpg" style="margin-left:40px;"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="nav" >
+        <div class="navCenter">
+            <ul>
+                <li ><a href="<?php echo WEB_ROOT?>index.php" hidefocus="true">首页</a></li>
+                <li class=""><a href="<?php echo WEB_ROOT?>html/about/index.htm" hidefocus="true">关于华商</a></li>
+                <li class=""><a href="<?php echo WEB_ROOT?>html/news/newsList.html" hidefocus="true">游戏资讯</a></li>
+
+                <li class="current"><a href="<?php echo WEB_ROOT?>index.php/Pay" hidefocus="true">充值中心</a></li>
+                <li ><a href="<?php echo WEB_ROOT?>html/shop/shop.html" hidefocus="true">游戏商场</a></li>
+                <li ><a href="<?php echo WEB_ROOT?>html/spread/spread.html" hidefocus="true">推广系统</a></li>
+                <li class=""><a href="<?php echo WEB_ROOT?>html/service/index.html" hidefocus="true">客服中心</a></li>
+            </ul>  
+        </div>
+    </div>
+
+</div>
+
+<!--页面主体开始-->
+<div class="main" style="margin-top:8px;">
+<div class="mainLeft1">
+            <div class="LeftSide">
+                
+<!--按钮部分开始-->
+    <div class="down"><a href="http://hsdownload.b0.upaiyun.com/download/HsGame_Simple.exe" hidefocus="true"></a></div>
+    <div class="tel_down"><a href="../mobile-download/index.htm" class="sjdown" style="height: 55px"></a></div>     
+ <!--    <div class="zhubtn cl"><a href="/Member/MIndex.aspx"><img src="../images/btn_10.png" border="0/"></a></div>
+             -->
+    <div><a href="###" class="btn5" hidefocus="true"></a></div>
+    <div><a href="###" class="btn1" hidefocus="true"></a></div>
+    <div><a href="../service/index.html" class="btn2" hidefocus="true"></a></div>
+    <div><a href="../spread/spread.html" class="btn3" hidefocus="true"></a></div>
+    <div><a href="../service/issueList.html" class="btn4" hidefocus="true"></a></div>
+    <div style="margin-top:2px;"><a href="/fcm/index.htm" class="btn6" hidefocus="true" target="_blank"></a></div>
+        <div><a href="/fcm/fcm.htm" class="btn7" hidefocus="true" target="_blank"></a></div>
+    <div class="clear"></div>
+<!--按钮部分结束-->
+
+                
+
+<!--常见问题开始-->
+<div class="serve mtop10">
+    <div>
+        <ul>
+            
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+        </ul>               
+    </div>
+</div>
+<!--常见问题结束-->
+
+                
+                <div class="clear">
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <!--左边部分结束-->   
+
+<!--右边开始-->
+<div id="content">
+    <!--右边内容头部-->
+    <div class="top">您的位置：首页&nbsp;<span class="arrow">»</span>&nbsp;充值中心&nbsp;<span class="arrow">»</span>&nbsp;帐号充值</div>
+    <!--右边内容中部-->
+    <div class="center">
+    <div class="step2"></div>
+        <div style="text-align:left; padding-top:5px;">
+                    
+                    我公司郑重承诺：<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    虚拟货币不能兑换成人民币以及任何现实中的其他国家货币，发现违法兑换的行为，我公司将进行严厉打击，并将上报有关部门<br>
+                    
+        </div>
+        <div class="clear"></div>
+        
+        <br>
+    <div class="payRechargeTitle" style="text-align:left; padding-top:5px;">您选择了<span class="hong">“网银”</span>充值方式</div>
+    
+    
+    <form name="fmStep1" method="post" action="<?php echo WEB_ROOT?>index.php/Pay/PayYBSend" id="fmStep1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNTM2MDgyMTMxD2QWBAIHD2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIFZAINDxYCHgdWaXNpYmxlaGRk">
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#rbTimeTypeM").attr("checked", "checked");
+        $("#rbTimeM1").attr("checked", "checked");
+        replaceClassTime("rbTimeM1");
+        $("#hdfSalePrice").val("1");
+        $("#txtTimeM0").val("");
+
+        $("#txtPayAccounts").blur(function() { checkAccounts(); });
+        $("#txtPayReAccounts").blur(function() { checkReAccounts(); });
+
+        $("#btnPay").click(function() {
+            return checkInput();
+        });
+
+        $("#rbTimeTypeM").click(function() {
+            $("#rbTimeTypeM").parent().addClass("hand");
+            $("#rbTimeTypeM").parent().removeClass("gray");
+
+            $("#rbTimeTypeY").parent().addClass("gray");
+            $("#rbTimeTypeY").parent().removeClass("hand");
+
+            if ($("#lblTimeM").is(":visible") == false) {
+                $("#rbTimeM1").attr("checked", "checked");
+                replaceClassTime("rbTimeM1");
+                $("#hdfSalePrice").val("10");
+                $("#txtTimeM0").val("");
+                $("#ePayInfo").hide("");
+                $("#lblPayInfo").html("付款金额：10 元，赠送欢乐豆 125,000 欢乐豆");
+            }
+
+            $("#lblTimeM").show();
+            $("#lblTimeY").hide();
+        });
+        $("#rbTimeTypeY").click(function() {
+            $("#rbTimeTypeM").parent().addClass("gray");
+            $("#rbTimeTypeM").parent().removeClass("hand");
+
+            $("#rbTimeTypeY").parent().addClass("hand");
+            $("#rbTimeTypeY").parent().removeClass("gray");
+
+            if ($("#lblTimeY").is(":visible") == false) {
+                $("#rbTimeY1").attr("checked", "checked");
+                replaceClassYear("rbTimeY1");
+                $("#lblPayInfo").html("付款金额：120 元，赠送欢乐豆 1,200,000 欢乐豆");
+                $("#hdfSalePrice").val("120");
+            }
+            $("#ePayInfo").hide();
+            $("#lblTimeY").show();
+            $("#lblTimeM").hide();
+        });
+        $("#rbTimeM1").click(function() {
+            replaceClassTime("rbTimeM1");
+            $("#lblPayInfo").html("付款金额：1 元，赠送欢乐豆 12,500 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("1");
+        });
+        $("#rbTimeM5").click(function() {
+            replaceClassTime("rbTimeM5");
+            $("#lblPayInfo").html("付款金额：5 元，赠送欢乐豆 62,500 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("5");
+        });
+        $("#rbTimeM10").click(function() {
+            replaceClassTime("rbTimeM10");
+            $("#lblPayInfo").html("付款金额：10 元，赠送欢乐豆 125,000 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("10");
+        });
+        $("#rbTimeM20").click(function() {
+            replaceClassTime("rbTimeM20");
+            $("#lblPayInfo").html("付款金额：20 元，赠送欢乐豆 250,000 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("20");
+        });
+        $("#rbTimeM50").click(function() {
+            replaceClassTime("rbTimeM50");
+            $("#lblPayInfo").html("付款金额：50 元，赠送欢乐豆 625,000 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("50");
+        });
+        $("#rbTimeM100").click(function() {
+            replaceClassTime("rbTimeM100");
+            $("#lblPayInfo").html("付款金额：100 元，赠送欢乐豆 1250,000 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("100");
+        });
+        $("#rbTimeM200").click(function() {
+            replaceClassTime("rbTimeM200");
+            $("#lblPayInfo").html("付款金额：200 元，赠送欢乐豆 2500,000 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("200");
+        });
+        $("#rbTimeM500").click(function() {
+            replaceClassTime("rbTimeM500");
+            $("#lblPayInfo").html("付款金额：500 元，赠送欢乐豆 6250,000 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("500");
+        });
+        $("#rbTimeM1000").click(function() {
+            replaceClassTime("rbTimeM1000");
+            $("#lblPayInfo").html("付款金额：1000 元，赠送欢乐豆 12500,000 欢乐豆");
+            $("#txtTimeM0").val("");
+            $("#ePayInfo").hide("");
+            $("#hdfSalePrice").val("1000");
+        });
+        $("#rbTimeM0").click(function() {
+            replaceClassTime("rbTimeM0");
+            $("#lblPayInfo").html("付款金额：0 元，赠送 0 欢乐豆");
+            $("#txtTimeM0").focus();
+            $("#hdfSalePrice").val("0");
+            $("#ePayInfo").show("");
+            $("#ePayInfo").html("&nbsp;&nbsp;请输入1~24间的数字");
+        });
+        $("#txtTimeM0").focus(function() {
+            $("#rbTimeM0").attr("checked", "checked");
+            replaceClassTime("rbTimeM0");
+            if ($(this).val() == "") {
+                $("#lblPayInfo").html("付款金额：0 元，赠送 0 欢乐豆");
+                $("#hdfSalePrice").val("0");
+                $("#ePayInfo").show("");
+                $("#ePayInfo").html("&nbsp;&nbsp;请输入1~24间的数字");
+            }
+        }).keyup(function() {
+            $("#ePayInfo").show("");
+            var re = /\d/;
+            if (!re.test($(this).val())) {
+                $("#ePayInfo").html("&nbsp;&nbsp;开通时长必须为数字");
+                $(this).focus();
+                $("#hdfSalePrice").val("0");
+                return;
+            }
+            if (parseInt($(this).val()) < 1 || parseInt($(this).val()) > 24) {
+                $("#ePayInfo").html("&nbsp;&nbsp;请输入1~24间的数字");
+                $(this).focus();
+                $("#hdfSalePrice").val("0");
+                return;
+            }
+            $("#ePayInfo").hide("");
+            var txt = parseInt($(this).val());
+            if (txt < 10) {
+                $("#lblPayInfo").html("付款金额：" + txt * 10 + " 元，赠送欢乐豆 " + txt + "00,000 欢乐豆");
+            } else if (txt >= 10 && txt <= 24) {
+                $("#lblPayInfo").html("付款金额：" + txt * 10 + " 元，赠送欢乐豆 " + txt.toString().substring(0, 1) + "," + txt.toString().substring(1, 2) + "00,000 欢乐豆");
+            }
+            $("#hdfSalePrice").val(parseInt($(this).val()) * 10);
+        });
+
+        //年
+        $("#rbTimeY1").click(function() {
+            replaceClassYear("rbTimeY1");
+            $("#lblPayInfo").html("付款金额：120 元，赠送欢乐豆 1,200,000 欢乐豆");
+            $("#hdfSalePrice").val("120");
+        });
+        $("#rbTimeY2").click(function() {
+            replaceClassYear("rbTimeY2");
+            $("#lblPayInfo").html("付款金额：240 元，赠送欢乐豆 2,400,000 欢乐豆");
+            $("#hdfSalePrice").val("240");
+        });
+    });
+
+    function replaceClassTime(obj) {
+        $("#rbTimeM1").parent().removeClass("hand");
+        $("#rbTimeM1").parent().addClass("gray");
+        $("#rbTimeM3").parent().removeClass("hand");
+        $("#rbTimeM3").parent().addClass("gray");
+        $("#rbTimeM6").parent().removeClass("hand");
+        $("#rbTimeM6").parent().addClass("gray");
+        $("#rbTimeM0").parent().removeClass("hand");
+        $("#rbTimeM0").parent().addClass("gray");
+
+        if ("rbTimeM1" == obj) {
+            $("#rbTimeM1").parent().removeClass("gray");
+            $("#rbTimeM1").parent().addClass("hand");
+        }
+        if ("rbTimeM3" == obj) {
+            $("#rbTimeM3").parent().removeClass("gray");
+            $("#rbTimeM3").parent().addClass("hand");
+        }
+        if ("rbTimeM6" == obj) {
+            $("#rbTimeM6").parent().removeClass("gray");
+            $("#rbTimeM6").parent().addClass("hand");
+        }
+        if ("rbTimeM0" == obj) {
+            $("#rbTimeM0").parent().removeClass("gray");
+            $("#rbTimeM0").parent().addClass("hand");
+        }
+    }
+
+    function replaceClassYear(obj) {
+        if (obj == "rbTimeY1") {
+            $("#rbTimeY1").parent().removeClass("gray");
+            $("#rbTimeY1").parent().addClass("hand");
+
+            $("#rbTimeY2").parent().removeClass("hand");
+            $("#rbTimeY2").parent().addClass("gray");
+        }
+        if (obj == "rbTimeY2") {
+            $("#rbTimeY1").parent().removeClass("hand");
+            $("#rbTimeY1").parent().addClass("gray");
+
+            $("#rbTimeY2").parent().removeClass("gray");
+            $("#rbTimeY2").parent().addClass("hand");
+        }
+    }
+
+    function hintMessage(hintObj, error, message) {
+        //删除样式
+        if (error == "error") {
+            $("#" + hintObj + "").removeClass("onCorrect");
+            $("#" + hintObj + "").removeClass("onFocus");
+            $("#" + hintObj + "").addClass("onError");
+        } else if (error == "right") {
+            $("#" + hintObj + "").removeClass("onError");
+            $("#" + hintObj + "").removeClass("onFocus");
+            $("#" + hintObj + "").addClass("onCorrect");
+        } else if (error == "info") {
+            $("#" + hintObj + "").removeClass("onError");
+            $("#" + hintObj + "").addClass("onFocus");
+            $("#" + hintObj + "").removeClass("onCorrect");
+        }
+
+        $("#" + hintObj + "").html(message);
+    }
+
+    function checkAccounts() {
+        if ($.trim($("#txtPayAccounts").val()) == "") {
+            $("#txtPayAccountsTips").html("请输入您的游戏账号");
+            return false;
+        }
+        $("#txtPayAccountsTips").html("");
+        return true;
+    }
+
+    function checkReAccounts() {
+        if ($.trim($("#txtPayReAccounts").val()) == "") {
+            $("#txtPayReAccountsTips").html("请再次输入游戏账号");
+            return false;
+        }
+        if ($("#txtPayReAccounts").val() != $("#txtPayAccounts").val()) {
+            $("#txtPayReAccountsTips").html("两次输入的账号不一致");
+            return false;
+        }
+        $("#txtPayReAccountsTips").html("");
+        return true;
+    }
+
+    function checkInput() {
+        if (!checkAccounts()) { $("#txtPayAccounts").focus(); return false; }
+        if (!checkReAccounts()) { $("#txtPayReAccounts").focus(); return false; }
+        if (parseInt($("#hdfSalePrice").val()) <= 0) {
+            $("#ePayInfo").show("");
+            $("#ePayInfo").html("&nbsp;&nbsp;请输入1~24间的数字");
+            $("#txtTimeM0").focus();
+            return false;
+        }
+    }
+</script>
+
+
+        <div class="content">
+            <div class="height10"></div>
+            <p style="padding-bottom:8px;">
+                <span style="padding-top:5px;">充值用户名：</span>
+                <label><input name="txtPayAccounts" type="text" id="txtPayAccounts" class="text width206" style="height:15px;">&nbsp;&nbsp;</label>
+                <label id="txtPayAccountsTips" style="padding-top:5px; color:Red"></label>
+            </p>
+            <p style="padding-bottom:8px;">
+                <span style="padding-top:5px;">确认用户名：</span>
+                <label><input name="txtPayReAccounts" type="text" id="txtPayReAccounts" class="text width206" style="height:15px;">&nbsp;&nbsp;</label>
+                <label id="txtPayReAccountsTips" style="color:Red; padding-top:5px;"></label>
+            </p>                
+            <p>
+                <span style="padding-top:5px;">付费模式：</span>
+                <label class="type">                
+                    <label class="hand"><input type="radio" id="rbTimeTypeM" name="rbTimeType" value="1" checked="checked">按元付费</label>
+
+                </label>
+            </p>                
+            <p>
+                <span style="padding-top:5px;">付费金额：</span>
+                <label class="type" id="lblTimeM">
+                    <label class="hand"><input type="radio" id="rbTimeM1" name="rbTimeM" value="1" checked="checked">1元</label>     
+                    <label class="gray"><input type="radio" id="rbTimeM5" name="rbTimeM" value="5">5元</label>             
+                    <label class="gray"><input type="radio" id="rbTimeM10" name="rbTimeM" value="10">10元</label>                        
+                    <label class="gray"><input type="radio" id="rbTimeM20" name="rbTimeM" value="20">20元</label>    
+                    <label class="gray"><input type="radio" id="rbTimeM50" name="rbTimeM" value="50">50元</label>    
+    
+    
+                </label>
+                <label id="lblTimeY" style="display: none; padding-bottom: 13px;">
+                    <label class="hand"><input type="radio" id="rbTimeY1" name="rbTimeY" value="1" checked="checked">1年</label>             
+                    <label class="gray"><input type="radio" id="rbTimeY2" name="rbTimeY" value="3">2年</label>                     
+                </label>
+            </p>
+                        <p>
+                <span style="padding-top:5px;"></span>
+                <label class="type" id="Label1">
+                    <label class="gray"><input type="radio" id="rbTimeM100" name="rbTimeM" value="100">100元</label>
+                    <label class="gray"><input type="radio" id="rbTimeM200" name="rbTimeM" value="200">200元</label> 
+                    <label class="gray"><input type="radio" id="rbTimeM500" name="rbTimeM" value="500">500元</label> 
+                    <label class="gray"><input type="radio" id="rbTimeM1000" name="rbTimeM" value="1000">1000元</label>  
+                </label>
+
+            </p>                
+            <p style="padding-bottom:8px;">
+                <span></span>
+                <label id="lblPayInfo">付款金额：1 元，赠送 12,500 欢乐豆</label>
+                <label id="ePayInfo" style="color:Red;"></label>
+                <input name="hdfSalePrice" type="hidden" id="hdfSalePrice" value="1">
+            </p>    
+            <p class="height" style="display:none;">
+                <span class="mtop10">支付方式：</span>
+                <label class="kuang">
+                    <label><input name="" type="radio" value="" checked="checked" class="mtop12"></label><b><img src="/images/99bill.gif"></b>
+                </label>
+            </p>            
+        </div>
+        <div class="clear"></div>
+        <div class="content_btn">
+            <input type="submit" name="btnPay" value="确 定" id="btnPay" class="btnL">
+        </div>  
+        <div class="pay_tips_t" style="text-align:left;">
+            <span class="bold" style="padding-top:5px;">温馨提示：</span>
+            <p style="padding-bottom:8px;">1、请确保您填写的用户名正确无误，因玩家输入错误而导致的任何损失由用户自行承担。</p>
+            <p style="padding-bottom:8px;">2、充值过程中，浏览器会跳转至银行页面，支付成功后，会自动返回网站，如果没有跳转或是弹出充值成功的页面，请您不要关闭充值窗口。</p>
+            <p>3、遇到任何充值问题，请您联系客服中心。</p>
+        <div class="clear"></div>
+        </div> 
+<span class="hong">客服电话：0571-85088068 85088078</span> 
+        </form>
+    
+    
+    
+    <div class="height10"></div>           
+    <div class="clear"></div>
+    </div>  
+            
+<div class="bottom"></div> 
+</div>
+       <div class="clear"></div>
+<!--页面主体结束-->
+
+
+</div>
+<!--底部开始-->
+<div class="clear"></div>
+<div class="copyright" style="background-color:#D3D3D3;height:150px;" > 
+     
+    <link rel="stylesheet" type="text/css" href="http://static.sdg-china.com/vgp/copyright/white.css">
+    <div class="SDGCOPYRIGHT-wrap" >    
+        <div id="SDGCOPYRIGHT">     
+    <div class="SDGCOPYRIGHT-logo" >         
+        <a href="http://www.shandagames.com/" target="_blank" class="SDGCOPYRIGHT-logol">盛大游戏</a>
+     </div>      
+     <div class="SDGCOPYRIGHT-con" style="padding-top:10px;">          
+        <p class="add1026"><a href="http://www.shandagames.com" title="" target="_blank">盛大游戏有限公司官网</a>&nbsp;&nbsp;|<a href="http://hr.snda.com" title="" target="_blank"><span>招聘</span></a>|<a href="http://www.18capital.com" title="" target="_blank"><span>18基金</span></a>|<a href="http://www.20plan.com" title="" target="_blank"><span>20计划</span></a>|<a href="http://h.sdo.com" title="" target="_blank"><span>嘉年华</span></a></p>
+    <p><span class="SDGCOPYRIGHT-ct">科技与数字[2010]301号</span> ISBN 978-7-89989-092-9</p>
+    <p><span class="SDGCOPYRIGHT-ct"><a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">沪网文（2011）0046-002</a></span> <a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">互联网出版许可证 新出网证（沪）字002号</a></p>           <p><span class="SDGCOPYRIGHT-ct"><a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">增值电信业务经营许可证</a></span> <a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">B2-20090046</a></p>           
+    <p class="SDGCOPYRIGHT-sdlogo"><span class="SDGCOPYRIGHT-ct">上海盛大网络发展有限公司</span></p>
+    <p ><span class="SDGCOPYRIGHT-ct">浙江三杨开泰网络科技公司</span> 版权所有</p>  
+
+    <a href="new/img/about.jpg" target="_blank" >浙网文（2013）0348-039 </a>    
+    </div>      <div class="SDGCOPYRIGHT-priv">         <span class="SDGCOPYRIGHT-priv1">网络警察</span>            <span>              <a href="http://www.sdo.com/go#http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20111014111737657"><img src="http://static.sdg-china.com/db/pic/bao/other/shgs2.gif" border="0"></a></span>          <a class="SDGCOPYRIGHT-priv3" href="http://www.shjubao.cn" target="_blank">举报</a>       </div>  </div></div> 
+
+</body>
+</html>

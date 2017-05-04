@@ -1,0 +1,70 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="user_search">
+				<header>
+					<h2>库存信息-{$rs.ServerName}</h2>
+				</header>			
+				<div id="table_w">
+				<span style="padding-left:850px;"><a href="<?php echo WEB_ROOT?>index.php/Index/updateStock">返回</a></span>
+				<table id="num">
+					<thead>
+					
+						<tr>
+							<th>库存</th>
+							<th>值</th>
+						</tr>
+					</thead>
+					<tbody>					
+						<tr>
+							<td>一级库存</td>
+							<td>{$rs.Lv1}</td>
+						</tr>
+						<tr>
+							<td>二级库存</td>
+							<td>{$rs.Lv2}</td>
+						</tr>
+						<tr>
+							<td>三级库存</td>
+							<td>{$rs.Lv3}</td>
+						</tr>
+						<tr>
+							<td>四级库存</td>
+							<td>{$rs.Lv4}</td>
+						</tr>
+						<tr>
+							<td>五级库存</td>
+							<td>{$rs.Lv5}</td>
+						</tr>
+					</tbody>					
+				</table></div>
+				<form action="<?php echo WEB_ROOT?>index.php/Index/ChangeStock" method="GET">
+					<span>库存：</span>
+					<select name="kc" id='kc'>
+                        	<option value ="1">一级库存</option>	
+                        	<option value ="2">二级库存</option>	
+                        	<option value ="3">三级库存</option>	
+                        	<option value ="4">四级库存</option>	
+                        	<option value ="5">五级库存</option>						
+					</select>
+					<input type="radio" name="do" value="1" /> 增加
+					<input type="radio" name="do" value="2" /> 减少
+					&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' name='num' value='{$num}'>
+					<input type='hidden' name='room' value='{$rs.ServerID}'>
+					<input class="user_search_submit" type="submit" value="确定">					
+				</form>
+			</article>
+				
+
+		</section>
+	</div>
+	<footer>
+				
+	</footer>
+</div>	
+
+</body>
+</html>
+
+

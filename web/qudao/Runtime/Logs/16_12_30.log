@@ -1,0 +1,9 @@
+[ 2016-12-30T11:38:31+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-30T11:38:31+08:00 ] http://14.215.177.37/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001647s ]
+[ 2016-12-30T11:38:31+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001775s ]
+[ 2016-12-30T11:44:21+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-30T11:44:21+08:00 ] http://www.baidu.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001660s ]
+[ 2016-12-30T11:44:21+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001784s ]
+[ 2016-12-30T16:22:12+08:00 ] http://www.google.com/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-30T16:22:12+08:00 ] http://www.google.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001648s ]
+[ 2016-12-30T16:22:12+08:00 ] http://www.google.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001771s ]

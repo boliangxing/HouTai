@@ -1,0 +1,57 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>统计查询</h2>
+                </header>
+                <form action="<?php echo WEB_ROOT?>index.php/User/tjs" method="GET" style='padding-left:200px;padding-top:20px'>
+                    <span style="margin-left:60px;">查询日期&nbsp;&nbsp;</span>
+                    <input name="date" type="text" class="datepick" value="{$date}">
+                    <select name="from" id="select" value='{$from}'>
+                            <option value ="1">tj1</option>
+                            <option value ="2">tj2</option> 
+                    </select>
+                    <input class="submit" type="submit" value="查询"></br></br>
+                </form> 
+                <span style='padding-left20px;'>付费用户数量:&nbsp;&nbsp;{$ff}&nbsp;&nbsp;&nbsp;&nbsp;充值用户数量:&nbsp;&nbsp;{$cz}&nbsp;&nbsp;&nbsp;&nbsp;</span>               
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>金币总</th>
+                            <th>身上</th>
+                            <th>银行</th>
+                            <th>注册时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td><if condition="$vo.LockMobileFrom gt 0 "><span style="color:blue">♥</span>
+                                </if><if condition="$vo.CustomID eq 0 "><span style="color:#7b09d2">{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if></td>
+
+                            <td>{$vo.Total}</td>
+                            <td>{$vo.Score}</td>
+                            <td>{$vo.InsureScore}</td>
+                            <td>{$vo.RegisterDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

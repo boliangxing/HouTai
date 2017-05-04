@@ -1,0 +1,49 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="cx_form">	
+				<header>
+                    <h2>普通玩家当日转出排行</h2>
+                </header>	
+			<span>注：只统计普通玩家转出到vip玩家 总额大于100w  不计算转入转出差值</span>
+				<form action="<?php echo WEB_ROOT?>index.php/Vip/pt_list" method="GET">
+                    <span style="margin-left:200px;">查询日期&nbsp;&nbsp;</span>
+					<input name="date" type="text" class="datepick" value="{$date}">
+					<input class="submit" type="submit" value="查询">
+					
+                </form>
+			</article>
+			<article class="cx_form">
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>排行</th>
+							<th>GameID</th>
+							<th>帐号</th>
+							<th>昵称</th>
+							<th>金额</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/zz?UserID={$vo.SourceUserID}" target="_blank">{$vo.GameID}</a></td>
+							<td>{$vo.Accounts}</td>
+							<td><if condition="$vo.isChange eq 1 "><span style="color:#7b09d2">{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if></td>
+							<td>金额：{$vo.Num}</td>
+							</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+		</section>
+	</div>
+</div>	
+</body>
+</html>

@@ -1,0 +1,49 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="user_info">
+				<header>
+                    <h2>最近100条转账</h2>
+                </header>
+                <div class="expand_query">    
+                <p style="padding-left:50px;"><a href="<?php echo WEB_ROOT?>index.php/User/zz_list33?type=1">所有</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/zz_list33?type=2">vip转出</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/zz_list33?type=3">普通玩家转出</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/zz_list33?type=4">VIP转出到VIP</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/zz_list33?type=5">普通转出到VIP</a></p>      
+
+                </div>               
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>转账时间</th>
+                            <th>支付人ID</th>
+                            <th>支付人</th>
+                            <th>接收人ID</th>
+                            <th>接收人</th>
+                            <th>支付金额</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.CollectDate}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.SourceUserID}" target="_blank">{$vo.GameID1}</a></td>
+                            <td><if condition="$vo['RegisterFrom1'] eq 5 or $vo['RegisterFrom1'] eq 15"><span style='color:red'>⑤</span></if><if condition="$vo['MemberOrder1'] gt 0"><a href="<?php echo WEB_ROOT?>index.php/User/userInfo2?UserID={$vo.SourceUserID}" target="_blank"><span style="color:red">{$vo.NickName1}</span></a></span><else/><a href="<?php echo WEB_ROOT?>index.php/User/userInfo2?UserID={$vo.SourceUserID}" target="_blank">{$vo.NickName1}</a></if></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.TargetUserID}" target="_blank">{$vo.GameID2}</a></td>
+                            <td><if condition="$vo['RegisterFrom2'] eq 5 or $vo['RegisterFrom2'] eq 15"><span style='color:red'>⑤</span></if><if condition="$vo['MemberOrder2'] gt 0"><a href="<?php echo WEB_ROOT?>index.php/User/userInfo2?UserID={$vo.TargetUserID}" target="_blank"><span style="color:red">{$vo.NickName2}</span></a><else/><a href="<?php echo WEB_ROOT?>index.php/User/userInfo2?UserID={$vo.TargetUserID}" target="_blank">{$vo.NickName2}</a></if></td>
+                            <td><if condition="$vo['color'] eq 1">{$vo.SwapScore}</if><if condition="$vo['color'] eq 2"><span style='color:#9900cc'>{$vo.SwapScore}</span></if><if condition="$vo['color'] eq 3"><span style='color:#3300ff'>{$vo.SwapScore}</span></if></td>
+							<?php if($type==3){echo '<td><a href=\"'.WEB_ROOT.'index.php/User/pb_one?id1='.$vo['TargetUserID'].'&id2='.$vo['SourceUserID'].'>点击屏蔽</a></td>';}?>
+						</tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>         
+            </article>
+        </section>
+    </div>
+    
+</div>  
+</body>
+</html>

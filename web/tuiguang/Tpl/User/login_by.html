@@ -1,0 +1,63 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="cx_form">	
+				<header>
+                    <h2>不同设备登陆人数</h2>
+                </header>		
+				<form action="<?php echo WEB_ROOT?>index.php/User/LoginBy" method="GET">
+                    <span style="margin-left:200px;">查询日期&nbsp;&nbsp;</span>
+					<input name="date" type="text" class="datepick" value="{$date}">
+					<input class="submit" type="submit" value="查询">
+                </form>
+			</article>
+			<article class="cx_form">
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>时间</th>
+							<th>IOS</th>
+							<th>Android</th>
+							<th>PC</th>
+							<th>总</th>
+							<th>付费用户</th>
+							<th>付费(ios)</th>
+							<th>付费(android)</th>
+							<th>付费(pc)</th>
+							
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='rs' item='vo'>
+						<tr>
+							<td>{$vo.Hour}</td>
+							<td>{$vo.IOS}</td>
+							<td>{$vo.Android}</td>
+							<td>{$vo.PC}</td>
+							<td>{$vo.zong}</td>
+							<td>{$vo.Fufei}</td>
+							<td>{$vo.FF_IOS}</td>
+							<td>{$vo.FF_and}</td>
+							<td>{$vo.FF_pc}</td>
+						</tr>
+						</foreach>
+						<tr>
+							<td>总</td>
+							<td>{$total.IOS}</td>
+							<td>{$total.Android}</td>
+							<td>{$total.PC}</td>
+							<td>{$total.zong}</td>
+							
+						</tr>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+		</section>
+	</div>
+</div>	
+</body>
+</html>

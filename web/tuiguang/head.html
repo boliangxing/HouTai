@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<?php
+    if(!isset($_GET['pageNo'])){
+        $pageNo = 1;
+    }else{
+        $pageNo = $_GET['pageNo'];
+    }
+?>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New游戏管理系统-用户统计</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>styles/jquery-ui.css">
+	<link rel="stylesheet" href="<?php echo PUBLIC_PATH?>styles/main.css">
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-1.9.1.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-ui.js"></script>
+    <script src="<?php echo PUBLIC_PATH?>js/jquery.enlarge.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/self.js"></script>
+</head>
+<body>
+<div class="warp">
+	<header class="top" >
+		<h1><a href="<?php echo WEB_ROOT?>index.php">New游戏管理系统</a></h1>
+		<div class="exit"> <a href="<?php echo WEB_ROOT?>index.php/Login/user_exit">退出</a></div>
+	</header>
+	<div class="warpall">
+
+        <nav class="dd" id="nestable">
+            <ol class="dd-list">
+              <li class="dd-item" >
+                <div class="dd-handle">新增功能</div>
+                <ol class="dd-list">
+                  <?php if($_SESSION['zs78_admin']['username']=='admin'){ ?>
+                    <li class="dd-item" >
+                      <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/regtuiguangnum">推广账号添加</a></div>
+                    </li>
+<?php }  ?>
+
+                  <li class="dd-item" >
+                    <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/qdqx">渠道权限</a></div>
+                  </li>
+
+                  <li class="dd-item" >
+                    <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/kouliang">渠道扣量</a></div>
+                  </li>
+                  <li class="dd-item" >
+                    <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/newUser_cz">新用户充值</a></div>
+                  </li>
+
+                  <li class="dd-item" >
+                  <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/data_rc">日常报表</a></div>
+                  </li>
+
+
+
+
+                </ol></li>
+            	<li class="dd-item" >
+			     	<div class="dd-handle">用户监控</div>
+			     	<ol class="dd-list">
+
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/tj_test">推广点击</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/jiechi">插图-扶翼</a></div>
+                        </li>
+<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/newUser_5678">5678数据</a></div>
+                        </li>
+<li class="dd-item" >
+                             <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/QdList">渠道列表</a></div>
+                          </li>
+<!--
+						  <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/Weixin">微信</a></div>
+                        </li>
+						-->
+<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/AndroidQdList">Android</a></div>
+                        </li>
+<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/Ios">Ios</a></div>
+                    </ol>
+			    </li>
+
+            </ol>
+        </nav>

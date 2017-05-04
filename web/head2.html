@@ -1,0 +1,261 @@
+<!doctype html>
+<?php
+    if(!isset($_GET['pageNo'])){
+        $pageNo = 1;
+    }else{
+        $pageNo = $_GET['pageNo'];
+    }   
+?>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New游戏管理系统-用户统计</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>styles/jquery-ui.css">
+	<link rel="stylesheet" href="<?php echo PUBLIC_PATH?>styles/main.css">
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-1.9.1.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-ui.js"></script>
+    <script src="<?php echo PUBLIC_PATH?>js/jquery.enlarge.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/self.js"></script>
+</head>
+<body>
+<div class="warp">
+	<header class="top" >
+		<h1><a href="<?php echo WEB_ROOT?>index.php">New游戏管理系统</a></h1>
+		<div class="exit"> <a href="<?php echo WEB_ROOT?>index.php/Login/user_exit">退出</a></div>
+	</header>
+	<div class="warpall">	
+ 		
+        <nav class="dd" id="nestable">     
+            <ol class="dd-list">
+            	<li class="dd-item" >
+			     	<div class="dd-handle">用户监控</div>
+			     	<ol class="dd-list">
+						
+                        <li class="dd-item" >
+                        	<div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User">用户查询</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/ScUserList">用户体验</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/gl">关联号输赢</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/winsearch">输赢查询</a></div>
+                        </li>
+                        <!-- <li class="dd-item" >
+                        	<div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/UnLockUser">用户解封</a></div>
+                        </li> -->
+						
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/online_user">在线玩家</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/online_minute">每分钟在线</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/zz_list2">最近转账</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/zz_list33">最近转账2</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/zz_list">转账查询</a></div>
+                        </li>  
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/tj_test">推广点击</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/jiechi">插图-扶翼</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/newUser_5678">5678数据</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/newUser_zzl">zzl数据</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/login_record">登录日志</a></div>
+                        </li> 
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/new_cz">今日新增充值</a></div>
+                        </li>
+						
+						<li class="dd-item" >
+						
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/cz_list">充值记录</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/online_cz">在线充值用户</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/gold_rank">金币排名</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/wasteNow2">当前损耗</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/cz_ungame">充值未游戏</a></div>
+                        </li>
+						
+						
+						
+						
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/online_list">在线游戏分类</a></div>
+                        </li>
+                        
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/wzq">指导费查询</a></div>
+                        </li>
+                        
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/userOnline">在线统计</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/userZz">有效转出</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/userCc">库存统计</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/ky_dq">可疑地区</a></div>
+                        </li> 
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/ky_dq2">可疑地区2</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/game_newly">最近游戏</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/vipRecord">vip游戏</a></div>
+                        </li>  
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/un_game">当日未游戏</a></div>
+                        </li> 
+						
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/sendNum">赠送靓号</a></div>
+                        </li>
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/sendVip">赠送会员</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/sendLb">赠送喇叭</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/Lb_search">喇叭查询</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/Lb_num">喇叭数量</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/newUser">新注册用户</a></div>
+                        </li>
+						
+						
+						
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/LoginBy">各设备登陆</a></div>
+                        </li>
+						
+						
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/jqcx">记录查询</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/bindPhone">手机绑定</a></div>
+                        </li>
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/ip">登陆地址</a></div>
+                        </li>
+			<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/onlineIP">在线IP</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/plpb">批量屏蔽</a></div>
+                        </li>
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/fh_list">封号记录</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/pb_list">屏蔽记录</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/cancelList">撤销记录</a></div>
+                        </li>
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/order">订单查询</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/cj">抽奖查询</a></div>
+                        </li>
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/prop">道具使用</a></div>
+                        </li>
+                        <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/TsUserList">上线提示</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/addPhone">添加手机</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/fl">返利查询</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/jc">进出查询</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/dxList">掉线记录</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/new_lk">离开记录</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/userTest">测试账号</a></div>
+                        </li>
+						<li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/GzUserList">关注用户</a></div>
+                        </li>
+                        <!-- <li class="dd-item" >
+                            <div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/gold_sum">金币总</a></div>
+                        </li> -->
+                    </ol>
+			    </li>
+			    <?php if($_SESSION['zs78_admin2']['role'] < 3){
+			    	echo "<li class=\"dd-item\" ><div class=\"dd-handle\">捕鱼数据</div><ol class=\"dd-list\">
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/by_room\">房间状况</a></div></li>
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/by_kz\">捕鱼控制</a></div></li>
+</ol></li>";
+			    }?> 
+			    <?php if($_SESSION['zs78_admin2']['role'] < 3){
+			    	echo "<li class=\"dd-item\" ><div class=\"dd-handle\">超级会员</div><ol class=\"dd-list\">
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Vip/mem_list\">会员列表</a></div></li>
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Vip/vip_zz\">转账情况</a></div></li>
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Vip/vip_ytj\">转账查询</a></div></li>
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/unvip\">不活跃VIP</a></div></li>
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Vip/day_list\">当日排行</a></div></li>
+</ol></li>";
+			    }?> 
+				<?php if($_SESSION['zs78_admin2']['role'] < 3){
+			    	echo "<li class=\"dd-item c_off\" ><div class=\"dd-handle\">实时统计</div><ol class=\"dd-list\" style=\"display:none;\">
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Sta/user_gold_time\">用户金币</a></div></li></ol></li>";
+			    }?> 
+   				<?php if($_SESSION['zs78_admin2']['role'] < 3){
+			    	echo "<li class=\"dd-item c_off\" ><div class=\"dd-handle\">统计管理</div><ol class=\"dd-list\" style=\"display:none;\">
+							
+							<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/charge_count\">充值统计</a></div></li>
+							</ol></li>";
+			    }?>  
+			    <?php if($_SESSION['zs78_admin2']['role'] < 3){
+					echo "<li class=\"dd-item\" ><div class=\"dd-handle\">日统计</div><ol class=\"dd-list\"><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/wasteList\">日损耗报表</a></div></li><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/wasteNow2\">当前损耗</a></div></li><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/waste_record\">损耗记录</a></div></li><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/inout_record\">vip进出记录</a></div></li></ol></li>";
+				}?> 
+			    <?php if($_SESSION['zs78_admin2']['role'] < 3){
+					echo "<li class=\"dd-item\" ><div class=\"dd-handle\">管理员管理</div><ol class=\"dd-list\"><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Index/online\">当前游戏</a></div></li><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/pwd_record\">密码修改</a></div></li><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Index/control\">控制记录</a></div></li><li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/User/change_record\">操作记录</a></div></li>";
+					if($_SESSION['zs78_admin2']['id'] ==18){
+						echo "<li class=\"dd-item\" ><div class=\"dd-handle\"><a href=\"".WEB_ROOT."index.php/Index/kcList\">库存更改</a></div></li>";
+					}	
+					echo "</ol></li>";
+				}?>          
+            </ol>
+        </nav>

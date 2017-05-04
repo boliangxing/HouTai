@@ -1,0 +1,54 @@
+<?php
+    require_once('head.html');
+?>
+<style>
+.btn{
+  display: inline-block;
+float: right;
+border: 1px solid #d2d2d2;
+border-radius: 3px;
+color: #fff;
+font-size: 16px;
+font-weight: normal;
+padding: 3px 10px;
+background: #333336;
+}
+</style>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>渠道数据</h2>
+                </header>
+				<span style='padding-left:100px;line-height:50px;'>ID:{$QdID}&nbsp;&nbsp;&nbsp;&nbsp;分成金额:{$row.charge_num}&nbsp;&nbsp;&nbsp;&nbsp;次日留存:{$row.lc_num}&nbsp;&nbsp;&nbsp;&nbsp;七日留存:{$row.lc7_num}&nbsp;&nbsp;&nbsp;&nbsp;总活跃用户:{$row.huoyue_num}</span>
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>分成金额</th>
+                            <th>次日留存</th>
+                            <th>七日留存</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.InsertDate}</td>
+							<td>{$vo.ChargeNum}</td>
+                            <td>{$vo.Lc1}</td>
+							<td>{$vo.Lc7}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+
+                </table>
+                </div>
+            </article>
+
+        </section>
+    </div>
+
+
+</div>
+</body>
+</html>

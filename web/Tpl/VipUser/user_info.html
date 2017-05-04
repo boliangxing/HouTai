@@ -1,0 +1,49 @@
+<?php 
+    require_once('head2.html'); 
+?>	
+
+		<section class="mainwarp">
+            <article class="user_info">
+                <div id="tabs">
+                    <ul class="dd">
+                        <li class="dd-item here"><div class="dd-handle "><a href="<?php echo WEB_ROOT?>index.php/VipUser/userInfo?UserID={$rs_user['UserID']}">基本信息</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/VipUser/zz?UserID={$rs_user['UserID']}">转账记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/VipUser/cq?UserID={$rs_user['UserID']}">存取记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/VipUser/yx?UserID={$rs_user['UserID']}">游戏记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/VipUser/recharge?UserID={$rs_user['UserID']}">充值记录</a></div></li>
+                        <li class="dd-item back" ><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/VipUser" >返回</a></div></li>
+                    </ul>
+                </div>
+                <div>
+                     <ul class="base_info">
+                        <li><span>ID号码（GameID）：</span>{$rs_user['GameID']}</li>
+                        <li><span>昵称：</span>{$rs_user['NickName']}</li>
+                        <li><span>携带金额：</span>{$rs_gold['Score']}</li>
+                        <li><span>银行金额：</span>{$rs_gold['InsureScore']}</li>
+                        <li><span>总金额：</span>{$rs_gold['Sum']}</li>
+                        <li><span>游戏所得（总）：</span>{$rs_gold['game_sum']}&nbsp;&nbsp;&nbsp;&nbsp;五子棋（{$rs_gold['wzq_count']}&nbsp;次）：{$rs_gold['wzq_sum']}</li>
+                        <li><span>转出次数：</span>{$rs_gold['zc_count']}</li>
+                        <li><span>转出总额：</span>{$rs_gold['zc_sum']}</li>
+                        <li><span>转入次数：</span>{$rs_gold['zr_count']}</li>
+                        <li><span>转入总额：</span>{$rs_gold['zr_sum']}</li>
+                        <li><span>转账所得（总）：</span>{$rs_gold['zz_sum']}</li>
+                        <li><span>充值所得（总）：</span>{$rs_gold['pay_sum']}</li>  
+                        <li><span>当前游戏：</span>{$game_room['GameName']}</li>     
+                        <li><span>当前房间：</span>{$game_room['ServerName']}</li>         
+                        <li><span>注册IP：</span>{$rs_user['RegisterIP']}&nbsp;&nbsp;(a：{$search_rs['RegisterIP_count']}&nbsp;&nbsp;&nbsp;&nbsp;b：{$search_rs['RegisterIP_sum']})</li>
+                        <li><span>注册机器码：</span>{$rs_user['RegisterMachine']}&nbsp;&nbsp;(a：{$search_rs['RegisterMachine_count']}&nbsp;&nbsp;&nbsp;&nbsp;b：{$search_rs['RegisterMachine_sum']})</li>
+                        <li><span>最后登陆IP：</span>{$rs_user['LastLogonIP']}&nbsp;&nbsp;(a：{$search_rs['LastLogonIP_count']}&nbsp;&nbsp;&nbsp;&nbsp;b：{$search_rs['LastLogonIP_sum']})</li>
+                        <li><span>最后登录机器码：</span>{$rs_user['LastLogonMachine']}&nbsp;&nbsp;(a：{$search_rs['LastLogonMachine_count']}&nbsp;&nbsp;&nbsp;&nbsp;b：{$search_rs['LastLogonMachine_sum']})</a></li>
+                        <li><span></span>注：a表示相关账号数，b表示相关账号总金额</a></li>
+                    	<li><span></span><a href="<?php echo WEB_ROOT?>index.php/VipUser/ip_search?UserID={$rs_user['UserID']}&type=1&con={$rs_user['RegisterIP']}">查看相关账户信息</a></li>
+                    </ul>
+                </div>          
+            </article>
+        </section>
+	</div>
+	<footer>
+				
+	</footer>
+</div>	
+</body>
+</html>

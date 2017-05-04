@@ -1,0 +1,82 @@
+﻿<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>喇叭查询</h2>
+                </header>           
+                <form action="<?php echo WEB_ROOT?>index.php/User/Lb_search" method="GET">
+                    <span>请输入游戏ID：</span>
+                    <input type="text" class="user_search_input" style="width:150px" name="GameID" value='{$GameID}'>
+                    <input class="user_search_submit" type="submit" value="查询">                 
+                </form>
+                <if condition="$GameID gt 0"><span style='padding-left:20px;'>该ID剩余喇叭数量：大喇叭{$dlb}个，小喇叭{$xlb}个</span></if>
+				<div id="table_w" style='padding-top:10px;'>
+                  <span style='padding-left:20px;'>最近50条赠送记录</span>  
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>游戏ID</th>
+                            <th>昵称</th>
+							<th>原因</th>
+                            <th>数量</th>
+                            <th>时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs4' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.NickName}</td>
+                            <td>{$vo.Reason}</td>
+							<td>{$vo.PropCount}</td>
+                            <td>{$vo.InsertTime}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+
+                <div id="table_w" style='padding-top:10px;'>
+                  <span style='padding-left:20px;'>最近50条发送记录</span>  
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>游戏ID</th>
+                            <th>账号</th>
+                            <th>昵称</th>
+                            <th>喇叭类型</th>
+                            <th>内容</th>
+                            <th>时间</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs2' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/order_search?type=1&OrderID={$vo.GameID}" target="_blank">{$vo.Accounts}</a></td>
+                            <td>{$vo.NickName}</td>
+                            <td><if condition="$vo['PropID'] eq 19">小喇叭</if>
+                                <if condition="$vo['PropID'] eq 20">大喇叭</if></td>
+                            <td>{$vo.Info}</td>
+                            <td>{$vo.InsertTime}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

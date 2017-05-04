@@ -1,0 +1,40 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>下载记录</h2>
+                </header>
+            </br>
+                <span style='padding-left20px;'>ID:{$GjcID}&nbsp;&nbsp;&nbsp;&nbsp;时间段：{$start_date}&nbsp;&nbsp;--&nbsp;&nbsp;{$end_date}</span>            
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>IP</th>
+                            <th>地区</th>
+                            <th>时间</th>                          
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.IP}</td>
+                            <td>{$vo.Area}</td>
+                            <td>{$vo.InsertDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

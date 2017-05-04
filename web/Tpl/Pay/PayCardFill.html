@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+    <link rel="stylesheet" type="text/css" href="../style/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../style/global.css" />
+    <link rel="stylesheet" type="text/css" href="../style/pay_layout.css"  />
+    
+    <script src="../js/jquery-1.5.2.min.js" type="text/javascript"></script>
+    <script src="../js/inputCheck.js" type="text/javascript"></script>
+    <script src="../js/utils.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //页面验证
+             $("#txtAccounts").blur(function(){
+                checkAccounts();
+            });
+            
+            $("#txtAccounts2").blur(function(){ checkAccounts2(); });
+            $("#txtSerialID").blur(function(){ checkSerial(); });
+            $("#txtPassword").blur(function(){ checkPassword(); });
+            
+            $("#btnPay").click(function(){
+                return checkInput();
+            });
+        });
+        
+        function checkInput(){
+            if(!checkAccounts()){
+                $("#txtAccounts").focus();return false; 
+            }
+            
+            if(!checkAccounts2()){$("#txtAccounts2").focus(); return false; }
+            if(!checkSerial()){$("#txtSerialID").focus(); return false; }
+            if(!checkPassword()){$("#txtPassword").focus(); return false; }
+        }
+        
+        function checkAccounts(){
+            if($.trim($("#txtAccounts").val())==""){
+                $("#txtAccountsTip").html("请输入您的游戏账号");                
+                return false;
+            }
+            var reg = /^[a-zA-Z0-9_\u4e00-\u9fa5]+$/;
+            if(!reg.test($("#txtAccounts").val())){
+                $("#txtAccountsTip").html("游戏账号是由字母、数字、下划线和汉字的组合！");                
+                return false;
+            }
+            
+            if(byteLength($("#txtAccounts").val())<4){
+                $("#txtAccountsTip").html("游戏账号的长度至少为4个字符");                
+                return false;
+            }
+            if($("#txtAccounts").val().length>31){
+                $("#txtAccountsTip").html("游戏账号的长度不能超过31个字符");          
+                return false;
+            }
+            $("#txtAccountsTip").html("");    
+            return true;
+        }
+        
+        function checkAccounts2(){
+            if($.trim($("#txtAccounts2").val())==""){
+                $("#txtAccounts2Tip").html("请输入您的游戏账号");
+                return false;
+            }
+            if($("#txtAccounts2").val()!=$("#txtAccounts").val()){
+                $("#txtAccounts2Tip").html("两次输入的游戏账号不一致");
+                return false;
+            }
+            $("#txtAccounts2Tip").html("");
+            return true;
+        }
+        
+        function checkSerial(){
+            if($.trim($("#txtSerialID").val())==""){    
+                $("#txtSerialIDTip").html("请输入您的充值卡号");
+                return false;
+            }
+            $("#txtSerialIDTip").html("");
+            return true;
+        }
+
+      
+        function checkPassword(){
+            if($.trim($("#txtPassword").val())==""){
+                $("#txtPasswordTip").html("请输入您的充值密码");
+                return false;
+            }
+            $("#txtPasswordTip").html("");
+            return true;
+        }
+        
+    </script>
+      <style>
+@charset "utf-8";
+/* CSS Document */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding: 0;}
+body{font-size:12px;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym {border:0;}
+a,a:link{ color:#000; text-decoration:none;}
+a:hover{ text-decoration:underline;}
+.clear{ height: 1px;background-color: transparent;overflow: hidden;clear: both;}
+
+.clearfix:after {content:".";display: block;clear: both;visibility: hidden;line-height:0;height:0}
+.clearfix {display:block}
+html[xmlns] .clearfix {display: block}
+* html .clearfix {height: 1%}
+
+input, button, select, textarea{outline:none}
+textarea{ resize:none;}
+/*--End Global resets--*/
+.toolbar{ height:29px; line-height:29px; color:#6F6F6F; border-bottom:1px solid #D5D5D5; background:url(http://static.sdg-china.com/vgp/pic/web2/toolbar.png) 0 bottom repeat-x;  font-family:\5b8b\4f53; width:100%; position:fixed; top:0; left:0; box-shadow:0 1px 10px rgba(0, 0, 0, 0.1); z-index:1000;}
+.toolbar .cont{width:984px; margin:0 auto;}
+.toolbar .left{float:left;}
+.toolbar .right{float:right;}
+.toolbar .right li{float:left; height:29px; color:#6F6F6F; padding-left:17px; margin-left:10px}
+.toolbar .right li.no1{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/1.png) 0 5px no-repeat;padding-left:20px}
+.toolbar .right li.no2{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/2.png) 0 6px no-repeat; }
+.toolbar .right li.no3{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/3.png) 0 6px no-repeat}
+.toolbar .right li.no4{ background:url(http://static.sdg-china.com/vgp/pic/web2/ico/4.png) 0 5px no-repeat;padding-left:22px}
+.toolbar .left strong{ font-weight:normal; font-family:Verdana, Geneva, sans-serif; margin:0 3px;}
+.toolbar .left em{color:#D92418}
+.toolbar a{color: #646464;  text-decoration: none;}
+.toolbar a:link, .toolbar a:visited{}
+.toolbar a:hover{color:#FC7803;}
+.scpic{height: 132px;}
+
+</style>   
+</head>
+<body>
+
+<div class="toolbar" id="toolbar"> <div class="cont"><div class="left">   <strong><a href="http://v.sdo.com/">传奇微端，传世页游，尽在盛大微网游平台！</a></strong><span id="state_1" class="state_1"><a href="http://v.sdo.com/login/index.htm?returnUrl=http://v.sdo.com/" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;login&quot;)">【登录】</a>或者<a href="http://v.sdo.com/usercenter/register.htm" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;Reg&quot;)">【注册】</a></span></div><div class="right">   <ul>      <li class="no1"><a href="http://v.sdo.com/shortcut.aspx" id="addDesktop" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;desktop&quot;)">保存到桌面</a></li>     <li class="no2"><a href="#" id="setHomepage" hidefoucs="" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;homepage&quot;)">设为首页</a></li>    <li class="no3"><a href="#" id="addFavorite" hidefoucs="" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;favorite&quot;)">加入收藏</a></li>   <li class="no4"><a href="http://weibo.com/u/2738453291" target="_blank" onclick="ubsLogger.clickLog(&quot;V_shortcut&quot;,&quot;weibo&quot;)">关注微博</a></li> </ul></div></div></div>
+<div class="main_top"  style="padding-top:30px;_padding-top:0px;">
+    <div class="top">
+        <div class="left" style="height:83px"><img src="../images/logo.jpg" style="margin-left:40px;"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="nav" >
+        <div class="navCenter">
+            <ul>
+                <li ><a href="<?php echo WEB_ROOT?>index.php" hidefocus="true">首页</a></li>
+                <li class=""><a href="<?php echo WEB_ROOT?>html/about/index.htm" hidefocus="true">关于华商</a></li>
+                <li class=""><a href="<?php echo WEB_ROOT?>html/news/newsList.html" hidefocus="true">游戏资讯</a></li>
+
+                <li class="current"><a href="<?php echo WEB_ROOT?>index.php/Pay" hidefocus="true">充值中心</a></li>
+                <li ><a href="<?php echo WEB_ROOT?>html/shop/shop.html" hidefocus="true">游戏商场</a></li>
+                <li ><a href="<?php echo WEB_ROOT?>html/spread/spread.html" hidefocus="true">推广系统</a></li>
+                <li class=""><a href="<?php echo WEB_ROOT?>html/service/Index.html" hidefocus="true">客服中心</a></li>
+            </ul> 
+        </div>
+    </div>
+
+</div>
+
+
+<!--页面主体开始-->
+<div class="main" style="margin-top:8px;">
+	<!--左边部分开始-->
+	<!--左边部分开始-->
+<div class="mainLeft1">
+            <div class="LeftSide">
+                
+<!--按钮部分开始-->
+    <div class="down"><a href="http://hsdownload.b0.upaiyun.com/download/HsGame_Simple.exe" hidefocus="true"></a></div>
+    <div class="tel_down"><a href="../mobile-download/index.htm" class="sjdown" style="height: 55px"></a></div>     
+ <!--    <div class="zhubtn cl"><a href="/Member/MIndex.aspx"><img src="../images/btn_10.png" border="0/"></a></div>
+             -->
+    <div><a href="###" class="btn5" hidefocus="true"></a></div>
+    <div><a href="###" class="btn1" hidefocus="true"></a></div>
+    <div><a href="<?php echo WEB_ROOT?>html/service/index.html" class="btn2" hidefocus="true"></a></div>
+    <div><a href="<?php echo WEB_ROOT?>html/spread/spread.html" class="btn3" hidefocus="true"></a></div>
+    <div><a href="<?php echo WEB_ROOT?>html/service/issueList.html" class="btn4" hidefocus="true"></a></div>
+    <div style="margin-top:2px;"><a href="<?php echo WEB_ROOT?>html/fcm/index.htm" class="btn6" hidefocus="true" target="_blank"></a></div>
+        <div><a href="<?php echo WEB_ROOT?>html/fcm/fcm.htm" class="btn7" hidefocus="true" target="_blank"></a></div>
+    <div class="clear"></div>
+<!--按钮部分结束-->
+<!--常见问题开始-->
+<div class="serve mtop10">
+    <div>
+        <ul>
+            
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+        </ul>               
+    </div>
+</div>
+<!--常见问题结束-->
+
+                
+                <div class="clear">
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <!--左边部分结束-->  
+	<!--右边开始-->
+    <div id="content">
+        <!--右边内容头部-->
+        <div class="top">您的位置：首页&nbsp;<span class="arrow">»</span>&nbsp;充值中心&nbsp;<span class="arrow">»</span>&nbsp;实卡充值</div>
+	    <!--右边内容中部-->
+        <div class="center">
+		<div class="payRechargeTitle" style="text-align:left; padding-top:5px;">实卡充值</div>
+		
+		
+		<form name="fmStep1" runat="server" id="fmStep1">
+
+		<div class="pay_content">
+			<div class="content">
+				<p style="padding-bottom:8px;">
+				    <span style="padding-top:5px;">游戏帐号：</span>
+<label><input name="txtAccounts" type="text" id="txtAccounts" class="width206 text" style="height:15px;">&nbsp;&nbsp;</label>
+				    <label id="txtAccountsTip" style="padding-top:5px; color:Red;"></label>
+				</p>
+				<p style="padding-bottom:8px;">
+				    <span style="padding-top:5px;">确定帐号：</span>
+<label><input name="txtAccounts2" type="text" id="txtAccounts2" class="text width206" style="height:15px;">&nbsp;&nbsp;</label>
+				    <label id="txtAccounts2Tip" style="padding-top:5px; color:Red;"></label>
+				</p>
+				<p style="padding-bottom:8px;">
+				    <span style="padding-top:5px;">充值卡号：</span>
+<label><input name="txtSerialID" type="text" id="txtSerialID" class="text width206" style="height:15px;">&nbsp;&nbsp;</label>
+				    <label id="txtSerialIDTip" style="padding-top:5px; color:Red;"></label>
+				</p>
+				<p style="padding-bottom:8px;">
+				    <span style="padding-top:5px;">充值密码：</span>
+<label><input name="txtPassword" type="password" id="txtPassword" class="text width206" style="height:15px;">&nbsp;&nbsp;</label>
+				    <label id="txtPasswordTip" style="padding-top:5px; color:Red;"></label>
+			    </p>
+			</div>
+		
+		    <div class="clear"></div>
+		    <div class="content_btn">
+<input type="submit" name="btnPay" value="充 值" id="btnPay" class="btnL">
+			    <input name="btnReset" type="reset" class="btnR" value="取 消" />
+		    </div>
+		</div>
+
+		</form>
+		
+		
+<!--         <form id="fmStep2" runat="server">
+	     <div class="pay_tips">
+            <p>
+                <asp:Label ID="lblAlertIcon" runat="server"></asp:Label>
+                <asp:Label ID="lblAlertInfo" runat="server" Text="操作提示"></asp:Label>
+                <asp:Literal ID="lit99Bill" runat="server"></asp:Literal>
+            </p>
+            <p id="pnlContinue" runat="server">
+                <input id="btnReset1" type="button" value="继续充值" onclick="goURL('PayCardFill.html');" class="btn_home_4blue" />
+            </p>
+        </div>        
+    </form> -->
+		
+		
+		<div class="height10"></div>
+	    <div class="clear"></div>
+	    </div>
+    <div class="bottom"></div> 
+    </div>
+    </div>
+<div class="clear"></div>
+</div>
+<!--页面主体结束-->
+<!--底部开始-->
+<div class="clear"></div>
+<div class="copyright" style="background-color:#D3D3D3;height:150px;margin-top:90px;" > 
+     
+    <link rel="stylesheet" type="text/css" href="http://static.sdg-china.com/vgp/copyright/white.css">
+    <div class="SDGCOPYRIGHT-wrap" >    <div id="SDGCOPYRIGHT">     
+    <div class="SDGCOPYRIGHT-logo" >         
+        <a href="http://www.shandagames.com/" target="_blank" class="SDGCOPYRIGHT-logol">盛大游戏</a>
+     </div>      
+     <div class="SDGCOPYRIGHT-con" style="padding-top:10px;">          
+        <p class="add1026"><a href="http://www.shandagames.com" title="" target="_blank">盛大游戏有限公司官网</a>&nbsp;&nbsp;|<a href="http://hr.snda.com" title="" target="_blank"><span>招聘</span></a>|<a href="http://www.18capital.com" title="" target="_blank"><span>18基金</span></a>|<a href="http://www.20plan.com" title="" target="_blank"><span>20计划</span></a>|<a href="http://h.sdo.com" title="" target="_blank"><span>嘉年华</span></a></p>
+    <p><span class="SDGCOPYRIGHT-ct">科技与数字[2010]301号</span> ISBN 978-7-89989-092-9</p>
+    <p><span class="SDGCOPYRIGHT-ct"><a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">沪网文（2011）0046-002</a></span> <a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">互联网出版许可证 新出网证（沪）字002号</a></p>           <p><span class="SDGCOPYRIGHT-ct"><a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">增值电信业务经营许可证</a></span> <a href="http://www.shandagames.com/web/company/sndazs.html" target="_blank">B2-20090046</a></p>           
+    <p class="SDGCOPYRIGHT-sdlogo"><span class="SDGCOPYRIGHT-ct">上海盛大网络发展有限公司</span></p>
+    <p ><span class="SDGCOPYRIGHT-ct">浙江三杨开泰网络科技公司</span> 版权所有</p>  
+
+    <a href="new/img/about.jpg" target="_blank" >浙网文（2013）0348-039 </a>    
+    </div>      <div class="SDGCOPYRIGHT-priv">         <span class="SDGCOPYRIGHT-priv1">网络警察</span>            <span>              <a href="http://www.sdo.com/go#http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20111014111737657"><img src="http://static.sdg-china.com/db/pic/bao/other/shgs2.gif" border="0"></a></span>          <a class="SDGCOPYRIGHT-priv3" href="http://www.shjubao.cn" target="_blank">举报</a>       </div>  </div></div> 
+</div>
+
+</body>
+</html>

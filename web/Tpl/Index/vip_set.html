@@ -1,0 +1,63 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="newcard">
+                <header>
+                    <h2>超级会员设置<span class="h2_right_2"><a href="<?php echo WEB_ROOT?>index.php/Index/vip_mem">返回</a></span></h2>
+                </header>
+                <form action='<?php echo WEB_ROOT?>index.php/Index/vip_add_do' method="get" id="form">
+                    <table>
+                    <tr>
+                        <th>会员编号</th>
+                        <td colspan="2" ><input type="text" name='Num' value='{$result[0]['Num']}'>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <th>加入时间</th>
+                        <td colspan="2" ><input type="hidden"  class="datepick" name='UserID' value='{$result[0]['UserID']}'>
+                        <input type="text"  class="datepick" name='AddDate' value='{$result[0]['AddDate']}'></td> 
+                    </tr>
+                    <tr >
+                        <th>推广费赠送</th>
+                        <td colspan="2" ><input  type="text" name='Send' value='{$result[0]['Send']}'></td>      
+                    </tr>
+                    <tr>
+                        <th>游戏ID</th>
+                        <td colspan="2" ><input   type="text" name='GameID' value='{$result[0]['GameID']}'></td> 
+                    </tr>
+                    <tr>
+                        <th>QQ号码</th>
+                        <td colspan="2" ><input  type="text" name='QQ' value='{$result[0]['QQ']}'></td> 
+                    </tr>
+                    <tr>
+                        <th>姓名</th>
+                        <td colspan="2" ><input  type="text" name='Name' value='{$result[0]['Name']}'></td> 
+                    </tr>    
+                    <tr>
+                        <th>手机号码</th>
+                        <td colspan="2" ><input  type="text" name='Tel' value='{$result[0]['Tel']}'></td> 
+                    </tr>   
+                    <tr>
+                        <th>身份证号码</th>
+                        <td colspan="2" ><input  type="text" name='SFZ' value='{$result[0]['SFZ']}'></td> 
+                    </tr>
+                    <tr>
+                        <th>店铺名称</th>
+                        <td colspan="2" ><input  type="text" name='ShopName' value='{$result[0]['ShopName']}'></td> 
+                    </tr> 
+                    <tr>
+                        <th>店铺网址</th>
+                        <td colspan="2" ><input  type="text" name='URL' value='{$result[0]['URL']}'></td> 
+                    </tr>                                                                                                                                       
+                    </table>
+                    <div>
+                        <input class="save" type="submit" onclick="submit()" value="保存">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </div>
+</div>  
+</body>
+</html>

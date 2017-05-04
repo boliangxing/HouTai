@@ -1,0 +1,1 @@
+UPDATE QPTreasureDB.dbo.StreamShareInfo SET ShareTotals=ShareTotals+1 WHERE DateID=42795 AND ShareID=13

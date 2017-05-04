@@ -1,0 +1,49 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>当前在线3日内充值用户</h2>
+                </header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>游戏房间</th>
+                            <th>游戏</th>
+                            <th>银行</th>
+                            <th>总</th>
+							<th>充值金额总</th>
+							<th>充值金币总</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td><if condition="$vo.ProtectID eq 1 "><span style="color:red">{$vo.no}</span>
+                                <else />{$vo.no}</if></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.NickName}</td>
+							<td>{$vo.ServerName}</td>
+							<td>{$vo.Score}</td>
+							<td>{$vo.InsureScore}</td>
+                            <td>{$vo.Total}</td>
+							<td>{$vo.num}</td>
+							<td>{$vo.Score_num}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

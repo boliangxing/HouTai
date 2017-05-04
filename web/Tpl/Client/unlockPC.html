@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="华商棋牌,华商游戏大厅,">
+<title>华商棋牌,华商游戏大厅</title>
+
+<script type="text/javascript">
+</script>
+<script src="<?php echo PUBLIC_PATH?>js/jquery-1.9.1.min.js"></script></script><style type="text/css"></style>
+
+
+<style type="text/css">
+*{
+margin:0px;
+padding:0px;
+}
+body{
+background:#d3e2eb;
+}
+.id001{
+width:460px;
+height:40px;
+text-align:center;
+
+}
+.test001{
+margin-top:10px;
+
+}
+.id001 > p{
+float:right;
+
+}
+.id001 p input{
+position: relative ;
+width:270px;
+height:30px;
+margin-right:90px;
+font-size:16px;
+line-height:29px;
+border:1px solid #7F9DB9;
+
+}
+.id001 p a{
+margin-right:5px;
+}
+.id002{
+width:300px;
+height:30px;
+margin-left:97px;
+
+}
+.id001 p a{
+text-decoration:none;
+}
+.id001 p a{
+font-size:14px;
+font-weight:600;
+color:#4E89A9;
+}
+.id002{
+font-size:14px;
+color:#ACACAC;
+}
+.id004{
+width:460px;
+height:40px;
+
+}
+
+
+.id004 > p{
+float:right;
+}
+.id004  p a{
+color:#4E89A9;
+font-size:14px;
+font-weight:600;
+margin-right:7px;
+
+}
+.id004 p input{
+position: relative ;
+width:120px;
+height:30px;
+margin-right:0px;
+font-size:16px;
+line-height:29px;
+border:1px solid #7F9DB9;
+}
+/*
+
+*/
+#h_yzm{
+position: relative ;
+margin-right:56px;
+}
+.yzm_get{
+width:225px;
+height:45px;
+background:url('../public/image/id002.png') no-repeat;
+margin-left:106px;
+margin-top:30px;
+margin-bottom:40px;
+}
+#yzm_post{
+width:225px;
+height:45px;
+background:url('../public/image/id001.png') no-repeat;
+margin-left:100px;
+margin-top:20px;
+}
+#img_yzm{
+margin-left:10px;
+line-height:29px;
+}
+
+.yzm_get:hover,#yzm_post:hover,#h_yzm,#img_yzm{
+cursor:pointer;
+cursor:hand;
+}
+</style></head>
+
+<body>
+
+<div style="display:none">
+	<script type="text/javascript">
+	   $(function(){
+		   
+		  
+		 
+
+		 //提交用户所填信息获取验证码
+		   function register_s(num){
+			   var type=num;
+			   
+			   var zh  = document.getElementById("account").value;
+			   if(zh.length==0){
+				   alert("请填写账号");
+				   return;
+				   }
+			   var phone  = document.getElementById("phone").value;
+			   if(phone.length==0){
+				   alert("请填写手机号");
+				   return;
+				   }
+			   var yzm  = document.getElementById("yzm").value;
+			  if(yzm.length==0){
+				  alert("请填写验证码");
+				  return;
+				  }
+			  if(type==0){ 
+				var url="<?php echo WEB_ROOT?>index.php/Client/SendCode?zh="+zh+"&phone="+phone+"&yzm="+yzm+"&type="+type+"&time="+Math.random();
+				//window.location.href=url;
+				
+               }else if(type==1){
+				   var xym  = document.getElementById("xym").value;
+			 
+			   if(xym.length==0){
+				   alert("请填写效验码");
+				   return;
+				   }			   
+				var url="<?php echo WEB_ROOT?>index.php/Client/SendCode?zh="+zh+"&phone="+phone+"&yzm="+yzm + "&xym="+xym+"&type="+type+"&time="+Math.random();			
+			   }
+			   
+               //$.getJSON(url);
+			$.getJSON(url, function(json){
+					
+					var id=json.res;
+					if(id=='0'){
+						var name='hs_game';
+						var value='game_hs';
+						setCookie(name,value);
+						alert("短信校验码发送成功，请等待查收！");
+						}else if(id=='1'){							
+							alert("验证码输入错误，请确认。");
+						}else if(id=='2'){							
+							alert("当前账号未绑定主机，请确认！");
+						}else if(id=='3'){							
+							alert("该帐号未绑定手机，请选择其它解绑方式！");
+						}else if(id=='4'){							
+							alert("该手机号码不是绑定手机号，请确认！");
+						}else if(id=='5'){							
+							alert("帐号不存在，请确认!");
+						}else if(id=='6'){							
+							alert("发送失败！该手机号发送次数已达上限。");
+						}else if(id=='7'){							
+							alert("间隔1分钟后才可继续发送短信校验码！");
+						}else if(id=='8'){							
+							alert("校验码错误！请重新获取短信校验码。");
+						}else if(id=='9'){							
+							alert("校验码过期! 请重新获取短信校验码。");
+						}else if(id=='10'){							
+							alert("解绑失败！请重新尝试。");
+						}else if(id=='11'){							
+							alert("解绑主机成功！");
+							return;
+						}else{
+							alert("异常错误！");							
+						}
+					updateCode();
+					return;
+					}); 
+			   }	
+		
+		
+		//写cookies
+
+		function setCookie(name,value)
+		{
+		    var Days = 1;
+		    var exp = new Date();
+		    exp.setTime(exp.getTime() + Days*1*60*60*1000);
+		    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+
+		    
+		    }
+
+		//读取cookies
+		function getCookie(name)
+		{
+		    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+		 
+		    if(arr=document.cookie.match(reg))
+		 
+		        return (arr[2]);
+		    else
+		        return null;
+		}
+
+		//删除cookies
+		function delCookie(name)
+		{
+		    var exp = new Date();
+		    exp.setTime(exp.getTime() - 1);
+		    var cval=getCookie(name);
+		    if(cval!=null)
+		        document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+		}
+		function updateCode(){
+			document.getElementById("checkcode").src = "<?php echo WEB_ROOT?>index.php/Client/verify?t="+new Date().getTime();
+			//$("#checkcode").attr("src":"<?php echo WEB_ROOT?>index.php/Login/verify?t='+new Date().getTime()");
+		}
+//发送验证码
+$(".yzm_get").click(function(){
+	var num=0;
+	var name='hs_game';
+	var value='game_hs';
+	setCookie(name,value);
+	register_s(num);
+});
+//解绑电脑
+$("#yzm_post").click(function(){
+	var name=getCookie('hs_game');
+	if(name!='game_hs'){
+		alert("你还没有获得效验码");
+		return;
+		}
+	var num=1;
+	register_s(num);
+});
+					
+});//end;
+	</script>
+</div>
+    
+
+                	  
+      
+          	<div style="width:500px;height:500px;margin:0 auto;">
+          		<div class="id001  test001">
+          		<h3>第一步，获取短信校验码</h3>
+          		</div>
+          		<div class="id001">
+          		 <p><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号:</a><input type="text" value="" name="" id="account"></p>          		 
+          		</div>
+          		<div class="id002">          		
+          		 请输入您在游戏的登陆账号名。
+          		</div>
+          		<div class="id001">
+          		 <p><a>手机号码:</a><input type="text" value="" name="" id="phone"></p>
+          		 
+          		</div>
+          		<div class="id002">          		
+          		 请输入该账号绑定的手机号码。
+          		</div>
+          		
+          		<div class="id004">
+          		 <p><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;验证码:</a><input type="text" value="" name="" id="yzm"><a id="img_yzm" class="yzm_bg" title="点击更换"><img src="<?php echo WEB_ROOT?>index.php/Login/verify" width="75" height="35" style="margin-bottom:-12px;" id="checkcode" onclick="this.src = '<?php echo WEB_ROOT?>index.php/Login/verify?t='+new Date().getTime();"   title="看不清，点击换下一张" /></a><a id="h_yzm" class="yzm_bg">点击图片切换</a></p>
+          		</div>
+          		<div class="yzm_get">
+          		
+          		</div>
+          		<div class="id001">
+          		<h3>第二步，解绑主机</h3>
+          		</div>
+          		<div class="id001">
+          		  <p><a>&nbsp;&nbsp;校验码:</a><input type="text" value="" name="" id="xym"></p>
+          		
+          		</div>
+          		<div id="yzm_post">
+          		
+          		</div>
+          	</div>
+              
+        
+
+  
+
+
+
+
+</body></html>

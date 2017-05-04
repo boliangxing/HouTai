@@ -1,0 +1,116 @@
+[ 2017-01-04T01:27:49+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T01:27:49+08:00 ] http://14.215.177.37/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002205s ]
+[ 2017-01-04T01:27:49+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002377s ]
+[ 2017-01-04T07:07:14+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T07:07:14+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001676s ]
+[ 2017-01-04T07:07:14+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001839s ]
+[ 2017-01-04T07:07:14+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T07:07:14+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001107s ]
+[ 2017-01-04T07:07:14+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001273s ]
+[ 2017-01-04T07:42:11+08:00 ] http://baidu.com/ | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T07:42:11+08:00 ] http://baidu.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001701s ]
+[ 2017-01-04T07:42:11+08:00 ] http://baidu.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001874s ]
+[ 2017-01-04T07:45:16+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T07:45:16+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001703s ]
+[ 2017-01-04T07:45:16+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001866s ]
+[ 2017-01-04T07:54:04+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T07:54:04+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001675s ]
+[ 2017-01-04T07:54:04+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001846s ]
+[ 2017-01-04T10:40:05+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:05+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002194s ]
+[ 2017-01-04T10:40:05+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002324s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002885s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.003007s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002172s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002276s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002779s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002893s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.020044s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020156s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001736s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001880s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001547s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001988s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007440s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002160s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002263s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.002323s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.002447s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001653s ]
+[ 2017-01-04T10:40:05+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001757s ]
+[ 2017-01-04T10:40:07+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:07+08:00 ] /index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.001747s ]
+[ 2017-01-04T10:40:07+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001875s ]
+[ 2017-01-04T10:40:07+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:07+08:00 ] /index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001079s ]
+[ 2017-01-04T10:40:07+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001181s ]
+[ 2017-01-04T10:40:07+08:00 ] /index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001747s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001869s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001436s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001543s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001975s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002088s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.018574s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018687s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001752s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001859s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001534s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001978s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007412s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002159s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002260s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001732s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001856s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001073s ]
+[ 2017-01-04T10:40:09+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001176s ]
+[ 2017-01-04T10:40:13+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:13+08:00 ] /index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.001747s ]
+[ 2017-01-04T10:40:13+08:00 ] /index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001872s ]
+[ 2017-01-04T10:40:13+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:13+08:00 ] /index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001080s ]
+[ 2017-01-04T10:40:13+08:00 ] /index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001186s ]
+[ 2017-01-04T10:40:13+08:00 ] /index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 10 行.
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001746s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001870s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001081s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001184s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.000927s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001041s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017698s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017809s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001726s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.002013s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001538s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001985s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007548s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002014s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002116s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001728s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001851s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001070s ]
+[ 2017-01-04T10:40:15+08:00 ] /index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001175s ]

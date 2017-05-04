@@ -1,0 +1,63 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="iphone_form">
+				<header>
+					<h2>推荐添加</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Index/andriow_rec_add" method="post"  enctype="multipart/form-data">
+					<span class="span_right">APP名称：</span><input class='update_input' type="text" name="Name"></br>
+					<span class="span_right">APP标识：</span><input class='update_input' type="text" name="E_name"></br>
+					<span class="span_right">包名：</span><input class='update_input' type="text" name="Bag_name"></br>
+					<span class="span_right">链接地址：</span><input class='update_input' type="text" name="Link"></br>
+					<span class="span_right">图片:</span><input class='update_input_file' type="file" name="Photo" value="点击选择图片" style="margin-left:10px;">	</br>
+					<span class="span_right">排序号：</span><input class='update_input' type="text" name="Sort" style='width:20px;'>
+					<input class="submit" type="submit" value="完成">				
+				</form>
+			</article>
+			<article class="giveinfo">
+				<header>
+					<h2>当前推荐</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>app名称</th>
+							<th>app标识</th>
+							<th>包名</th>
+							<th>链接地址</th>
+							<th>图片</th>
+							<th>排序号</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td>{$vo.Name}</td>
+							<td>{$vo.E_name}</td>
+							<td>{$vo.Bag_name}</td>
+							<td>{$vo.Link}</td>
+							<td><img src="{$vo.m_photo}"></td>
+							<td>{$vo.Sort}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Index/andriow_rec_update?id={$vo.id}">修改</a>&nbsp;&nbsp;<a onclick="if(confirm('确定删除?')==false)return false;" href="<?php echo WEB_ROOT?>index.php/Index/andriow_rec_del?id={$vo.id}">删除</a></td>
+						</tr>
+						</foreach>
+					</tbody>					
+				</table>
+				</div>
+			</article>			
+		</section>
+	</div>
+	<footer>
+			
+	</footer>
+</div>	
+</body>
+</html>
+
+

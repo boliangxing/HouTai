@@ -1,0 +1,24 @@
+[ 2016-12-31T03:21:43+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T03:21:43+08:00 ] http://14.215.177.37/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002171s ]
+[ 2016-12-31T03:21:43+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002302s ]
+[ 2016-12-31T07:14:04+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T07:14:04+08:00 ] http://www.baidu.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001679s ]
+[ 2016-12-31T07:14:04+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001842s ]
+[ 2016-12-31T09:45:54+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T09:45:54+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002215s ]
+[ 2016-12-31T09:45:54+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002383s ]
+[ 2016-12-31T11:13:36+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T11:13:36+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001643s ]
+[ 2016-12-31T11:13:36+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001765s ]
+[ 2016-12-31T14:51:21+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T14:51:21+08:00 ] http://14.215.177.37/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001731s ]
+[ 2016-12-31T14:51:21+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001915s ]
+[ 2016-12-31T21:12:18+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T21:12:18+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001673s ]
+[ 2016-12-31T21:12:18+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001839s ]
+[ 2016-12-31T21:12:22+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T21:12:22+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001112s ]
+[ 2016-12-31T21:12:22+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001275s ]
+[ 2016-12-31T23:37:25+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-31T23:37:25+08:00 ] http://14.215.177.37/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001673s ]
+[ 2016-12-31T23:37:25+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001845s ]

@@ -1,0 +1,125 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="details">
+				<header>
+					<h2>游戏用户详情</h2>
+				</header>
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序列号</th>
+							<th>游戏ID</th>
+							<th>用户帐号</th>
+							<th>昵称</th>
+							<th>性别</th>
+							<th>经验值</th>
+							<th>最后登录时间</th>
+							<th>最后登陆地址</th>
+							<th>登录次数</th>
+							<th>状态</th>
+							<th>充值金额</th>
+							<th>在线时长（分）</th>
+							<th>游戏时长（分）</th>
+							<th>当前金币数</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td>{$vo.GameID}</td>
+							<td>{$vo.Accounts}</td>
+							<td>{$vo.NickName}</td>
+							<td><if condition="$vo.Gender eq 1 ">男
+								<elseif condition="$vo.Gender eq 2"/>女
+								<else />保密</if>
+							</td>
+							<td>{$vo.Experience}</td>
+							<td>{$vo.LastLogonDate}</td>
+							<td>{$vo.LastLogonIP}</td>
+							<td>{$vo.GameLogonTimes}</td>
+							<td>--</td>
+							<td>0</td>
+							<td>{$vo.OnLineTimeCount}</td>
+							<td>{$vo.PlayTimeCount}</td>
+							<td>{$vo.Score}</td>
+						</tr>
+					</foreach>
+					</tbody>
+				</table>
+			</article>		
+		</section>
+	</div>
+	<footer>	
+		<ol class="pagination">
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=1" rel="next">首页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+            <?php 
+            	if($get_con['pageNum']>5){
+					if($pageNo<5){
+						for($i=1;$i<=5;$i++){?>
+                    
+                   <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php               
+            		}else if($pageNo>=5 && $pageNo<$get_con['pageNum']-2){?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-2;$i<=$pageNo+2;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php
+					}else{?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-3;$i<=$get_con['pageNum'];$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php
+						}
+					}	
+				}else{?>
+			<?php
+					for($i=1;$i<=$get_con['pageNum'];$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+					}
+				}	
+            ?>
+            
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=<?php echo $pageNo+1>$get_con['pageNum']?$get_con['pageNum']:$pageNo+1 ?>" rel="next">下页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Index/userlist?id=<?php echo $get_con['user_id']?>&count=<?php echo $get_con['count']?>&pageNo=<?php echo $get_con['pageNum']?>" rel="next">末页</a></li>
+            <li class="mt_2">共：<span class='page_num'><?php echo $get_con['pageNum']?></span>页</li>
+            <li>
+                <input type="text" id="pages">
+                <input type="button" value="go" id="go">
+                
+            </li>           
+        </ol>		
+	</footer>
+</div>	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

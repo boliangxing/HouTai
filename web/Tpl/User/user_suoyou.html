@@ -1,0 +1,138 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>所有YS总&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/userCc"><span style="color:#2996cc">库存统计<span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/all"><span style="color:#2996cc">所有人金币总<span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/waste_record"><span style="color:#2996cc">损耗记录<span></a></h2>
+                </header>           
+                <div id="table_w">
+                    <span>当前总：{$cc_count}</span>
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>7</th>
+                            <th>8</th>
+                            <th>9</th>
+                            <th>10</th>
+                            <th>11</th>
+                            <th>12</th>
+                            <th>13</th>
+                            <th>14</th>
+                            <th>15</th>
+                            <th>16</th>
+                            <th>17</th>
+                            <th>18</th>
+                            <th>19</th>
+                            <th>20</th>
+                            <th>21</th>
+                            <th>22</th>
+                            <th>23</th>
+							<th>24</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.InsertDate}</td>
+                            <td>{$vo.t0}</td>
+                            <td>{$vo.t1}</td>
+                            <td>{$vo.t2}</td>
+                            <td>{$vo.t3}</td>
+                            <td>{$vo.t4}</td>
+                            <td>{$vo.t5}</td>
+                            <td>{$vo.t6}</td>
+                            <td>{$vo.t7}</td>
+                            <td>{$vo.t8}</td>
+                            <td>{$vo.t9}</td>
+                            <td>{$vo.t10}</td>
+                            <td>{$vo.t11}</td>
+                            <td>{$vo.t12}</td>
+                            <td>{$vo.t13}</td>
+                            <td>{$vo.t14}</td>
+                            <td>{$vo.t15}</td>
+                            <td>{$vo.t16}</td>
+                            <td>{$vo.t17}</td>
+                            <td>{$vo.t18}</td>
+                            <td>{$vo.t19}</td>
+                            <td>{$vo.t20}</td>
+                            <td>{$vo.t21}</td>
+                            <td>{$vo.t22}</td>
+                            <td>{$vo.t23}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+
+                </div>
+            </article>          
+
+        </section>
+    </div>
+    <footer>
+        <ol class="pagination">
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=1" rel="next">首页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+            <?php 
+            	if($pageNum>5){
+					if($pageNo<5){
+						for($i=1;$i<=5;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php               
+            		}else if($pageNo>=5 && $pageNo<$pageNum-2){?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-2;$i<=$pageNo+2;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php
+					}else{?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-3;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php
+						}
+					}	
+				}else{?>
+			<?php
+					for($i=1;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+					}
+				}	
+            ?>
+            
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/suoyou?pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+            <li class="mt_2">共：<span class='page_num'><?php echo $pageNum?></span>页</li>
+            <li>
+                <input type="text" id="pages">
+                <input type="button" value="go" id="go">
+                
+            </li>           
+        </ol>           
+    </footer>
+</div>  
+</body>
+</html>

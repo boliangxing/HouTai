@@ -1,0 +1,67 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>今日访客</h2>
+                </header>
+                <form action="<?php echo WEB_ROOT?>index.php/User/tj2" method="GET" style='padding-left:200px;padding-top:20px'>
+                    <span style="margin-left:60px;">查询日期&nbsp;&nbsp;</span>
+                    <input name="date" type="text" class="datepick" value="{$date}">
+                    <select name="type" id="select" value='{$type}'>
+                            <option value ="00"></option>
+                            <option value ="0">all</option>
+                            <option value ="1">0535zufang</option>
+                            <option value ="2">zs-78</option> 
+                            <option value ="3">gmzs78</option> 
+                            <option value ="4">izs78</option> 
+							<option value ="5">sed2s</option> 
+							<option value ="6">gamezs78</option> 
+                    </select>
+                    <input class="submit" type="submit" value="查询"></br></br>
+                </form>    
+<span style='padding-left20px;'>下载次数:&nbsp;&nbsp;{$dl}&nbsp;&nbsp;&nbsp;&nbsp;注册帐号:&nbsp;&nbsp;{$re}&nbsp;&nbsp;&nbsp;&nbsp;付费用户数量:&nbsp;&nbsp;{$ff}&nbsp;&nbsp;&nbsp;&nbsp;充值用户数量:&nbsp;&nbsp;{$cz}&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/tjs?from=2" target="_blank">详细<a></span>             
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>访问时间</th>
+                            <th>是否直接访问</th>
+                            <th>下载次数</th>
+                            <th>注册帐号</th>
+                            <th>是否付费</th>
+                            <th>是否充值</th>
+                            <th>IP</th>
+                            <th>地区</th>
+                            <th>来源</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.InsertTime}</td>
+                            <td><if condition="$vo.IsBd eq 1 "><span style="color:red">否</span>
+                                <else />是</if></td>
+                            <td>{$vo.dl_num}</td>
+                            <td>{$vo.reg_num}</td>
+                            <td>{$vo.ff_num}</td>
+                            <td>{$vo.cz_num}</td>
+                            <td>{$vo.IP}</td>
+                            <td>{$vo.Area}</td>
+                            <td>{$vo.FromYm}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

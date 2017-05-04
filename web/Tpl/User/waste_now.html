@@ -1,0 +1,73 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>今日当前损耗</h2>
+                </header>           
+                <div id="table_w1">
+				<span style="padding-top:10px;">今日注册人数:{$count}&nbsp;&nbsp;&nbsp;&nbsp;增加金币数:&nbsp;{$score}&nbsp;&nbsp;&nbsp;&nbsp;今日充值增加金币:&nbsp;{$cz_num}</span>
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+							<th>总</th>
+							<th>3D捕鱼</th>
+							<th>2D捕鱼</th>
+							<th>摇钱树</th>
+							<th>美人鱼</th>
+                            <th>国际麻将</th>
+                            <th>欢乐五张</th>
+                            <th>欢乐斗牛</th>
+                            <th>通比牛牛</th>
+                            <th>二人斗牛</th>
+							<th>德州扑克</th>
+							<th>百人角斗场</th>
+                            <th>16人两张</th>
+                            <th>豪车漂移</th>
+                            <th>16人小九</th>
+                            <th>冠军赛马</th>
+							<th>欢乐30秒</th>
+                            <th>火拼双扣</th>
+                            <th>温州二人麻将</th>
+							<th>神兽转盘</th>
+							
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{$result.date}</td>
+							<td>{$result.sum}</td>
+							<td>{$result.G2060}</td>
+							<td>{$result.G2070}</td>
+							<td>{$result.G2075}</td>
+							<td>{$result.G2080}</td>
+                            <td>{$result.G10}</td>
+                            <td>{$result.G19}</td>
+                            <td>{$result.G27}</td>
+                            <td>{$result.G28}</td>
+                            <td>{$result.G102}</td>
+							<td>{$result.G350}</td>
+							<td>{$result.G104}</td>
+                            <td>{$result.G106}</td>
+                            <td>{$result.G108}</td>
+                            <td>{$result.G110}</td>
+                            <td>{$result.G114}</td>
+							<td>{$result.G122}</td>
+                            <td>{$result.G233}</td>
+                            <td>{$result.G308}</td>
+							<td>{$result.G404}</td>
+							
+                        </tr>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

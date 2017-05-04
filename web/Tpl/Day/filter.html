@@ -1,0 +1,56 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="newcard">
+                <header>
+                    <h2>添加GameID<span class="h2_right_2"><a href="<?php echo WEB_ROOT?>index.php/Day/waste">返回</a></span></h2>
+                </header>
+                <form action='<?php echo WEB_ROOT?>index.php/Day/add_filter' method="get" id="form">
+                    <table>
+                    <tr>
+                        <th>GameID</th>
+                        <td colspan="2" ><input type="text" name='GameID' value=''>
+                        </td> 
+                    </tr>                                                                                                        
+                    </table>
+                    <div>
+                        <input class="save" type="submit" value="完成">
+                    </div>
+                </form>
+            </article>
+            <article class="giveinfo">
+				<header>
+					<h2>已添加列表</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>GameID</th>
+							<th>账号</th>
+							<th>昵称</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td>{$vo.GameID}</td>
+							<td>{$vo.Accounts}</td>
+							<td>{$vo.NickName}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Day/filter_del?UserID={$vo.UserID}">删除</a></td>
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>
+        </section>
+    </div>
+</div>  
+</body>
+</html>

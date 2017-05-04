@@ -1,0 +1,104 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="user_info">
+                <div id="tabs">
+                    <ul class="dd">
+                        <li class="dd-item"><div class="dd-handle "><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$UserID}">基本信息</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/zz?UserID={$UserID}">转账记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/cq?UserID={$UserID}">存取记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/yx?UserID={$UserID}">游戏记录</a></div></li>
+                        <li class="dd-item here"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID={$UserID}">充值记录</a></div></li>
+                        <li class="dd-item back" ><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User" >返回</a></div></li>
+                    </ul>
+                </div>               
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                           <th>序号</th>
+							<th>时间</th>
+							<th>实卡卡号</th>
+							<th>订单号码</th>
+							<th>充值前金币</th>
+							<th>赠送金币</th>
+							<th>实付金额</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+							<td>{$vo.ApplyDate}</td>
+							<td>{$vo.SerialID}</td>
+							<td>{$vo.OrderID}</td>
+							<td>{$vo.BeforeGold}</td>
+							<td>{$vo.CardGold}</td>
+							<td>{$vo.PayAmount}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>        
+            </article>
+        </section>
+    </div>
+    <footer>
+        <ol class="pagination">
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID={$UserID}&pageNo=1" rel="next">首页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID={$UserID}&pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+            <?php 
+            	if($pageNum>5){
+					if($pageNo<5){
+						for($i=1;$i<=5;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID=<?php echo $UserID?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php               
+            		}else if($pageNo>=5 && $pageNo<$pageNum-2){?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-2;$i<=$pageNo+2;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID=<?php echo $UserID?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php
+					}else{?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-3;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID=<?php echo $UserID?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php
+						}
+					}	
+				}else{?>
+			<?php
+					for($i=1;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID=<?php echo $UserID?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+					}
+				}	
+            ?>
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID={$UserID}&pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID={$UserID}&pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+            <li class="mt_2">共：<span class='page_num'><?php echo $pageNum?></span>页</li>
+            <li>
+                <input type="text" id="pages">
+                <input type="button" value="go" id="go">
+                
+            </li>           
+        </ol>           
+    </footer>
+</div>  
+</body>
+</html>

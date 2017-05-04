@@ -1,0 +1,58 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="newcard">
+                <header>
+                    <h2>vip会员设置<span class="h2_right_2"><a href="<?php echo WEB_ROOT?>index.php/Vip/mem_list">返回</a></span></h2>
+                </header>
+                <form action='<?php echo WEB_ROOT?>index.php/Vip/vip_change' method="get" id="form">
+                    <table>
+                    <tr>
+                        <th>会员编号</th>
+                        <td colspan="2" ><input type="hidden" name='UserID' value='{$result.UserID}'><input type="text" name='GroupNum' value='{$result.GroupNum}'>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <th>到期时间</th>
+                        <td colspan="2" >{$result.MemberOverDate}</td> 
+                    </tr>
+                    <tr>
+                        <th>游戏ID</th>
+                        <td colspan="2" >{$result.GameID}</td> 
+                    </tr>
+                    <tr>
+                        <th>QQ号码</th>
+                        <td colspan="2" ><input  type="text" name='QQ' value='{$result.QQ}'></td> 
+                    </tr>
+                    <tr>
+                        <th>昵称</th>
+                        <td colspan="2" >{$result.NickName}</td> 
+                    </tr>    
+                    <tr>
+                        <th>手机号码</th>
+                        <td colspan="2" >{$result.RegisterMobile}</td> 
+                    </tr>   
+                    <tr>
+                        <th>身份证号码</th>
+                        <td colspan="2" >{$result.PassPortID}</td> 
+                    </tr>
+                    <tr>
+                        <th>店铺名称</th>
+                        <td colspan="2" ><input  type="text" name='Shopname' value='{$result.Shopname}'></td> 
+                    </tr> 
+                    <tr>
+                        <th>店铺网址</th>
+                        <td colspan="2" ><input  type="text" name='URL' value='{$result.URL}'></td> 
+                    </tr>                                                                                                                                       
+                    </table>
+                    <div>
+                        <input class="save" type="submit" onclick="submit()" value="保存">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </div>
+</div>  
+</body>
+</html>

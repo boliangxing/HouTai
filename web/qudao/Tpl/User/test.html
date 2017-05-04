@@ -1,0 +1,86 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="addM">
+				<header>
+					<h2>添加首冲用户</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/User/addSc" method="GET" style="padding-left:200px;">
+					<span>游戏ID:</span>
+					<input type="text" name="GameID">
+					<input class="add_submit" type="submit" value="添加">				
+				</form>
+				
+			</article>
+			<article class="addM">
+				<header>
+					<h2>删除首冲用户</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/User/delSc2" method="GET" style="padding-left:200px;">
+					<span>游戏ID:</span>
+					<input type="text" name="GameID">
+					<input class="add_submit" type="submit" value="删除">				
+				</form>
+				
+			</article>
+			<article class="giveinfo">
+				<header>
+					<h2>首冲用户列表</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>GameID</th>
+							<th>账号</th>
+							<th>昵称</th>
+							<th>充值金额</th>
+							<th>金币</th>
+							<th>银行</th>
+							<th>转入</th>
+                            <th>转出</th>
+							<th>时间</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>				
+							<td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+							<td>{$vo.Accounts}</td>
+							<td><if condition="$vo.UserMedal eq 1 "><span style="color:#cc00ff">★</span>
+                                </if><if condition="$vo.LockMobileFrom eq 1 "><span style="color:blue">♥</span>
+                                </if><if condition="$vo.LockMobileFrom eq 2 "><span style="color:blue">♥♥</span>
+                                </if><if condition="$vo.IsOpenTokenLock eq 1 "><span style="color:red">★</span>
+                                </if><if condition="$vo.CustomID eq 0 "><span style="color:#7b09d2">{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if></td>
+							<td>{$vo.Rechange}</td>
+							<td>{$vo.Score}</td>
+							<td>{$vo.InsureScore}</td>
+							<td>{$vo.zr}</td>
+                            <td>{$vo.zc}</td>
+							<td>{$vo.InsertDate}
+								</td>
+							<td><a class="delTs" href="<?php echo WEB_ROOT?>index.php/User/delScTest?UserID={$vo.UserID}">删除</a>
+								</td>
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+
+		</section>
+	</div>
+	<footer>
+					
+	</footer>
+</div>	
+</body>
+</html>
+
+

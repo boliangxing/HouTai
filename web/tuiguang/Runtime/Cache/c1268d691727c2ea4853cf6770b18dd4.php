@@ -1,0 +1,83 @@
+<?php if (!defined('THINK_PATH')) exit(); require_once('head.html'); ?>
+		<section class="mainwarp">
+			<article class="cx_form">
+				<header>
+					<h2>指导费查询</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/User/wzq" method="get"  enctype="multipart/form-data">
+				<span>起止日期&nbsp;&nbsp;</span>
+					<input name="start_date" type="text" class="datepick" value="<?php echo ($start); ?>">&nbsp;-
+					<input name="end_date" type="text" class="datepick" value="<?php echo ($end); ?>">
+					<select name="type_zz" id="select1">
+							<option value ="1">全部</option>
+  							<option value ="2">转入</option> 
+  							<option value ="3">转出</option>  							
+					</select>
+					<select name="type_id" id="select2">
+							<option value ="1">全部</option>
+  							<option value ="2">GameID</option>  							
+					</select>
+					<input name="GameID" type="text" value="<?php echo $GameID;?>">
+					<input class="" type="submit" value="查询">				
+				</form>
+			</article>
+			<article class="giveinfo">
+				<header>
+					<h2>详细记录</h2>
+				</header>
+				<p class="tj_2">总计：<?php echo ($gold_sum); ?></p>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>转出昵称</th>
+							<th>转入昵称</th>
+							<th>指导费</th>
+							<th>记录时间</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php if(is_array($result)): foreach($result as $key=>$vo): ?><tr>
+							<td><?php echo ($vo["no"]); ?></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID=<?php echo ($vo["SourceUserID"]); ?>" target="_blank"><?php echo ($vo["SourceNick"]); ?></a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID=<?php echo ($vo["TargetUserID"]); ?>" target="_blank"><?php echo ($vo["TargetNick"]); ?></a></td>
+							<td><?php echo ($vo["Score"]); ?></td>
+							<td><?php echo ($vo["InsertTime"]); ?></td>
+						</tr><?php endforeach; endif; ?>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+
+		</section>
+	</div>
+	
+</div>
+<script type="text/javascript">
+
+
+$('#go_2').click(function(){ 
+	var no = parseInt($('#pages').val());
+	var page_num = $('.page_num').html();
+	if(no == null || no == ''){
+		alert('页数不能为空');
+		return false;
+	}
+	if(isNaN(no)){
+		alert('请输入数字');
+		return false;
+	}
+	if(no > page_num || no < 1){
+		alert('页数不能大于总页数，也不能小于1');
+		return false;
+	}    	
+
+	location.href="<?php echo WEB_ROOT?>index.php/User/wzq?<?php if($GameID){echo 'GameID='.$GameID.'&';}?>start_date=<?php echo $start?>&end_date=<?php echo $end?>&type_zz=<?php echo $type_zz?>&type_id=<?php echo $type_id?>&pageNo="+no;
+})
+
+	
+</script>	
+</body>
+</html>

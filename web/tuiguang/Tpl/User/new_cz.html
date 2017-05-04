@@ -1,0 +1,63 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>今日新注册充值 &nbsp;&nbsp;&nbsp;&nbsp;<a style='color:#2996cc' href="<?php echo WEB_ROOT?>index.php/User/new_cz2">新注册付费</a></h2>
+                </header>           
+                <div id="table">
+				<span>账号为红色时，该账号注册时注册ip和注册机器码关联号为1</span>
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+                            <th>帐号</th>
+                            <th>昵称</th>
+                            <th>金币</th>
+                            <th>银行</th>
+                            <th>充值金额</th>
+                            <th>转入</th>
+                            <th>转出</th>
+                            <th>最后登录IP</th>
+                            <th>最后登录机器码</th>
+                            <th>注册时间</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td><if condition="$vo.new eq 1 "><span style="color:red">{$vo.Accounts}</span>
+                                <else />{$vo.Accounts}</if></td>
+                            <td><if condition="$vo.UserMedal eq 1 "><span style="color:#cc00ff">★</span>
+                                </if><if condition="$vo.LockMobileFrom eq 1 "><span style="color:blue">♥</span>
+                                </if><if condition="$vo.LockMobileFrom eq 2 "><span style="color:blue">♥♥</span>
+                                </if><if condition="$vo.LockMobileFrom eq 3 "><span style="color:red">♥♥</span>
+                                </if><if condition="$vo.IsOpenTokenLock eq 1 "><span style="color:red">★</span>
+                                </if><if condition="$vo.CustomID eq 0 "><span style="color:#7b09d2">{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if></td>
+                            <td>{$vo.Score}</td>
+                            <td>{$vo.InsureScore}</td>
+                            <td>{$vo.Rechange}</td>
+                            <td>{$vo.zr}</td>
+                            <td>{$vo.zc}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=3&con={$vo.LastLogonIP}" target="_blank">{$vo.RegisterIP}</a></br>({$vo['Login_city']['country']}{$vo['Login_city']['area']})</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=4&con={$vo.LastLogonMachine}" target="_blank">{$vo.LastLogonMachine}</a></td>
+                            <td>{$vo.InsertDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

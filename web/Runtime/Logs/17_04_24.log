@@ -1,0 +1,1350 @@
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.005354s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.006413s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004471s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004713s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.005256s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.005485s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.106644s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.106794s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001970s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.002227s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001770s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002156s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008404s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002136s ]
+[ 2017-04-24T09:00:44+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002230s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run CheckRoute Behavior [ RunTime:0.001515s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ route_check ] --END-- [ RunTime:0.001597s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000983s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001024s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run LocationTemplate Behavior [ RunTime:0.001046s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_template ] --END-- [ RunTime:0.001124s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 37 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 277 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 284 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 293 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 297 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 303 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 306 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 316 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 316 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 316 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined index:  zs78_admin2 head.html 第 316 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined variable: start_date a86fa3b014442a4a51898a1c1de6eb0b.php 第 68 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [8] Undefined variable: end_date a86fa3b014442a4a51898a1c1de6eb0b.php 第 69 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run ParseTemplate Behavior [ RunTime:0.054828s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_parse ] --END-- [ RunTime:0.054926s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run ContentReplace Behavior [ RunTime:0.004182s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run TokenBuild Behavior [ RunTime:0.004247s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003392s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run ShowRuntime Behavior [ RunTime:0.003994s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_filter ] --END-- [ RunTime:0.016266s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Run ShowPageTrace Behavior [ RunTime:0.003781s ]
+[ 2017-04-24T09:25:29+08:00 ] /web/index.php/User/regqdnum | INFO: Tag[ view_end ] --END-- [ RunTime:0.003910s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.000601s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000676s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000393s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000430s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.000883s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000929s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.035729s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.035793s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001062s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000893s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000737s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000892s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003691s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000899s ]
+[ 2017-04-24T09:25:33+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000932s ]
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000876s ]
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000974s ]
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000552s ]
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000601s ]
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = '827CCB0EEA8A706C4C34A16891F84E7B' and Nullity=0 [ RunTime:0.049430s ]
+[ 2017-04-24T09:25:37+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.000751s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000828s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000472s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000516s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.000949s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000996s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.009968s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010046s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001059s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001088s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000955s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001119s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004355s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001147s ]
+[ 2017-04-24T09:25:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001191s ]
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000753s ]
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000829s ]
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000469s ]
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000513s ]
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T09:25:44+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T09:25:46+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = '827CCB0EEA8A706C4C34A16891F84E7B' and Nullity=0 [ RunTime:0.089491s ]
+[ 2017-04-24T09:25:46+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.000579s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000641s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000363s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000397s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.000744s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000781s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.007353s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007403s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.000811s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000876s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000737s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000869s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003399s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000884s ]
+[ 2017-04-24T09:26:08+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000916s ]
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.002467s ]
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.002641s ]
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001926s ]
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002027s ]
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T09:28:28+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T09:28:29+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = 'E10ADC3949BA59ABBE56E057F20F883E' and Nullity=0 [ RunTime:0.068902s ]
+[ 2017-04-24T09:28:29+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.quanxian' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T09:28:29+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T09:28:29+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPStatisticsDB.dbo.quanxian where name = 'admin'  [ RunTime:0.120324s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/Login/userCheck | SQL: update QPPlatformManagerDB.dbo.Base_Users set PreLogintime="04 22 2017  6:03PM",PreLoginIP=" ",LastLogintime="2017-04-24 09:28:28",LastLoginIP="",LoginTimes=LoginTimes+1 where UserID = 14 [ RunTime:0.112232s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_num_rows(): supplied argument is not a valid MS SQL-result resource DbMssql.class.php 第 111 行.
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.000777s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.000860s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000550s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.001527s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.001582s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.030864s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.030909s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.000972s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.000936s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000745s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.000876s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003634s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.000914s ]
+[ 2017-04-24T09:28:30+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.000954s ]
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run CheckRoute Behavior [ RunTime:0.001169s ]
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001248s ]
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000910s ]
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000954s ]
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:30:35+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:30:37+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'accountsinfo' [ RunTime:0.167264s ]
+[ 2017-04-24T09:30:37+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  UserID UserAction.class.php 第 58 行.
+[ 2017-04-24T09:30:37+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT T1.* FROM (SELECT ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER, thinkphp.* FROM (SELECT  * FROM accountsinfo WHERE ( UserID = '10000' )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.057929s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.000991s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.001155s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000831s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000941s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.001155s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.001198s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.008457s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008499s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001097s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.001018s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000937s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001405s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004575s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001369s ]
+[ 2017-04-24T09:30:38+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.001437s ]
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run CheckRoute Behavior [ RunTime:0.000736s ]
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000813s ]
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000472s ]
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000516s ]
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'accountsinfo' [ RunTime:0.043057s ]
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  UserID UserAction.class.php 第 58 行.
+[ 2017-04-24T09:30:49+08:00 ] /web/index.php/User/userInfo?type=1&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT T1.* FROM (SELECT ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER, thinkphp.* FROM (SELECT  * FROM accountsinfo WHERE ( GameID = '10000' )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.154429s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.000804s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.000906s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000452s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000505s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.000891s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.000953s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.011251s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011299s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.000893s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.000904s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000747s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.000877s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003524s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001022s ]
+[ 2017-04-24T09:30:50+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.001077s ]
+[ 2017-04-24T09:30:53+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:30:53+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run CheckRoute Behavior [ RunTime:0.000749s ]
+[ 2017-04-24T09:30:53+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000826s ]
+[ 2017-04-24T09:30:53+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:30:53+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000471s ]
+[ 2017-04-24T09:30:53+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000514s ]
+[ 2017-04-24T09:30:53+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:30:54+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:30:54+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'accountsinfo' [ RunTime:0.032204s ]
+[ 2017-04-24T09:30:54+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  UserID UserAction.class.php 第 58 行.
+[ 2017-04-24T09:30:54+08:00 ] /web/index.php/User/userInfo?type=4&info=10000&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT T1.* FROM (SELECT ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER, thinkphp.* FROM (SELECT  * FROM accountsinfo WHERE ( UserID = '10000' )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.028798s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.000756s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.000905s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000517s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000571s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.000813s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.000856s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.008263s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008318s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.000968s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.000944s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000946s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001183s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004184s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001128s ]
+[ 2017-04-24T09:30:55+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.001188s ]
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run CheckRoute Behavior [ RunTime:0.000594s ]
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ route_check ] --END-- [ RunTime:0.000667s ]
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000356s ]
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000389s ]
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'accountsinfo' [ RunTime:0.039643s ]
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  UserID UserAction.class.php 第 58 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: SELECT T1.* FROM (SELECT ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER, thinkphp.* FROM (SELECT  * FROM accountsinfo WHERE ( GameID = '123456' )) AS thinkphp) AS T1 WHERE (T1.ROW_NUMBER BETWEEN 1 AND 1) [ RunTime:0.166338s ]
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] mssql_execute() [<a href='function.mssql-execute'>function.mssql-execute</a>]: message: �Ҳ����洢���� 'php_user_info3'�� (severity 16) UserAction.class.php 第 88 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] mssql_execute() [<a href='function.mssql-execute'>function.mssql-execute</a>]: stored procedure execution failed UserAction.class.php 第 88 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] mssql_fetch_assoc(): supplied argument is not a valid MS SQL-result resource UserAction.class.php 第 89 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] mssql_execute() [<a href='function.mssql-execute'>function.mssql-execute</a>]: message: �Ҳ����洢���� 'PHP_user_gold'�� (severity 16) UserAction.class.php 第 99 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] mssql_execute() [<a href='function.mssql-execute'>function.mssql-execute</a>]: stored procedure execution failed UserAction.class.php 第 99 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] mssql_fetch_assoc(): supplied argument is not a valid MS SQL-result resource UserAction.class.php 第 100 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  game_sum UserAction.class.php 第 109 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  Score UserAction.class.php 第 110 行.
+[ 2017-04-24T09:31:02+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  InsureScore UserAction.class.php 第 110 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  wzq_sum UserAction.class.php 第 121 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zr_sum UserAction.class.php 第 121 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zc_sum UserAction.class.php 第 121 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zr_sum UserAction.class.php 第 122 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zc_sum UserAction.class.php 第 123 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: select t2.ServerName,t3.KindName,t1.ServerID from QPTreasureDB.dbo.GameScoreLocker(NOLOCK) t1,QPPlatformDB.dbo.GameRoomInfo(NOLOCK) t2,QPPlatformDB.dbo.GameKindItem(NOLOCK) t3 where t1.ServerID=t2.ServerID and t1.KindID=t3.KindID and t1.UserID =1865795 [ RunTime:0.034739s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: select count(t1.UserID) as num,sum(t2.Score+t2.InsureScore) as gold_sum from QPAccountsDB.dbo.AccountsInfo(NOLOCK) t1 left join QPTreasureDB.dbo.GameScoreInfo(NOLOCK) t2 on t1.UserID = t2.UserID where t1.RegisterIP ='192.168.92.1' [ RunTime:0.099491s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: select count(t1.UserID) as num,sum(t2.Score+t2.InsureScore) as gold_sum from QPAccountsDB.dbo.AccountsInfo(NOLOCK) t1 left join QPTreasureDB.dbo.GameScoreInfo(NOLOCK) t2 on t1.UserID = t2.UserID where t1.RegisterMachine ='82b4a53cecf5fa7ee67356e6870c3038' [ RunTime:0.090785s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: select count(t1.UserID) as num,sum(t2.Score+t2.InsureScore) as gold_sum from QPAccountsDB.dbo.AccountsInfo(NOLOCK) t1 left join QPTreasureDB.dbo.GameScoreInfo(NOLOCK) t2 on t1.UserID = t2.UserID where t1.LastLogonIP ='182.147.229.50' [ RunTime:0.101611s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | SQL: select count(t1.UserID) as num,sum(t2.Score+t2.InsureScore) as gold_sum from QPAccountsDB.dbo.AccountsInfo(NOLOCK) t1 left join QPTreasureDB.dbo.GameScoreInfo(NOLOCK) t2 on t1.UserID = t2.UserID where t1.LastLogonMachine ='91329da51cb7e6786c60bee3e9e0db5c' [ RunTime:0.097281s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined variable: key UserAction.class.php 第 681 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined variable: rs_gold UserAction.class.php 第 681 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined variable: key UserAction.class.php 第 681 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined variable: UserLoginInfo UserAction.class.php 第 160 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined variable: NewMac UserAction.class.php 第 163 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined variable: gold_type UserAction.class.php 第 164 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run LocationTemplate Behavior [ RunTime:0.001045s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001090s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  Score b7903889795d50a2c3c75783df9f38f6.php 第 28 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  InsureScore b7903889795d50a2c3c75783df9f38f6.php 第 29 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  wzq_sum b7903889795d50a2c3c75783df9f38f6.php 第 35 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zc_count b7903889795d50a2c3c75783df9f38f6.php 第 39 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zc_sum b7903889795d50a2c3c75783df9f38f6.php 第 40 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zr_count b7903889795d50a2c3c75783df9f38f6.php 第 42 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  zr_sum b7903889795d50a2c3c75783df9f38f6.php 第 43 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [8] Undefined index:  pay_sum b7903889795d50a2c3c75783df9f38f6.php 第 45 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ParseTemplate Behavior [ RunTime:0.103590s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.103653s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ContentReplace Behavior [ RunTime:0.002190s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run TokenBuild Behavior [ RunTime:0.001834s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001728s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ShowRuntime Behavior [ RunTime:0.001914s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007922s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002468s ]
+[ 2017-04-24T09:31:03+08:00 ] /web/index.php/User/userInfo?type=1&info=123456&__hash__=9e4a8657c4d5144bdefc56b26e9fec8a_dad6956cd110d008eae7550f5ce2f0c3 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002624s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001835s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001924s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001411s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001461s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002569s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002635s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.038426s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.038546s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001475s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001641s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001271s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001558s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006111s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001545s ]
+[ 2017-04-24T16:57:53+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001603s ]
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000773s ]
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000854s ]
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000484s ]
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000531s ]
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T16:57:56+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T16:57:57+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = '827CCB0EEA8A706C4C34A16891F84E7B' and Nullity=0 [ RunTime:0.035209s ]
+[ 2017-04-24T16:57:57+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001721s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002021s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001266s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001416s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001578s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001659s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.010507s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010572s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.000891s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000922s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000781s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000925s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003671s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000851s ]
+[ 2017-04-24T16:57:58+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000890s ]
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000847s ]
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000934s ]
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000583s ]
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000640s ]
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T16:58:01+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = 'E10ADC3949BA59ABBE56E057F20F883E' and Nullity=0 [ RunTime:0.066799s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.quanxian' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPStatisticsDB.dbo.quanxian where name = 'admin'  [ RunTime:0.209627s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/Login/userCheck | SQL: update QPPlatformManagerDB.dbo.Base_Users set PreLogintime="04 24 2017  9:28AM",PreLoginIP=" ",LastLogintime="2017-04-24 16:58:01",LastLoginIP="",LoginTimes=LoginTimes+1 where UserID = 14 [ RunTime:0.193702s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_num_rows(): supplied argument is not a valid MS SQL-result resource DbMssql.class.php 第 111 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.000992s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.001129s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000629s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000715s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.020917s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.020996s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.034377s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.034427s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.000991s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.000933s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000762s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.000994s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003796s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.000809s ]
+[ 2017-04-24T16:58:02+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.000853s ]
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.000947s ]
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001100s ]
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000469s ]
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000511s ]
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:58:11+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.qdshangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.071585s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.tuiguangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.041599s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.001326s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.001385s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.045409s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.045460s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.000930s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.000915s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000720s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.000887s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003557s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.000940s ]
+[ 2017-04-24T16:58:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.001010s ]
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.000770s ]
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.000885s ]
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000677s ]
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000746s ]
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:58:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.qdshangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.034445s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.tuiguangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.033777s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.000621s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.000670s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.011003s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011052s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.001206s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.001203s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001021s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.001164s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004749s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.001448s ]
+[ 2017-04-24T16:58:17+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.001526s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | INFO: Run CheckRoute Behavior [ RunTime:0.000654s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ route_check ] --END-- [ RunTime:0.000736s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000537s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000582s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login/user_exit | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001240s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001371s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000785s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000863s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001467s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001589s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.013928s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014019s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001505s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.002055s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001725s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001573s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007179s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001042s ]
+[ 2017-04-24T16:58:30+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001096s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001009s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001090s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000786s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000828s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001323s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001372s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.007720s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007784s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.000897s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000946s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000832s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000987s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003781s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000966s ]
+[ 2017-04-24T17:19:05+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001002s ]
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000759s ]
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000838s ]
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000485s ]
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000529s ]
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:19:09+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:19:11+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = '827CCB0EEA8A706C4C34A16891F84E7B' and Nullity=0 [ RunTime:0.056254s ]
+[ 2017-04-24T17:19:11+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.000614s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.000682s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000390s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000425s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001126s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001233s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.012872s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012955s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001125s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001300s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001232s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002332s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006238s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002400s ]
+[ 2017-04-24T17:19:12+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002488s ]
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000601s ]
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000664s ]
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000412s ]
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000461s ]
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:19:15+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = 'E10ADC3949BA59ABBE56E057F20F883E' and Nullity=0 [ RunTime:0.047332s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.quanxian' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPStatisticsDB.dbo.quanxian where name = 'admin'  [ RunTime:0.046330s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/Login/userCheck | SQL: update QPPlatformManagerDB.dbo.Base_Users set PreLogintime="04 24 2017  4:58PM",PreLoginIP=" ",LastLogintime="2017-04-24 17:19:15",LastLoginIP="",LoginTimes=LoginTimes+1 where UserID = 14 [ RunTime:0.050972s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_num_rows(): supplied argument is not a valid MS SQL-result resource DbMssql.class.php 第 111 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.001071s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.001227s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000762s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.002109s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.002240s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.013655s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013701s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001872s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.002335s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001391s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.000970s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006847s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001914s ]
+[ 2017-04-24T17:19:16+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.002029s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001231s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001418s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000735s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000843s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.qdshangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.066620s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.tuiguangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.043669s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.003783s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.003983s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.032435s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.032548s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.001908s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.001545s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001259s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.001529s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006440s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.002062s ]
+[ 2017-04-24T17:19:18+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.002169s ]
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.000966s ]
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001088s ]
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000636s ]
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000711s ]
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:20:15+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.qdshangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.058740s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.tuiguangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.038363s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.001099s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.001151s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.008981s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009020s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.000950s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.000941s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000760s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.000876s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003642s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.000968s ]
+[ 2017-04-24T17:20:16+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.001017s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.000588s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.000648s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000351s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000384s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.qdshangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.053562s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.tuiguangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.045902s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.001154s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.001208s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.011756s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011806s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.001241s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.001294s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001004s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.001218s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004903s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.001534s ]
+[ 2017-04-24T17:20:19+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.001599s ]
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001243s ]
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001339s ]
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001242s ]
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001338s ]
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:21:12+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:21:13+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.qdshangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:21:13+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:21:13+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.053032s ]
+[ 2017-04-24T17:21:13+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.tuiguangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:21:13+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:21:13+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.056114s ]
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.000657s ]
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.000729s ]
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000411s ]
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000460s ]
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:22:03+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:22:04+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.qdshangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:22:04+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:22:04+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.039079s ]
+[ 2017-04-24T17:22:04+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: ������ 'QPStatisticsDB.dbo.tuiguangqx' ��Ч�� (severity 16) DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:22:04+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed DbMssql.class.php 第 105 行.
+[ 2017-04-24T17:22:04+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.042711s ]
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001422s ]
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001525s ]
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001101s ]
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001157s ]
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.000593s ]
+[ 2017-04-24T17:24:32+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.000466s ]
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001297s ]
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001615s ]
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000717s ]
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000799s ]
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001229s ]
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001273s ]
+[ 2017-04-24T17:24:38+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.009623s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009686s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.000926s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000973s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000828s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001516s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004368s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001623s ]
+[ 2017-04-24T17:24:39+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001679s ]
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000908s ]
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001050s ]
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001701s ]
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001897s ]
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = 'D41D8CD98F00B204E9800998ECF8427E' and Nullity=0 [ RunTime:0.047618s ]
+[ 2017-04-24T17:24:42+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.000983s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001127s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000602s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000684s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001358s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001448s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.014442s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.014531s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.000970s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000947s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000790s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000944s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003798s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000862s ]
+[ 2017-04-24T17:24:43+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000919s ]
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.001291s ]
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001529s ]
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001038s ]
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001168s ]
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:24:46+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:24:47+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = '827CCB0EEA8A706C4C34A16891F84E7B' and Nullity=0 [ RunTime:0.000307s ]
+[ 2017-04-24T17:24:47+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001260s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001395s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000668s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000733s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.000897s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.000961s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.007449s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007511s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.000812s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000830s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000726s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000873s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003341s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+[ 2017-04-24T17:24:48+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000804s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000893s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000996s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000615s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000668s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = 'E10ADC3949BA59ABBE56E057F20F883E' and Nullity=0 [ RunTime:0.006131s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPStatisticsDB.dbo.quanxian where name = 'admin'  [ RunTime:0.003634s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | SQL: update QPPlatformManagerDB.dbo.Base_Users set PreLogintime="04 22 2017  1:48PM",PreLoginIP=" ",LastLogintime="2017-04-24 17:24:51",LastLoginIP="",LoginTimes=LoginTimes+1 where UserID = 14 [ RunTime:0.004443s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_num_rows(): supplied argument is not a valid MS SQL-result resource DbMssql.class.php 第 111 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.003415s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.003871s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001777s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001939s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.000909s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.000954s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.011913s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011957s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.001057s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.000947s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000801s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.000908s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003854s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001747s ]
+[ 2017-04-24T17:24:51+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.001849s ]
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001573s ]
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001786s ]
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001021s ]
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001127s ]
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.000137s ]
+[ 2017-04-24T17:24:53+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.000108s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001489s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001786s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000749s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000817s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.000140s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.000110s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.000940s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.000986s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.009939s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009978s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.000929s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.000910s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000735s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.000861s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003538s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.000916s ]
+[ 2017-04-24T17:25:14+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.000959s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001046s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001178s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000760s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000836s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.000161s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.000172s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.000914s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.000970s ]
+[ 2017-04-24T17:25:43+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.008285s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008322s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.000868s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.000882s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000714s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.000888s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003451s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.001059s ]
+[ 2017-04-24T17:25:44+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.001134s ]
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | INFO: Run CheckRoute Behavior [ RunTime:0.001028s ]
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ route_check ] --END-- [ RunTime:0.001157s ]
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000821s ]
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000909s ]
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:25:53+08:00 ] /web/index.php/Login/user_exit | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001026s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001161s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000810s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000888s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001932s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002072s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.016940s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017096s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.002231s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001710s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001592s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001600s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007547s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.001297s ]
+[ 2017-04-24T17:25:54+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.001395s ]
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000985s ]
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001189s ]
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000514s ]
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000558s ]
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = '827CCB0EEA8A706C4C34A16891F84E7B' and Nullity=0 [ RunTime:0.000174s ]
+[ 2017-04-24T17:25:58+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.000972s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001168s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000711s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000785s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001425s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.001498s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.008931s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009008s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.000991s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001394s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001088s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000880s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004490s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000764s ]
+[ 2017-04-24T17:26:00+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000797s ]
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.001600s ]
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.001847s ]
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001630s ]
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001744s ]
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = '827CCB0EEA8A706C4C34A16891F84E7B' and Nullity=0 [ RunTime:0.000158s ]
+[ 2017-04-24T17:26:48+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined offset:  0 LoginAction.class.php 第 34 行.
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.001802s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002072s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000910s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000988s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002080s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002173s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.009422s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009597s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001112s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.000851s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000711s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.000874s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003692s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000928s ]
+[ 2017-04-24T17:26:50+08:00 ] /web/index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000963s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | INFO: Run CheckRoute Behavior [ RunTime:0.000807s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ route_check ] --END-- [ RunTime:0.000889s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000575s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000624s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] A session had already been started - ignoring session_start() LoginAction.class.php 第 5 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | NOTIC: [8] Undefined index:  aa LoginAction.class.php 第 27 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPPlatformManagerDB.dbo.Base_Users where Username = 'admin' and Password = 'E10ADC3949BA59ABBE56E057F20F883E' and Nullity=0 [ RunTime:0.000201s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | SQL: select * from QPStatisticsDB.dbo.quanxian where name = 'admin'  [ RunTime:0.000171s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | SQL: update QPPlatformManagerDB.dbo.Base_Users set PreLogintime="04 24 2017  5:24PM",PreLoginIP=" ",LastLogintime="2017-04-24 17:26:54",LastLoginIP="",LoginTimes=LoginTimes+1 where UserID = 14 [ RunTime:0.006483s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/Login/userCheck | NOTIC: [2] mssql_num_rows(): supplied argument is not a valid MS SQL-result resource DbMssql.class.php 第 111 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run CheckRoute Behavior [ RunTime:0.001042s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ route_check ] --END-- [ RunTime:0.001168s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000772s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000864s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run LocationTemplate Behavior [ RunTime:0.001520s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_template ] --END-- [ RunTime:0.001628s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run ParseTemplate Behavior [ RunTime:0.020556s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020742s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run ContentReplace Behavior [ RunTime:0.002361s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run TokenBuild Behavior [ RunTime:0.002771s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002070s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run ShowRuntime Behavior [ RunTime:0.001841s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009425s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Run ShowPageTrace Behavior [ RunTime:0.001705s ]
+[ 2017-04-24T17:26:54+08:00 ] /web/index.php/User | INFO: Tag[ view_end ] --END-- [ RunTime:0.001900s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001409s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001685s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001440s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001578s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.000139s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.000110s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.000783s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.000829s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.008690s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008764s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.001082s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.000947s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000753s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.000916s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003817s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.000824s ]
+[ 2017-04-24T17:26:56+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.000865s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run CheckRoute Behavior [ RunTime:0.001960s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ route_check ] --END-- [ RunTime:0.002083s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001477s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001565s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run LocationTemplate Behavior [ RunTime:0.001204s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_template ] --END-- [ RunTime:0.001251s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: UserID 1a7ddb854c24b4c55de76e24a41df0b7.php 第 15 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: start_date 1a7ddb854c24b4c55de76e24a41df0b7.php 第 16 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: end_date 1a7ddb854c24b4c55de76e24a41df0b7.php 第 17 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: result 1a7ddb854c24b4c55de76e24a41df0b7.php 第 78 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ParseTemplate Behavior [ RunTime:0.031900s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_parse ] --END-- [ RunTime:0.031957s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ContentReplace Behavior [ RunTime:0.000942s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run TokenBuild Behavior [ RunTime:0.000961s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000750s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ShowRuntime Behavior [ RunTime:0.000938s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003701s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ShowPageTrace Behavior [ RunTime:0.001024s ]
+[ 2017-04-24T17:30:28+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_end ] --END-- [ RunTime:0.001069s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run CheckRoute Behavior [ RunTime:0.001183s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ route_check ] --END-- [ RunTime:0.001335s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000548s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000667s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run LocationTemplate Behavior [ RunTime:0.001422s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_template ] --END-- [ RunTime:0.001489s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: UserID 1a7ddb854c24b4c55de76e24a41df0b7.php 第 15 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: start_date 1a7ddb854c24b4c55de76e24a41df0b7.php 第 16 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: end_date 1a7ddb854c24b4c55de76e24a41df0b7.php 第 17 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [8] Undefined variable: result 1a7ddb854c24b4c55de76e24a41df0b7.php 第 78 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ParseTemplate Behavior [ RunTime:0.010151s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010195s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ContentReplace Behavior [ RunTime:0.001512s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run TokenBuild Behavior [ RunTime:0.001129s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000729s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ShowRuntime Behavior [ RunTime:0.000861s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004337s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Run ShowPageTrace Behavior [ RunTime:0.000962s ]
+[ 2017-04-24T17:30:29+08:00 ] /web/index.php/User/newUser_cz | INFO: Tag[ view_end ] --END-- [ RunTime:0.001004s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --START--
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run CheckRoute Behavior [ RunTime:0.001623s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ route_check ] --END-- [ RunTime:0.001750s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --START--
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001522s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001664s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() functions.php 第 411 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() UserAction.class.php 第 6 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.qdshangqx  [ RunTime:0.000142s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | SQL: SELECT name,qudao FROM QPStatisticsDB.dbo.tuiguangqx  [ RunTime:0.000112s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --START--
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run LocationTemplate Behavior [ RunTime:0.001338s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_template ] --END-- [ RunTime:0.001381s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --START--
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] A session had already been started - ignoring session_start() head.html 第 3 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: start_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 18 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [8] Undefined variable: end_date cd4ed18bcebc4e4a2cccd75a444fbda1.php 第 19 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run ParseTemplate Behavior [ RunTime:0.009697s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009735s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --START--
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run ContentReplace Behavior [ RunTime:0.001005s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run TokenBuild Behavior [ RunTime:0.000932s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000745s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowRuntime Behavior [ RunTime:0.000893s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003690s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 120 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 121 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\nginx-1.8.1\html\web\Common\common.php:1) View.class.php 第 122 行.
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --START--
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Run ShowPageTrace Behavior [ RunTime:0.000920s ]
+[ 2017-04-24T17:33:31+08:00 ] /web/index.php/User/qdqx | INFO: Tag[ view_end ] --END-- [ RunTime:0.000961s ]

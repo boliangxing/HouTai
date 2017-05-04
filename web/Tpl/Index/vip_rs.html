@@ -1,0 +1,60 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="query">
+                <header>
+                    <h2>超级会员查询</h2>
+                </header>                   
+                <form action="<?php echo WEB_ROOT?>index.php/Index/vip_search" method="GET">
+                    <div class="select">
+                        <select  onchange="changeinput();"> 
+                            <option selected="selected">游戏ID</option>
+                            <!-- <option value ="2" >会员昵称</option> -->
+                        </select>
+                    </div>                              
+                    <div id="select_td" style="display:inline-block;">
+                        <input type="text" name="GameID" id="GameID" style="width:100px;">
+                    </div>
+                    <div  class="querybutton">
+                        <input type="submit" id="vip_s" value="查询">
+                    </div>
+                </form>
+            </article>
+            <article class="extend_list">
+                <header>
+                    <h2>查询结果<span class="h2_right"><a href="<?php echo WEB_ROOT?>index.php/Index/vip_mem">返回</a></span></h2>
+                </header>
+                <div id="table_w">
+                <table id="num" name="{$rs['con']}">
+                    <thead>
+                        <tr>
+                            <th>游戏ID</th>
+                            <th>账号</th>
+                            <th>昵称</th>
+                            <th>编号</th>
+                            <th>金币</th>
+                            <th>银行</th>
+                            <th>总金币</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID=<?php echo $rs['UserID'];?>" target="_blank">{$rs.user.GameID}</a></td>
+                            <td>{$rs.user.Accounts}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/Index/vip_set?UserID=<?php echo $rs['UserID'];?>" target="_blank">{$rs.user.NickName}</a></td>
+                            <td>{$rs.Num}</td>
+                            <td>{$rs.user.Score}</td>
+                            <td>{$rs.user.InsureScore}</td>
+                            <td>{$rs.user.gold_sum}</td>
+                         </tr>
+                    </tbody>
+                </table>
+                </div>
+            </article>
+        </section>
+    </div>
+</div>  
+</body>
+</html>
+

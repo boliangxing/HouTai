@@ -1,0 +1,64 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="user_search">
+				<header>
+					<h2>查找房间</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Index/stockList" method="GET">
+					<span>游戏：</span>
+					<select name="game" id='game'>
+						<foreach name='rs' item='vo'>
+                        	<option value ="{$vo.GameID}">{$vo.GameName}</option>
+                        </foreach>							
+					</select>
+					<span>房间：</span>
+					<select name="room" id="room">
+							
+					</select>
+					<input class="user_search_submit" type="submit" value="查询">					
+				</form>
+			</article>
+				
+
+		</section>
+	</div>
+	<footer>
+				
+	</footer>
+</div>	
+<script type="text/javascript">
+
+$('#game').change(function(){ 
+	var GameID=$('#game').val();
+	
+	//location.href='<?php echo WEB_ROOT?>index.php/Index/getRoom?GameID='+GameID;
+
+	$.ajax({ 
+        type: 'GET', 
+        url: '<?php echo WEB_ROOT?>index.php/Index/getRoom?GameID='+GameID, 
+        dataType: 'json', 
+        cache: false,        
+        error: function(){ 
+            alert("网络连接出错！");
+        }, 
+        success:function(json){ 
+        	$('#room').empty();
+        	for(i=0;i<json.length;i++){
+        		$('#room').append('<option value ="'+json[i].ServerID+'">'+json[i].ServerName+'</option>')       		
+        	}
+        	//alert(json);
+        	
+        } 
+    });
+	
+})
+
+	
+
+</script>
+</body>
+</html>
+
+

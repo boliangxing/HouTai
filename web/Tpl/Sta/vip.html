@@ -1,0 +1,81 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="expand_query">
+				<header>
+					<h2>统计查询</h2>
+				</header>			
+				<form method="GET" action="<?php echo WEB_ROOT?>index.php/Sta/userCountSearch">
+					<span>起止日期&nbsp;&nbsp;</span>
+					<input name="start" type="text" class="datepick">&nbsp;-
+					<input name="end" type="text" class="datepick">
+					<input class="querybutton" type="submit" value="查询">									
+				</form>
+			</article>
+			<article class="usersinfo">
+				<header>
+					<h2>vip统计</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>时间</th>
+							<th>金币总数</th>
+							<th>银行金币总数</th>
+							<th>总额</th>
+							<th>总额差</th>
+							<th>总转入</th>
+							<th>总转出</th>
+						</tr>
+					</thead>
+					<tbody>
+					<foreach name='rs' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>						
+							<td>{$vo.insert_date}</td>
+							<td>{$vo.vip_score}</td>
+							<td>{$vo.vip_yh}</td>
+							<td>{$vo.vip_sum}</td>
+							<td>{$vo.cha}</td>
+							<td>{$vo.vip_zr}</td>
+							<td>{$vo.vip_zc}</td>
+						</tr>
+					</foreach>																												
+					</tbody>
+					
+				</table></div>
+			</article>		
+
+		</section>
+	</div>
+	<footer>
+		<ol class="pagination">
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/vip?pageNo=1" rel="next">首页</a></li>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/vip?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+			<?php 
+				for($i=1;$i<=$pageNum;$i++){?>
+					
+					<li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Sta/vip?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+				
+			<?php }
+			?>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/vip?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/vip?pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+			<li class="mt_2">共：<span class='page_num'><?php echo $pageNum?></span>页</li>
+			<li>
+				<input type="text" id="pages">
+				<input type="button" value="go" id="go">
+				
+			</li>			
+		</ol>			
+	</footer>
+</div>	
+</body>
+</html>
+
+
+
+

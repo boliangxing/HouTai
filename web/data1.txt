@@ -1,0 +1,1 @@
+{"command":"CREATE_PAY_ORDERNO","message_id":"1","sign_type":"MD5","device_id":"00E04C6250F9","sign":"f3AKCWksumTLzW5Pm38xiP9llqwHptZl9QJQxcm7zRvcXA4g","charset":"utf-8","timestamp":"20170116120214","biz_content":{"game_id":"123456","pay_type":"WapAli","pay_price":6,"request_origin":""}}

@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<?php
+    if(!isset($_GET['pageNo'])){
+        $pageNo = 1;
+    }else{
+        $pageNo = $_GET['pageNo'];
+    }   
+?>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>推广用户统计</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>styles/jquery-ui.css">
+	<link rel="stylesheet" href="<?php echo PUBLIC_PATH?>styles/main.css">
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-1.9.1.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-ui.js"></script>
+    <script src="<?php echo PUBLIC_PATH?>js/jquery.enlarge.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/self.js"></script>
+</head>
+<body>
+<div class="warp">
+	<header class="top" >
+		<h1><a href="<?php echo WEB_ROOT?>index.php">推广用户统计</a></h1>
+		<div class="exit"> <a href="<?php echo WEB_ROOT?>index.php/Login/user_exit">退出</a></div>
+	</header>
+	<div class="warpall">	
+ 		
+        

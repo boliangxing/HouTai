@@ -1,0 +1,30 @@
+[ 2017-01-03T00:17:11+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T00:17:11+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002204s ]
+[ 2017-01-03T00:17:11+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002335s ]
+[ 2017-01-03T00:45:00+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T00:45:00+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001682s ]
+[ 2017-01-03T00:45:00+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001850s ]
+[ 2017-01-03T00:45:00+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T00:45:00+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001650s ]
+[ 2017-01-03T00:45:00+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001812s ]
+[ 2017-01-03T04:51:28+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T04:51:28+08:00 ] http://14.215.177.37/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001666s ]
+[ 2017-01-03T04:51:28+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001833s ]
+[ 2017-01-03T07:50:36+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T07:50:36+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001680s ]
+[ 2017-01-03T07:50:36+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001852s ]
+[ 2017-01-03T12:43:04+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T12:43:04+08:00 ] http://www.baidu.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001680s ]
+[ 2017-01-03T12:43:04+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001842s ]
+[ 2017-01-03T16:07:04+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T16:07:04+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001683s ]
+[ 2017-01-03T16:07:04+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001855s ]
+[ 2017-01-03T16:07:04+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T16:07:04+08:00 ] search.yahoo.com:443 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001103s ]
+[ 2017-01-03T16:07:04+08:00 ] search.yahoo.com:443 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001270s ]
+[ 2017-01-03T16:09:39+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T16:09:39+08:00 ] http://14.215.177.37/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001662s ]
+[ 2017-01-03T16:09:39+08:00 ] http://14.215.177.37/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001831s ]
+[ 2017-01-03T18:37:16+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2017-01-03T18:37:16+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001688s ]
+[ 2017-01-03T18:37:16+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001857s ]

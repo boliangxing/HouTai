@@ -1,0 +1,93 @@
+<?php
+    require_once('head.html');
+?>
+<style>
+.btn{
+  display: inline-block;
+float: right;
+border: 1px solid #d2d2d2;
+border-radius: 3px;
+color: #fff;
+font-size: 16px;
+font-weight: normal;
+padding: 3px 10px;
+background: #333336;
+}
+</style>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>渠道数据</h2>
+                </header>
+				<div style='padding-left:40px;margin-top:20px;line-height:30px;'>渠道帐号:{$rs2.Username}&nbsp;&nbsp;&nbsp;&nbsp;ID:{$rs2.TypeID}&nbsp;&nbsp;&nbsp;&nbsp;产品名称:{$rs2.QdName}&nbsp;&nbsp;&nbsp;&nbsp;合作方式:<if condition="$rs2.QdType eq 0">CPA</if><if condition="$rs2.QdType eq 1">CPS</if>&nbsp;&nbsp;&nbsp;&nbsp;分成比例:{$rs2.Bili}%&nbsp;&nbsp;&nbsp;&nbsp;单价:{$rs2.Price}&nbsp;&nbsp;&nbsp;&nbsp;总金额:<a href="<?php echo WEB_ROOT?>index.php/User/QdChangeList?TypeID={$rs2.TypeID}">{$row.charge_num}</a>&nbsp;&nbsp;&nbsp;&nbsp;渠道总分层金额:{$fc}&nbsp;&nbsp;&nbsp;&nbsp;平均次日留存:{$lc_avg}&nbsp;&nbsp;&nbsp;&nbsp;平均七日留存:{$lc7_avg}&nbsp;&nbsp;&nbsp;&nbsp;总活跃用户:{$row.huoyue_num}&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo WEB_ROOT?>index.php/User/QdRegList?TypeID={$rs2.TypeID}">注册数据</a></div>
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>真注册量</th>
+                            <th>排重注册量</th>
+							<th>新增注册量</th>
+                            <th>显示激活量</th>
+							<th>真激活量</th>
+							<th>单价</th>
+							<th>充值用户量</th>
+							<th>实际充值</th>
+
+							<th>分层比例</th>
+							<th>渠道分层金额</th>
+							<th>次日留存</th>
+							<th>7日留存</th>
+							<th>活跃用户</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+						<tr>
+                            <td>{$row2.Date}</td>
+							<td>{$row2.reg_num}</td>
+                            <td>{$row2.reg_realnum}</td>
+							<td>{$row2.new_user}</td>
+							<td>{$row2.show_open}</td>
+							<td>{$row2.open_num}</td>
+							<td>{$rs2.Price}</td>
+							<td>{$row2.charge_user}</td>
+							<td>{$row2.charge_num}</td>
+
+							<td>{$rs2.Bili}%</td>
+							<td>{$row2.show_charge}</td>
+							<td>{$row2.lc_num}</td>
+							<td>{$row2.lc7_num}</td>
+							<td>{$row2.huoyue}</td>
+                        </tr>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.InsertDate}</td>
+							<td>{$vo.RegNum}</td>
+                            <td>{$vo.RegRealNum}</td>
+							<td>{$vo.NewUser}</td>
+							<td>{$vo.OpenNum}</td>
+							<td>{$vo.RealOpenNum}</td>
+							<td>{$rs2.Price}</td>
+							<td>{$vo.ChargeUser}</td>
+							<td>{$vo.RealChargeNum}</td>
+
+							<td>{$rs2.Bili}%</td>
+							<td>{$vo.ChargeNum}</td>
+							<td>{$vo.Lc1}</td>
+							<td>{$vo.Lc7}</td>
+							<td>{$vo.Huoyue}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+
+                </table>
+                </div>
+            </article>
+
+        </section>
+    </div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+[ 2016-12-08T02:08:27+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T02:08:27+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001721s ]
+[ 2016-12-08T02:08:27+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001883s ]
+[ 2016-12-08T10:30:13+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T10:30:13+08:00 ] http://www.baidu.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001674s ]
+[ 2016-12-08T10:30:13+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001838s ]
+[ 2016-12-08T13:11:28+08:00 ] /index.php | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T13:11:28+08:00 ] /index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002203s ]
+[ 2016-12-08T13:11:28+08:00 ] /index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002381s ]
+[ 2016-12-08T16:49:22+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T16:49:22+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001678s ]
+[ 2016-12-08T16:49:22+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001852s ]
+[ 2016-12-08T16:59:06+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T16:59:06+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001963s ]
+[ 2016-12-08T16:59:06+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002140s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002463s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002635s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001925s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002054s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002889s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.003014s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.018471s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018591s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001798s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001907s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001597s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002034s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007636s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002169s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002276s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002693s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002888s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001692s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001801s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002731s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002865s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.018996s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019113s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001796s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001900s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001590s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.002034s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007620s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002176s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002283s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002857s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.003025s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002178s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002288s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.002797s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002923s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.020427s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020549s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001738s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001857s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001547s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001979s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007419s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002024s ]
+[ 2016-12-08T19:26:45+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002132s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --START--
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run CheckRoute Behavior [ RunTime:0.002305s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ route_check ] --END-- [ RunTime:0.002465s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001652s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001761s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --START--
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run LocationTemplate Behavior [ RunTime:0.001954s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_template ] --END-- [ RunTime:0.002077s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --START--
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run ParseTemplate Behavior [ RunTime:0.017763s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017884s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --START--
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run ContentReplace Behavior [ RunTime:0.001744s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run TokenBuild Behavior [ RunTime:0.001858s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001546s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run ShowRuntime Behavior [ RunTime:0.001970s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007426s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --START--
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Run ShowPageTrace Behavior [ RunTime:0.002006s ]
+[ 2016-12-08T19:26:46+08:00 ] /index.php/Login | INFO: Tag[ view_end ] --END-- [ RunTime:0.002117s ]
+[ 2016-12-08T20:35:53+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T20:35:53+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001681s ]
+[ 2016-12-08T20:35:53+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001853s ]
+[ 2016-12-08T22:09:28+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T22:09:28+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001666s ]
+[ 2016-12-08T22:09:28+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001834s ]
+[ 2016-12-08T22:10:42+08:00 ] /index.php | INFO: Tag[ app_begin ] --START--
+[ 2016-12-08T22:10:42+08:00 ] /index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002189s ]
+[ 2016-12-08T22:10:42+08:00 ] /index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002357s ]

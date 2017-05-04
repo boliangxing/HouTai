@@ -1,0 +1,38 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>捕鱼当日用户<span style="margin-left:30px;font-size:14px;"><a href="<?php echo WEB_ROOT?>index.php/User/by_user?type=1"><span style="color:#2996cc;">赢</span></a></span><span style="margin-left:30px;font-size:14px;"><a href="<?php echo WEB_ROOT?>index.php/User/by_user?type=2"><span style="color:#2996cc;">输</span></a></span></h2>
+				</header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>输赢</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.NickName}</td>
+							<td>{$vo.Score}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

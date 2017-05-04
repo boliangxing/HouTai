@@ -1,0 +1,42 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>捕鱼当日房间损耗</h2>
+                </header>
+                <form action="<?php echo WEB_ROOT?>index.php/User/by_room" method="GET">
+                    <span style="margin-left:60px;">查询日期&nbsp;&nbsp;</span>
+                    <input name="date" type="text" class="datepick" value="{$date}">
+                    <input class="submit" type="submit" value="查询"></br></br>
+                    <span style='padding-left:40px;'>当日总：{$total}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所有总：{$total_all}</span>
+                </form>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>房间名</th>
+                            <th>损耗</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.ServerName}</td>
+							<td>{$vo.Score}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

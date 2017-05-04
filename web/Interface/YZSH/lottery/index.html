@@ -1,0 +1,525 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="html5,本地存储" />
+<meta name="description" content="Helloweba演示平台，演示XHTML、CSS、jquery、PHP案例和示例" />
+<title>幸运大转盘-jQuery+PHP实现的抽奖程序</title>
+<link rel="stylesheet" type="text/css" href="style_low.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width:580px)" href="style_high.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width:550px)" href="style_low.css">
+<style>
+    body{
+    margin:0;
+
+    }
+    #main{
+    margin-top:4px;
+
+    }
+    .thumb{
+        height: 60px;
+    }
+
+</style>
+
+</head>
+
+<body>
+
+<div id="main">
+    <div class="data act act4">
+            <div id="text2"></div>
+            <div id="text_detail2">
+            <form action="" id="formbody">
+                <input id="data1" type="text"  value="账号" onfocus="value=''" onblur="if(!value)value=defaultValue" > <br>       
+                <input id="data2" type="text" value="登陆密码" onfocus="value=''" onblur="if(!value)value=defaultValue">  <br>
+                <input id="data3" type="text" value="保险箱密码" onfocus="value=''" onblur="if(!value)value=defaultValue"> <br>
+                <div id="dateSubmit"></div>
+            </form>
+            </div>
+    </div>
+    
+    <div class="first act act1">
+        <div class="takebtn1"></div>
+    </div>
+    
+    <div class="act act2"> 
+        <div class="charge_body">
+        <ul class="charge">
+            <li>
+                <span class="c_head">10元移动话费</span>
+                <span class="c_body1">话费直充</span>
+                <span class="c_body2">10元</span>
+                <span class="c_body3">220000</span>
+                <span class="c_bottom" name="1">兑换</span>
+            </li>
+        </ul>
+        <ul class="charge">
+            <li>
+                <span class="c_head">50元移动话费</span>
+                <span class="c_body1">话费直充</span>
+                <span class="c_body2">50元</span>
+                <span class="c_body3">1100000</span>
+                <span class="c_bottom" name="2">兑换</span>
+            </li>
+        </ul>
+        <ul class="charge">
+            <li>
+                <span class="c_head">100元移动话费</span>
+                <span class="c_body1">话费直充</span>
+                <span class="c_body2">100元</span>
+                <span class="c_body3">2200000</span>
+                <span class="c_bottom" name="3">兑换</span>
+            </li>
+        </ul>
+        </div>
+    </div>
+    
+    <div class="yzm" style="display:none">
+        <p><input type="text" class="phone" value="输入手机号码"><span class="yzm_hq">获取验证码</span></p>
+        <p><input type="text" class="phone_yzm" value="输入验证码"><input type="hidden" class="pro" value=""></p>
+        <p><span class="phone_dh">兑换</span></p>
+        <iframe id="iframe" src="http://demos.pixelworkshop.fr/circular_countdown_cc/" frameborder="0" width="100%"></iframe>
+    </div>
+	<!--
+    <div class="thank act act2">
+        <div id="checkBox">
+            <div id="check1" class="check"></div>
+            <div id="check2" class="check"></div>
+            <div id="check3" class="check"></div>
+            <div id="check4" class="check"></div>
+            <div id="check5" class="check"></div>
+        </div>
+        <div class="takebtn2">
+
+        </div>
+    </div>
+
+   <div class="play act act3">
+        <div id="number">0</div>
+        <div id="text"></div>
+        <div id="text_detail">
+            <div id="text_exit"></div>
+
+        </div>
+        <div class="demo">
+             <div id="disk"></div>
+             <div id="start"><img src="start.png" height="140px" width="69px" id="startbtn"></div>
+        </div>
+    </div>
+	-->
+
+    <div class="thumb">
+        <div class="thumb_box">
+            <div class="thumb_one" id="thumb_one_4"></div>
+            <div class="thumb_one" id="thumb_one_1"></div>
+            <div class="thumb_one" id="thumb_one_2"></div>
+			<!--
+            <div class="thumb_one" id="thumb_one_2"></div>
+            <div class="thumb_one" id="thumb_one_3"></div>
+            -->
+        </div>
+    </div>   
+    <div id="getid" style="display:none;">
+        <div id="userId">0</div>
+        <div id="pwd1">0</div>
+        <div id="pwd2">0</div>
+        
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="jquery-latest.min.js"></script>
+<script type="text/javascript" src="jQueryRotate.2.2.js"></script>
+<script type="text/javascript" src="jquery.easing.min.js"></script>
+<script type="text/javascript">
+$(function(){ 
+    number();
+    firstBtn();
+    //thankBtn();
+    //status();
+
+    var GameID=getUrlParam("GameID");
+    var Machine = getUrlParam("Machine");
+    var Sign = '';
+    var Random = Math.floor(Math.random()*9000+1000);
+    var date = new Date().getTime();
+    var wait=60;
+
+    $(".c_bottom").click(function(){
+        $(".act2").hide();
+        $(".yzm").show();
+        $(".pro").val($(this).attr('name'));
+    })
+    $(".phone").focus(function(){
+        if($(".phone").val()=='输入手机号码'){
+            $(".phone").val('');
+        } 
+    })
+    $(".phone").blur(function(){
+        if($(".phone").val()==''){
+            $(".phone").val('输入手机号码');
+        }        
+    })
+    $(".phone_yzm").focus(function(){
+        if($(".phone_yzm").val()=='输入验证码'){
+            $(".phone_yzm").val('');
+        }
+    })
+    $(".phone_yzm").blur(function(){
+        if($(".phone_yzm").val()==''){
+            $(".phone_yzm").val('输入验证码');
+        }        
+    })
+    $(".yzm_hq").click(function(){
+        if(!$(".phone").val().match(/^1[3|4|5|8][0-9]\d{4,8}$/)){ 
+            alert('手机号码格式有误');
+            return false;
+        }
+        var Phone=$(".phone").val();
+        var ProID = $(".pro").val();
+        time($(".yzm_hq"));
+        $(".yzm_hq").addClass("unClick");
+        $(".yzm_hq").attr("disabled", "disabled");
+
+        $.ajax({ 
+            type: 'POST', 
+            url: 'http://pay.110fang.com:91/YZSH_TEST/Interface/Conversion/CheckPhone.php', 
+            dataType: 'json', 
+            cache: false, 
+            data: {Phone:Phone,GameID:GameID,Mobile:11,Machine:Machine,Random:Random,date:date,ProID:ProID},        
+            error: function(){ 
+                alert("网络连接出错！");
+            }, 
+            success:function(json){ 
+                var e = json.error;
+                if (e>0) {
+                    alert(json.error_msg);
+                    return false; 
+                } 
+                Sign = json.Sign;       
+                alert("短信已发送，请注意查收！");             
+            } 
+        });
+    })
+
+    $(".phone_dh").click(function(){
+        if(!$(".phone").val().match(/^1[3|4|5|8][0-9]\d{4,8}$/)){ 
+            alert('手机号码格式有误');
+            return false;
+        }
+        if(!$(".phone_yzm").val().match(/^[0-9]{6}$/)){ 
+            alert('验证码格式有误');
+            return false;
+        }
+        var Phone=$(".phone").val();
+        var ProID = $(".pro").val();
+        var CheckCode = $(".phone_yzm").val();
+        $(".phone_dh").addClass("unClick");
+        $(".phone_dh").attr("disabled", "disabled");
+        $.ajax({ 
+            type: 'POST', 
+            url: 'http://pay.110fang.com:91/YZSH_TEST/Interface/Conversion/ConfirmCharge.php', 
+            dataType: 'json', 
+            cache: false, 
+            data: {Phone:Phone,Mobile:11,Random:Random,Date:date,ProID:ProID,CheckCode:CheckCode,GameID:GameID,Machine:Machine,Sign:Sign},        
+            error: function(){ 
+                alert("网络连接出错！");                
+                $(".phone_dh").removeClass("unClick");
+                $(".phone_dh").removeAttr("disabled");
+            }, 
+            success:function(json){ 
+                var e = json.error;
+                if (e>0) {
+                    alert(json.error_msg);
+                    $(".phone_dh").removeClass("unClick");
+                    $(".phone_dh").removeAttr("disabled");
+                    return false; 
+                }          
+                alert("兑换成功！");
+            } 
+        });
+    })
+
+    
+
+    $("#startbtn").click(function(){ 
+        lottery(); 
+    }); 
+
+    $(".takebtn1").click(function(){ 
+        chickFirstBtn(); 
+    }); 
+    $(".takebtn2").click(function(){ 
+        chickThankBtn(); 
+    }); 
+    $("#thumb_one_1").click(function(){ 
+        $('.act').css("display","none");
+        $('.act1').css("display","block");
+        $('.thumb_one').css("opacity","0.6");
+        $('#thumb_one_1').css("opacity","1");
+        $(".yzm").hide();
+    });  
+    $("#thumb_one_2").click(function(){ 
+        $('.act').css("display","none");
+        $('.act2').css("display","block");
+        $('.thumb_one').css("opacity","0.6");
+        $('#thumb_one_2').css("opacity","1"); 
+        $(".yzm").hide();       
+    }); 
+    $("#thumb_one_3").click(function(){ 
+        $('.act').css("display","none");
+        $('.act3').css("display","block");
+        $('.thumb_one').css("opacity","0.6");
+        $('#thumb_one_3').css("opacity","1"); 
+        $(".yzm").hide();       
+    });  
+    $("#thumb_one_4").click(function(){ 
+        $('.act').css("display","none");
+        $('.act4').css("display","block");
+        $('.thumb_one').css("opacity","0.6");
+        $('#thumb_one_4').css("opacity","1");  
+        $(".yzm").hide();      
+    });  
+       
+    $("#text").click(function(){ 
+        $('#text_detail').css("display","block");
+    }); 
+
+    $("#text_exit").click(function(){ 
+        $('#text_detail').css("display","none");
+    }); 
+    $("#text2").click(function(){ 
+        $('#text_detail2').css("display","block");
+    });           
+    $("#dateSubmit").click(function(){ 
+        var Accounts=$('#data1').val();
+        var pwd1=$('#data2').val();
+        var pwd2=$('#data3').val();
+        if (Accounts.length<6|| pwd1.length<6 || pwd2.length<6) {
+            alert("账号密码不能小于六位");
+           return false;
+        };
+        $.ajax({ 
+            type: 'POST', 
+            url: 'http://pay.110fang.com:91/Interface/YZSH/Get91djChange.php', 
+            dataType: 'json', 
+            cache: false, 
+            data: {Accounts:Accounts,pwd1:pwd1,pwd2:pwd2},        
+            error: function(){ 
+                alert("网络连接出错！");
+            }, 
+            success:function(json){ 
+                var e = json.error;
+                if (e== 4) {
+                    alert("账号已存在，请重试");
+                    return false; 
+                } 
+                if (e!= 0) {
+                    alert("未知错误，请重试");
+                    return false; 
+                }           
+                alert("修改成功！");
+                $('#userId').html(Accounts);
+                $('#pwd1').html(pwd1);
+                $('#pwd2').html(pwd2);
+                $('#text_detail2').css("display","none");
+                $("#text2").css({"background":"url(text2Btn_s.png) no-repeat","background-size": "61px 40px"});
+                $("#text2").unbind('click').css("cursor","default");
+            } 
+        });
+    }); 
+    showData();
+}); 
+function time(o) {
+    if (wait == 0) {
+        o.removeAttr("disabled");            
+        o.val("获取验证码");
+        wait = 60;
+    } else {
+        o.attr("disabled", true);
+        o.val("重新发送(" + wait + ")");
+        wait--;
+        setTimeout(function() {
+            time(o)
+        },
+        1000)
+    }
+}
+function firstBtn(){
+    var first = getUrlParam("first");
+    if (first == '2') {
+        $(".takebtn1").css({"background":"url(takebtn_h.png) no-repeat","background-size": "104px 34px"});
+    };
+}
+function thankBtn(){
+    var thank = getUrlParam("thank");
+    if (parseInt(thank) > 0) {
+        $("#dateSubmit").css({"background":"url(takebtn_h.png) no-repeat","background-size": "104px 34px"});
+    };
+}
+function status(){
+    var thank = getUrlParam("thank");
+    var status = getUrlParam("status");
+    $(".check:lt("+(parseInt(status)+parseInt(thank))+")").html("可领取");
+    $(".check:lt("+parseInt(status)+")").html("✓");
+
+}
+function showData(){
+    var IsComplete = getUrlParam("IsComplete");
+    if (parseInt(IsComplete) == 4 ) {
+        $(".data").css("display","none");
+        $("#thumb_one_4").css("display","none");
+        $("#thumb_one_4").unbind('click').css("cursor","default");
+		$(".act1").css("display","block");
+        
+    }
+    else{
+        dataBtn();
+
+
+    }
+}
+function dataBtn(){
+    var IsComplete = getUrlParam("IsComplete");
+    if (parseInt(IsComplete) == 1) {
+        $("#text2").css({"background":"url(text2Btn_s.png) no-repeat","background-size": "61px 40px"});
+        $("#text2").unbind('click').css("cursor","default");
+    };
+}
+function chickFirstBtn(){
+    var first = getUrlParam("first");
+    if (first != '2'){
+        $(".takebtn1").unbind('click').css("cursor","default");
+        return false;
+    };
+    $(".takebtn1").unbind('click').css("cursor","default");
+    $.ajax({ 
+        type: 'POST', 
+        url: 'http://pay.110fang.com:91/Interface/YZSH/UpdateUserTaskInfo.php', 
+        dataType: 'json', 
+        cache: false, 
+        data: {UserID:getUrlParam("UserID"),Random:getUrlParam("Random"),Date:getUrlParam("Date"),Sign:getUrlParam("Sign"),TaskID:"60"},        
+        error: function(){ 
+            alert("网络连接出错！");
+            $(".takebtn1").bind("click",function(){chickFirstBtn();});
+        }, 
+        success:function(json){ 
+            var e = json.error;
+            if (e!= 0) {
+                alert("领取奖励出错，请重新尝试！");
+                return false; 
+            }           
+            alert("领取成功！");
+            $(".takebtn1").css({"background":"url(takebtn.png) no-repeat","background-size": "104px 34px"});
+        } 
+    });
+
+}
+function chickThankBtn(){
+    var thank = getUrlParam("thank");
+    var status = getUrlParam("status");
+    if (thank == '0'){
+        $(".takebtn2").unbind('click').css("cursor","default");
+        return false;
+    };
+    $(".takebtn2").unbind('click').css("cursor","default");
+        $.ajax({ 
+        type: 'POST', 
+        url: 'http://pay.110fang.com:91/Interface/YZSH/UpdateUserAwardInfo.php', 
+        dataType: 'json', 
+        cache: false, 
+        data: {UserID:getUrlParam("UserID"),Random:getUrlParam("Random"),Date:getUrlParam("Date"),Sign:getUrlParam("Sign")},        
+        error: function(){ 
+            alert("网络连接出错！");
+            $(".takebtn2").bind("click",function(){lottery(); });
+            
+        }, 
+        success:function(json){ 
+            var e = json.error;
+            if (e!= 0) {
+                alert("领取奖励出错，请重新尝试！");
+                return false; 
+            }
+            alert("领取成功！");
+            $(".takebtn2").css({"background":"url(takebtn.png) no-repeat","background-size": "104px 34px"});
+            $(".check:lt("+(parseInt(status)+parseInt(thank))+")").html("✓");
+        } 
+    });
+
+}
+function number(){
+    var Num = getUrlParam('Num');
+    $("#number").html(Num);
+}
+
+
+
+function lottery(){ 
+    $("#startbtn").unbind('click').css("cursor","default");
+    if($("#number").html()==="0"){
+        var right = setTimeout('$("#startbtn").bind("click",function(){lottery(); })',1000);  
+        alert("你的抽奖次数已用完。");
+        return false;
+    };
+
+    $.ajax({ 
+        type: 'POST', 
+        url: 'http://pay.110fang.com:91/Interface/YZSH/ReturnUserAwardInfo.php', 
+        dataType: 'json', 
+        cache: false, 
+        timeout:6000,
+        data: {UserID:getUrlParam("UserID"),Random:getUrlParam("Random"),Date:getUrlParam("Date"),Sign:getUrlParam("Sign")},
+
+        error: function(){ 
+        var right = setTimeout('$("#startbtn").bind("click",function(){lottery(); })',2000);
+            alert('网络连接出错了！'); 
+            
+            return false; 
+        }, 
+        success:function(json){ 
+            var a = json.angle; //角度 
+            var p = json.prize; //奖项 
+            var e = json.error;
+            if (e!= 0) { 
+                var right = setTimeout('$("#startbtn").bind("click",function(){lottery(); })',6000);
+                alert("抽奖出错，请重新尝试！");
+                return false; 
+            }else{
+            $("#disk").rotate({ 
+                duration:4000, //转动时间 
+                angle: 0, 
+                animateTo:1800+a, //转动角度 
+                easing: $.easing.easeOutQuad, 
+                callback: function(){ 
+                    var right = setTimeout('$("#startbtn").bind("click",function(){lottery(); })',2000);                   
+                    alert(p);
+                    var Num2 = ($("#number").html())-1;
+                    $("#number").html(Num2);
+
+                    
+                    return false; 
+                } 
+            });
+            }           
+        } 
+    }); 
+
+    $("#disk").rotate({
+        duration:6000,
+        angle: 0, 
+        animateTo:2880,
+        easing: $.easing.easeOutQuad
+    }); 
+} 
+//获取url参数值
+function getUrlParam(name){
+    var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+    var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+    if (r!=null) return unescape(r[2]); return null; //返回参数值
+}
+ 
+</script>
+
+</html>

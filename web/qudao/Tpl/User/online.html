@@ -1,0 +1,130 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>当前游戏（普通）<span style="margin-left:30px;font-size:14px;"><a href="<?php echo WEB_ROOT?>index.php/User/online_user?type=2"><span style="color:#2996cc;">当前游戏（vip）</span></a></span><span style='padding-left:310px;'>在线金币总:{$score_sum} <br>付费用户:{$user_ff}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免费用户:{$user_mf}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总在线人数:{$count_online}</br>付费(ios:{$user_login['ios']}&nbsp;&nbsp;android:{$user_login['android']}&nbsp;&nbsp;pc:{$user_login['pc']}&nbsp;&nbsp;)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免费(ios:{$user_login_mf['ios']}&nbsp;&nbsp;android:{$user_login_mf['android']}&nbsp;&nbsp;pc:{$user_login_mf['pc']}&nbsp;&nbsp;)</span></h2>
+                </header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>游戏房间</th>
+							<th><a href="<?php echo WEB_ROOT?>index.php/User/online_user?type=1&order=1">总</a></th>
+                            <th>游戏</th>
+                            <th>银行</th>
+							<th>登录方式</th>
+							<th><a href="<?php echo WEB_ROOT?>index.php/User/new_version">版本号</a></th>
+                            <th><a href="<?php echo WEB_ROOT?>index.php/User/online_user?type=1&order=2">时间</a></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td><if condition="$vo.ProtectID eq 1 "><span style="color:red">{$vo.no}</span>
+                                <else />{$vo.no}</if></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td><if condition="$vo.UserMedal eq 1 "><span style="color:#cc00ff">★</span>
+                                </if><if condition="$vo.LockMobileFrom eq 1 "><span style="color:blue">♥</span>
+                                </if><if condition="$vo.LockMobileFrom eq 2 "><span style="color:blue">♥♥</span>
+                                </if><if condition="$vo.LockMobileFrom eq 3 "><span style="color:red">♥♥</span>
+                                </if><if condition="$vo.IsOpenTokenLock eq 1 "><span style="color:red">★</span>
+                                </if><if condition="$vo.nozz eq 0 "><span style="color:#7b09d2">{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if></td>
+							<td><if condition="$vo.is_gjf eq 1 "><span style="color:red">{$vo.ServerName}</span>
+                                <else />{$vo.ServerName}</if></td>
+							<td>{$vo.Total}</td>
+							<td>{$vo.Score}</td>
+							<td>{$vo.InsureScore}</td>
+							<td><if condition="$vo['LockMobileKindID'] eq 1">IOS</if><if condition="$vo['LockMobileKindID'] eq 2">ANDROID</if><if condition="$vo['LockMobileKindID'] eq 3">PC</if><if condition="$vo['LockMobileKindID'] eq 0">PC</if></td>
+                            <td>{$vo.SerialNumber}</td>
+							<td>{$vo.CollectDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+				<div>注：红色<span style="color:red">★</span>代表该号关联号超过10个，紫色<span style="color:#cc00ff">★</span>代表该号最后登录机器码关联号只有一个，蓝色<span style="color:blue">♥</span>代表该号有过官方充值记录，两个蓝色<span style="color:blue">♥</span>代表该号充值单笔超过100,两个红色<span style="color:red">♥</span>代表该号属于appstore充值用户</div>
+            </article>          
+
+        </section>
+    </div>
+   <div id='tc2' class={$show} style="background-color: #FFCC66;
+border: 1px solid #f00;
+text-align: center;
+display:none;
+line-height: 30px;
+font-size: 12px;
+font-weight: bold;
+z-index:999;
+bottom:0;
+left:0;
+margin-left:10px!important;/*FF IE7 该值为本身宽的一半 */
+margin-top:-60px!important;/*FF IE7 该值为本身高的一半*/
+margin-top:0px;
+position:fixed!important;/* FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+            document.compatMode=='CSS1Compat') ?
+            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);">
+<foreach name='ts2' item='vo'>
+    <span><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a>&nbsp;&nbsp;<if condition="$vo.LoveLiness eq 2"><span style="color:red">{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if>&nbsp;&nbsp;{$vo.ServerName}</span></br>
+</foreach>
+<span style="padding:10px;width:300px;">上线了！<a href="javascript:closeDiv()">关闭窗口</a></span>
+    </div>
+    <div id='tc' class={$show} style="background-color: #FFCC66;
+border: 1px solid #f00;
+text-align: center;
+display:none;
+line-height: 30px;
+font-size: 12px;
+font-weight: bold;
+z-index:999;
+bottom:0;
+right:0;
+margin-left:-150px!important;/*FF IE7 该值为本身宽的一半 */
+margin-top:-60px!important;/*FF IE7 该值为本身高的一半*/
+margin-top:0px;
+position:fixed!important;/* FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+            document.compatMode=='CSS1Compat') ?
+            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);">
+<foreach name='ts' item='vo'>
+    <span><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a>&nbsp;&nbsp;{$vo.NickName}&nbsp;&nbsp;{$vo.ServerName}</span></br>
+</foreach>
+<span style="padding:10px;width:300px;">上线了！<a href="javascript:closeDiv()">关闭窗口</a></span>
+    </div>
+<script type="text/javascript">
+
+function showDiv(){
+    var show = $('#tc').attr('class');
+    if(show==1){
+        document.getElementById('tc').style.display='block';
+    }
+}
+function showDiv2(){
+    var show = $('#tc2').attr('class');
+    if(show==1){
+        document.getElementById('tc2').style.display='block';
+    }
+}
+function closeDiv(){
+document.getElementById('tc').style.display='none';
+document.getElementById('tc2').style.display='none';
+}
+showDiv();
+showDiv2();
+setTimeout("self.location.reload();",60000);
+</script>
+</div>  
+</body>
+</html>

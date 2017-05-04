@@ -1,0 +1,76 @@
+<?php
+    require_once('head.html');
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>
+当前渠道总人数&nbsp;&nbsp;&nbsp;&nbsp;
+<foreach name='result1' item='vo'>
+<span>{$vo.count}</span>
+ </foreach>
+
+
+
+</h2>
+                </header>
+				<form style='width:700px;padding:10px 100px;' action="" method="POST">
+					<span>请输入渠道号：</span>
+           <select name='id'>
+             <foreach name='result' item='vo'>
+            <<option value="{$vo.typeid}">{$vo.typeid}</option>
+            </foreach>
+           </select>
+					<input class="user_search_submit" type="submit" value="查询">
+				</form>
+                <div id="table_w">
+
+
+
+                 <table id="num" style="float:left;margin-left:20px">
+                    <thead>
+                        <tr>
+                            <th>USERID</th>
+                            <th>转账号码</th>
+                            <th>转账金额</th>
+
+                            <th>充值金额</th>
+                            <th>操作时间</th>
+                            <th>游戏房间ID</th>
+                            <th>游戏时间</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody   >
+                      <foreach name='result2' item='vo'>
+                       <tr>
+                         <td>{$vo.UserID}</td>
+                         <td>{$vo.TargetUserID}</td>
+                         <td>{$vo.SwapScore}</td>
+
+
+                         <td>{$vo.PayAmount}</td>
+                         <td>{$vo.ApplyDate}{$vo.CollectDate}
+                 
+                         </td>
+                         <td>{$vo.serverid}</td>
+                         <td>{$vo.gametime}</td>
+
+
+
+                       </tr>
+                       </foreach>
+                    </tbody>
+
+                </table>
+
+
+                </div>
+            </article>
+
+        </section>
+    </div>
+</div>
+</body>
+</html>

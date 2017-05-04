@@ -1,0 +1,60 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2 style='font-size:16px'>0328维护后登录记录<span style='padding-left: 50px;'><a href="<?php echo WEB_ROOT?>index.php/User/login_record_old" style='color:#2996cc'>0328维护后前登录记录</a></span></h2>
+                </header>
+                <form action="<?php echo WEB_ROOT?>index.php/User/login_record" method="GET" style="padding: 15px 230px">
+                    <select name="type">
+                        <option value="1">大厅</option>
+                        <option value="2">游戏房间</option>
+                        <option value="3">所有</option>
+                    </select>
+					<span>请输入游戏ID：</span>
+					<input type="text" class="user_search_input" style="width:150px" name="GameID">
+					<input class="user_search_submit" type="submit" value="查询">					
+				</form>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>登录IP</th>
+                            <th>登录机器码</th>
+                            <th>登录方式</th>
+							<th>游戏</th>
+							<th>版本</th>
+                            <th>时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.NickName}</a></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=3&con={$vo.IP}" target="_blank">{$vo.IP}</a></br>({$vo['Re_city']['country']}{$vo['Re_city']['area']})</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=4&con={$vo.Machine}" target="_blank">{$vo.Machine}</a></td>
+                            <td><if condition="$vo['loginFrom'] eq 1">IOS</if><if condition="$vo['loginFrom'] eq 2">ANDROID</if><if condition="$vo['loginFrom'] eq 3">PC</if><if condition="$vo['loginFrom'] eq 4">PC-XP</if><if condition="$vo['loginFrom'] eq 5 OR $vo['loginFrom'] eq 15">5678</if><if condition="$vo['loginFrom'] eq 9">掌上老版本</if><if condition="$vo['loginFrom'] eq 102">ios捕鱼</if><if condition="$vo['loginFrom'] eq 21">zzlIOS</if><if condition="$vo['loginFrom'] eq 22">zzlAndroid</if><if condition="$vo['loginFrom'] eq 23">zzlPC</if><if condition="$vo['loginFrom'] eq 25">zzlWX</if><if condition="$vo['loginFrom'] eq 51">掌上捕鱼IOS</if><if condition="$vo['loginFrom'] eq 52">掌上捕鱼Android</if><if condition="$vo['loginFrom'] eq 53">掌上捕鱼PC</if></td>
+                            <td>{$vo.Area}</td>
+							<td>{$vo.Version}</td>
+							<td>{$vo.InsertTime}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+    
+<script type="text/javascript">
+	
+</script>
+</div>  
+</body>
+</html>

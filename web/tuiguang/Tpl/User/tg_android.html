@@ -1,0 +1,59 @@
+<?php
+    require_once('head.html');
+?>
+<style>
+.btn{
+display: inline-block;
+float: right;
+border: 1px solid #d2d2d2;
+border-radius: 3px;
+color: #fff;
+font-size: 16px;
+font-weight: normal;
+padding: 3px 10px;
+background: #333336;
+}
+</style>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>渠道列表 <span style="font-size:15px;">&nbsp;&nbsp;&nbsp;&nbsp;当前日期:2016.11.28</span><a href="" class="btn">添加应用商店</a></h2>
+                </header>
+
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>应用商店</th>
+                            <th>渠道ID</th>
+                            <th>产品名称</th>
+                            <th>当日激活量</th>
+                            <th>当日充值</th>
+                            <th>使用状态</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.yysc_name}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/AndroidDetail?qd_id={$vo.yysc_id}">{$vo.qd_id}</a></td>
+                            <td>{$vo.product_name}</td>
+                            <td>{$vo.jihuo}</td>
+                            <td>{$vo.charged}</td>
+                            <td><if condition="$vo.isused eq 0 ">使用中
+                                              <else />未使用</if></td>
+                            <td><a href="">删除</a>&nbsp;&nbsp;<a href="">刷新</a></td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+
+                </table>
+                </div>
+            </article>
+
+        </section>
+    </div>
+</div>
+</body>
+</html>

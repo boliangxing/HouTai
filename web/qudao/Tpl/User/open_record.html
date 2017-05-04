@@ -1,0 +1,44 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>打开记录</h2>
+                </header>           
+
+                <div id="table">
+				
+                <table id="num">
+                    <thead>
+                        <tr>
+							<th>序号</th>
+                            <th>IP</th>
+                            <th>机器码</th>
+                            <th>版本号</th>
+                            <th>时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+							<td>{$vo.no}</td>
+							<td>{$vo.IP}</br>({$vo['Re_city']['country']}{$vo['Re_city']['area']})</td>
+                            <td>{$vo.Machine}</td>
+							<td>{$vo.Version}</td>
+                            <td>{$vo.InsertDate}</td>
+
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+
+</html>

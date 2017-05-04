@@ -1,0 +1,53 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			aaa
+		</section>
+	</div>
+</div>	
+<style>
+	form{
+		position: relative;
+	}
+	.prompt{
+		position: absolute;
+		top:9px;
+		right: 106px;
+		font-size: 13px;
+		color: red;
+	}
+</style>
+<script type="text/javascript">
+
+
+
+$('#form').submit(function() {
+	var name1 =document.getElementById("start_num").value;
+	var name2=document.getElementById("end_num").value;
+	var prompt =document.getElementById("start_num_prompt").style;
+	var reCat = /^hs[0-9]{5}/;
+
+	if(!reCat.test(name1)||!reCat.test(name2)){
+		prompt.display="inline-block";
+		return false;
+	}
+});
+
+
+function check(name){
+
+	var nameValue = document.getElementById(name).value;
+	var prompt =document.getElementById(name+"_prompt").style;
+	var reCat = /^hs[0-9]{5}/;
+	if (!reCat.test(nameValue)){
+		return prompt.display="inline-block";
+	};
+	prompt.display="none";
+}
+
+
+	
+</script>
+</body>
+</html>

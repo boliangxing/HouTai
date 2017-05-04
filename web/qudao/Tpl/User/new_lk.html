@@ -1,0 +1,44 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>最近200条离开记录</h2>
+                </header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>游戏房间</th>
+							<th>登录方式</th>
+                            <th>离开时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.NickName}</td>
+							<td>{$vo.ServerName}</td>
+							<td><if condition="$vo['LockMobileKindID'] eq 1">IOS</if><if condition="$vo['LockMobileKindID'] eq 2">ANDROID</if><if condition="$vo['LockMobileKindID'] eq 3">PC</if><if condition="$vo['LockMobileKindID'] eq 0">PC</if></td>
+                            <td>{$vo.LeaveTime}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+<script type="text/javascript">
+</script>
+</div>  
+</body>
+</html>

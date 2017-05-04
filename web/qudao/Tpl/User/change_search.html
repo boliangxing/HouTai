@@ -1,0 +1,49 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>操作记录</h2>
+                </header>
+                <form action="<?php echo WEB_ROOT?>index.php/User/change_search" method="GET">
+					<span>请输入游戏ID：</span>
+					<input type="text" class="user_search_input" style="width:150px" name="GameID" value="{$GameID}">
+					<input class="user_search_submit" type="submit" value="查询">					
+				</form>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>操作管理员</th>
+                            <th>被操作用户ID</th>
+                            <th>被操作用户昵称</th>
+                            <th>操作行为</th>
+                            <th>原因</th>
+                            <th>时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.Username}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                           <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.NickName}</a></td>
+							<td><if condition="$vo['Type'] eq 8">添加屏蔽</if><if condition="$vo['Type'] eq 9">解除屏蔽</if><if condition="$vo['Type'] eq 7">清除手机绑定</if><if condition="$vo['Type'] eq 5">清除卡线</if><if condition="$vo['Type'] eq 4">解锁机器</if><if condition="$vo['Type'] eq 3">锁定机器</if><if condition="$vo['Type'] eq 2">解封</if><if condition="$vo['Type'] eq 1">封号</if></td>
+                            <td>{$vo.Reason}</td>
+                            <td>{$vo.InsertTime}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

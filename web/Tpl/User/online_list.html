@@ -1,0 +1,43 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="user_info">
+                <header>
+                    <h2>各游戏人数</h2>
+                </header>           
+            </article>
+			<article class="cx_form">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>游戏名</th>
+                            <th>人数</th>
+                            <th>付费（包含充值）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='result' item='vo'>
+                        <tr>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/game_win?KindID={$vo['KindID']}" target="_blank">{$vo.KindName}</a></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/Online_KindID?KindID={$vo['KindID']}" target="_blank">{$vo.count}</a></td>
+                            <td>{$vo.count_ff}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                </table>
+                </div>
+            </article>
+		</section>
+	</div>
+<script type="text/javascript">
+setTimeout("self.location.reload();",30000);
+</script>
+</div>
+</body>
+</html>
+
+
+
+

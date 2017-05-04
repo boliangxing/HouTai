@@ -1,0 +1,7 @@
+"D:/phpStudy/php52/php.exe" "D:/phpStudy/WWW/UserOnlineCount.php"
+"D:/phpStudy/php52/php.exe" "D:/phpStudy/WWW/UserLoginCount.php"
+"D:/phpStudy/php52/php.exe" "D:/phpStudy/WWW/UserGoldSum.php"
+"D:/phpStudy/php52/php.exe" "D:/phpStudy/WWW/UserGoldSum2.php"
+"D:/phpStudy/php52/php.exe" "D:/phpStudy/WWW/UserGoldSum3.php"
+"D:/phpStudy/php52/php.exe" "D:/phpStudy/WWW/GameWasteCount2.php"
+"D:/phpStudy/php52/php.exe" "D:/phpStudy/WWW/UserZzCount.php"

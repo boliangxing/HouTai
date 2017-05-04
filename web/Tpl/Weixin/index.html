@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="华商棋牌,华商游戏大厅">
+<title>华商棋牌,华商游戏大厅</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<script type="text/javascript" src="<?php echo PUBLIC_PATH?>js/jquery-1.9.1.min.js"></script>
+
+<style type="text/css">
+body{
+	margin: 0;
+}
+.main{
+	width: 519px;
+	height: 299px;
+	margin: auto;
+	line-height: 1.8em;
+	background: url('../public/images/bg_weixin.png');
+	color: #555d63;
+}
+
+.right1{
+    height: 99px;
+	width: 248px;
+	padding-top: 15px;
+	margin-left: 250px;
+
+}
+.right2{
+	width: 200px;
+	height: 40px;
+	margin-left: 275px;
+}
+.right3{
+	display: none;
+	height: 99px;
+	width: 248px;
+	padding-top: 20px;
+	margin-left: 250px;
+
+}
+
+</style>
+	<script type="text/javascript">
+	$(function(){
+		$(".right2").click(function(){
+			$(".right3").css("display","block");
+			var zh="<?php echo $GameID?>";
+
+			var url="<?php echo WEB_ROOT?>index.php/Weixin/GetCode?zh="+zh;
+			$.getJSON(url, function(json){
+				var rs=json.err;
+				if(rs=='0'){
+					var num=json.num;
+					$(".right3").html('将绑定校验码：'+num+ ' 按格式"1@游戏ID@绑定校验码"发送至官方微信，即可完成绑定！');
+				}else if(rs=='1'){							
+					alert("账号不存在。");
+				}else if(rs=='2'){							
+					alert("该账号已绑定微信号。");
+				}else if(rs=='3'){							
+					alert("验证码获取时间少于1分钟，请稍后尝试");
+				}else if(rs=='4'){							
+					alert("异常错误");
+				}
+			})
+		});
+	})
+	function getUrlParam(name){
+		var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+		var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+		if (r!=null) return unescape(r[2]); return null; //返回参数值
+	}
+
+	</script>
+
+</head>
+
+<body>
+
+
+    
+    <div class="main">
+
+    	<div class="right">
+    		<div class="right1">通过搜索微信号"game188com"或二维码添加官方微信号"盛大微网游·华商棋牌"为好友。</div>
+    		<div class="right2"></div>
+    		<div class="right3">
+    		</div>
+    	</div>
+    </div>
+
+ 
+
+
+</body></html>

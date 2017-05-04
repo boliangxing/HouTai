@@ -1,0 +1,69 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="expand_query">
+				<header>
+					<h2>统计查询</h2>
+				</header>			
+				<form method="GET" action="<?php echo WEB_ROOT?>index.php/Sta/userCountSearch">
+					<span>起止日期：&nbsp;&nbsp;</span>
+					<input name="start" type="text" class="datepick" name="">&nbsp;-
+					<input name="end" type="text" class="datepick" name="">
+					<input class="querybutton" type="submit" value="查询">					
+				</form>
+			</article>
+			<article class="usersinfo">
+				<header>
+					<h2>用户统计</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序列号</th>
+							<th>时间</th>
+							<th>登陆游戏总数</th>
+							<th>注册总人数</th>
+							<th>最高在线</th>
+							<th>平均在线</th>
+						</tr>
+					</thead>
+					<tbody>
+					<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>						
+							<td>{$vo.insert_date}</td>
+							<td>{$vo.game_login}</td>
+							<td>{$vo.game_register}</td>
+							<td>{$vo.online_max}</td>
+							<td>{$vo.online_avg}</td>
+						</tr>
+					</foreach>																												
+					</tbody>
+					
+				</table></div>
+			</article>		
+
+		</section>
+	</div>
+	<footer>
+		<ol class="pagination">
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/userCountSearch?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>&start=<?php echo $start ?>&end=<?php echo $end ?>" rel="prev">Prev</a></li>
+			<?php 
+				for($i=1;$i<=$pageNum;$i++){?>
+					
+					<li><a href="<?php echo WEB_ROOT?>index.php/Sta/userCountSearch?pageNo=<?php echo $i?>&start=<?php echo $start ?>&end=<?php echo $end ?>"><?php echo $i?></a></li>
+				
+			<?php }
+			?>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/userCountSearch?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>&start=<?php echo $start ?>&end=<?php echo $end ?>" rel="next">Next</a></li>	
+		</ol>			
+	</footer>
+</div>	
+</body>
+</html>
+
+
+
+

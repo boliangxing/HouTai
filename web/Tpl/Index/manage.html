@@ -1,0 +1,71 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="addM">
+				<header>
+					<h2>管理</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Index/addManage" method="GET">
+					用户名：<input class='add_user' type="text" name="username">
+					密码：<input class='add_pwd' type="password" name="password">
+					权限：<select name="role">
+					<option value ="3">查看员</option>
+							<option value ="5">巡查员</option> 
+							<option value ="2">管理员</option>
+  							<option value ="1">超级管理员</option> 		
+  							<option value ="4">超级会员</option> 					
+						</select>	
+					<input class="add_submit" type="submit" value="添加">		
+					<span class="change_pwd">修改登录密码</span>		
+				</form>
+				<div class="change_div" style="display:none;">
+				<form action="<?php echo WEB_ROOT?>index.php/Index/change_pwd" method="POST"><span>输入密码：<input type="password" id="change_pwd" name="pwd"></span>
+					<span>确认密码：<input type="password" id="re_pwd"></span>
+					<span><input type="submit" id="pwd_do" value="确认"></span></form></div>
+				
+			</article>
+			<article class="giveinfo">
+				<header>
+					<h2>管理员列表</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序列号</th>
+							<th>用户名</th>
+							<th>权限</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td>{$vo.username}</td>
+							<td><if condition="$vo.role eq 1">超级管理员
+								<elseif condition="$vo.role eq 2"/>管理员
+								<elseif condition="$vo.role eq 4"/>超级会员
+								<else/>查看员
+								</if></td>
+							<td><if condition="($vo.username neq admin)AND($vo.username neq $_SESSION['hs_admin']['username'])"><a class="del" href="<?php echo WEB_ROOT?>index.php/Index/delManage?id={$vo.id}">删除</a>
+								</if></td>
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+
+		</section>
+	</div>
+	<footer>
+					
+	</footer>
+</div>	
+</body>
+</html>
+
+

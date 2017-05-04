@@ -1,0 +1,43 @@
+<?php
+    require_once('head.html');
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>IOS渠道</span></h2>
+                </header>
+
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                          <th>渠道ID</th>
+                          <th>游戏包ID</th>
+                          <th>比例</th>
+                          <th>模式</th>
+                          <th>操作</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                          <td>{$vo.qd_id}</td>
+                          <td>{$vo.package_id}</td>
+                          <td>{$vo.bili}</td>
+                          <td><if condition="$vo.type_id eq 0" >CPA
+                          <else/> CPS</if></td>
+                          <td><a href="<?php echo WEB_ROOT?>index.php/User/DelBao?package_id={$vo.package_id}">删除</a></td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+
+                </table>
+                </div>
+            </article>
+
+        </section>
+    </div>
+</div>
+</body>
+</html>

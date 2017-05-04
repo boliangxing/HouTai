@@ -1,0 +1,48 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>注册账号</h2>
+                </header>      
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>GameID</th>
+							<th>账号</th>
+							<th>昵称</th>
+                            <th>身上金币</th>
+                            <th>保险箱</th>
+                            <th>注册IP</th>
+                            <th>注册时间</th>   
+							<th>最后登录时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.Accounts}</td>
+							<td>{$vo.NickName}</td>
+                            <td>{$vo.Score}</td>
+							<td>{$vo.InsureScore}</td>
+							<td>{$vo.RegisterIP}</td>
+                            <td>{$vo.RegisterDate}</td>
+							<td>{$vo.LastLogonDate}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

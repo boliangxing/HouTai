@@ -1,0 +1,56 @@
+<?php
+	if(!$_GET['pageNo']){
+		$pageNo = 1;
+	}else{
+		$pageNo = $_GET['pageNo'];
+	}	
+?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>管理系统</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>styles/jquery-ui.css">
+	<link rel="stylesheet" href="<?php echo PUBLIC_PATH?>styles/main.css">
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-1.9.1.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-ui.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/self.js"></script>
+</head>
+<body>
+<div class="warp" name="<?php echo $_SESSION['hs_admin']['role']?>">
+	<header class="top" >
+		<h1><a href="<?php echo WEB_ROOT?>index.php">管理系统</a></h1>
+		<div class="exit"> <a href="<?php echo WEB_ROOT?>index.php/Login/user_exit">退出</a></div>
+	</header>
+	<div class="warpall">	
+ 		
+        
+
+
+		<section class="mainwarp">
+			<article class="user_search">
+				<header>
+					<h2>用户查询</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/User/userInfo" method="GET">
+					<span>请输入用户游戏ID/昵称：</span>
+					<select name="type" id="select">
+							<option value ="1">游戏ID</option>
+  							<option value ="2">昵称</option> 							
+					</select>
+					<input type="text" class="user_search_input" name="info">
+					<input class="user_search_submit" type="submit" value="查询">					
+				</form>
+			</article>
+				
+
+		</section>
+	</div>
+	<footer>
+				
+	</footer>
+</div>	
+</body>
+</html>
+
+

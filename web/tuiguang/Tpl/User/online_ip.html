@@ -1,0 +1,48 @@
+﻿<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>在线用户</h2>
+                </header>           
+                <div id="table">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>GameID</th>
+                            <th>帐号</th>
+                            <th>昵称</th>
+			    <th>手机号</th>
+                            <th>身份证</th>
+                            <th>注册IP</th>
+                            <th>注册机器码</th>
+                            <th>最后登录IP</th>
+                            <th>最后登录机器码</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.Accounts}</td>
+                            <td>{$vo.NickName}</td>
+<td><a href="<?php echo WEB_ROOT?>index.php/User/PhoneList?p={$vo.RegisterMobile}" target="_blank">{$vo.RegisterMobile}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/sfzList?sfz={$vo.PassPortID}" target="_blank">{$vo.PassPortID}</a></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=1&con={$vo.RegisterIP}" target="_blank">{$vo.RegisterIP}</a></br>({$vo['Re_city']['country']}{$vo['Re_city']['area']})</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=2&con={$vo.RegisterMachine}" target="_blank">{$vo.RegisterMachine}</a></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=3&con={$vo.LastLogonIP}" target="_blank">{$vo.LastLogonIP}</a></br>({$vo['Login_city']['country']}{$vo['Login_city']['area']})</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=4&con={$vo.LastLogonMachine}" target="_blank">{$vo.LastLogonMachine}</a></td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+</html>

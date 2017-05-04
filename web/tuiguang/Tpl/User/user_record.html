@@ -1,0 +1,121 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="giveinfo">
+				<header>
+					<h2>游戏记录<a href="<?php echo WEB_ROOT?>index.php/User/userInfo?type=1&GameID={$rs_user['GameID']}" class="h2_right">用户信息</a></h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>插入时间</th>
+							<th>游戏</th>
+							<th>房间</th>
+							<th>桌子</th>
+							<th>胜负</th>
+							<th>开始时间</th>
+							<th>结束时间</th>
+						</tr>
+					</thead>
+					<tbody>
+						
+						<tr id="game_record">
+							
+						</tr>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>						
+		</section>
+		<footer>
+		<ol class="pagination">
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=1" rel="next">首页</a></li>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+			<?php 
+				for($i=1;$i<=$pageNum;$i++){?>
+					
+					<li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+				
+			<?php }
+			?>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+			<li class="mt_2">共：<?php echo $pageNum?>页</li>
+			<li>
+				<input type="text" id="pages">
+				<input type="button" value="go" id="go">
+				
+			</li>			
+		</ol>			
+	</footer>
+	<section class="mainwarp">
+			<article class="giveinfo">
+				<header>
+					<h2>银行记录</h2>
+				</header>
+				<div id="table_w1">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>时间</th>
+							<th>汇款人</th>
+							<th>收款人</th>
+							<th>交易类型</th>
+							<th>汇款人现金</th>
+							<th>汇款人银行</th>
+							<th>收款人现金</th>
+							<th>收款人银行</th>
+							<th>交易现金</th>
+							<th>操作场所</th>
+							<th>操作地址</th>
+							<th>游戏</th>
+							<th>房间</th>
+							<th>备注</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="bank_record">
+							
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>						
+		</section>
+		<footer>
+		<ol class="pagination">
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=1" rel="next">首页</a></li>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+			<?php 
+				for($i=1;$i<=$pageNum;$i++){?>
+					
+					<li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+				
+			<?php }
+			?>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+			<li><a href="<?php echo WEB_ROOT?>index.php/Sta/give?pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+			<li class="mt_2">共：<?php echo $pageNum?>页</li>
+			<li>
+				<input type="text" id="pages">
+				<input type="button" value="go" id="go">
+				
+			</li>			
+		</ol>			
+	</footer>
+	</div>
+	
+	
+	
+</div>	
+</body>
+</html>
+
+

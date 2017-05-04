@@ -1,0 +1,159 @@
+<?php
+    if(!$_GET['pageNo']){
+        $pageNo = 1;
+    }else{
+        $pageNo = $_GET['pageNo'];
+    }   
+?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>赠送记录</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo PUBLIC_PATH?>style/jquery-ui.css">
+	<link rel="stylesheet" href="<?php echo PUBLIC_PATH?>style/main2.css">
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-1.9.1.min.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/jquery-ui.js"></script>
+	<script src="<?php echo PUBLIC_PATH?>js/self.js"></script>
+</head>
+<body>
+        <section class="mainwarp">
+            <article class="user_info">
+            <!-- 
+                <div id="tabs">
+                    <ul class="dd">
+                       <li class="dd-item"><div class="dd-handle "><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$UserID}">基本信息</a></div></li>
+                        <li class="dd-item here"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/zz?UserID={$UserID}">转账记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/cq?UserID={$UserID}">存取记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/yx?UserID={$UserID}">游戏记录</a></div></li>
+                        <li class="dd-item"><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User/recharge?UserID={$UserID}">充值记录</a></div></li>
+                        <li class="dd-item back" ><div class="dd-handle"><a href="<?php echo WEB_ROOT?>index.php/User" >返回</a></div></li>
+                    </ul>
+                </div>
+                -->
+				<span><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}?>" rel="next">赠送记录</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}?>&type=2" rel="next">接收记录</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}?>&type=3" rel="next">使用道具</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="expand_query">        
+                	
+                    <form action="<?php echo WEB_ROOT?>index.php/Client/TransferRecord" method="GET">
+                        <span>起止日期：&nbsp;&nbsp;</span>
+                        <input type="hidden" class="datepick" name="gameid" value="{$gameid}">
+                        <input type="hidden" class="datepick" name="time" value="{$time}">
+                        <input type="hidden" class="datepick" name="sign" value="{$sign}">
+                        <input type="hidden" class="datepick" name="type" value="{$type}">
+                        <input type="text" class="datepick" name="start_date" value={$start_date}>&nbsp;-
+                        <input type="text" class="datepick" name="end_date" value={$end_date}>
+                        <input class="querybutton" type="submit" id="date_submit" value="查询">                    
+                    </form>
+                </div>               
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>序号</th>
+                            <th>赠送时间</th>
+                            <th>赠送人ID</th>
+                            <th>赠送人</th>
+                            <th>接收人ID</th>
+                            <th>接收人</th>
+                            <th>赠送金额</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='result' item='vo'>
+                        <tr>
+                            <td>{$vo.no}</td>
+                            <td>{$vo.CollectDate}</td>
+                            <td>{$vo.GameID1}</td>
+                            <td>{$vo.NickName1}</td>
+                            <td>{$vo.GameID2}</td>
+                            <td>{$vo.NickName2}</td>
+                            <td>{$vo.SwapScore}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>         
+            </article>
+        </section>
+    <footer>
+        <ol class="pagination">
+            <li><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=1" rel="next">首页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+            <?php 
+            	if($pageNum>5){
+					if($pageNo<5){
+						for($i=1;$i<=5;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php               
+            		}else if($pageNo>=5 && $pageNo<$pageNum-2){?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-2;$i<=$pageNo+2;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php
+					}else{?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-3;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php
+						}
+					}	
+				}else{?>
+			<?php
+					for($i=1;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+					}
+				}	
+            ?>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+            <li class="mt_2">共：<span class='page_num'><?php echo $pageNum?></span>页</li>
+            <li>
+                <input type="text" id="pages">
+                <input type="button" value="go" id="go_2">
+                
+            </li>           
+        </ol>           
+    </footer>
+ 
+<script type="text/javascript">
+
+$('#go_2').click(function(){ 
+	var no = parseInt($('#pages').val());
+	var page_num = $('.page_num').html();
+	if(no == null || no == ''){
+		alert('页数不能为空');
+		return false;
+	}
+	if(isNaN(no)){
+		alert('请输入数字');
+		return false;
+	}
+	if(no > page_num || no < 1){
+		alert('页数不能大于总页数，也不能小于1');
+		return false;
+	}    	
+
+	location.href="<?php echo WEB_ROOT?>index.php/Client/TransferRecord?gameid=<?php echo $gameid.'&time='.$time.'&sign='.$sign;if($start_date){ echo '&start_date='.$start_date.'&end_date='.$end_date;}if($type){ echo '&type='.$type;}?>&pageNo="+no;
+})
+	
+</script>
+</body>
+</html>

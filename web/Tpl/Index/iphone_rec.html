@@ -1,0 +1,66 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="iphone_form">
+				<header>
+					<h2>推荐添加</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Index/iphone_rec_add" method="post"  enctype="multipart/form-data">
+					APP名称：<input class='update_input' type="text" name="Name"></br>
+					链接地址：<input class='update_input' type="text" name="Link"></br>
+					下载地址：<input class='update_input' type="text" name="Download"></br>
+					越狱地址：<input class='update_input' type="text" name="Yueyu"></br>
+					版本选择：<input class='update_input' type="radio" name="version" value="1">老版本&nbsp;&nbsp;&nbsp;&nbsp;<input class='update_input' type="radio" name="version" value="2" checked="checked">新版本</br>
+					图片:<input class='update_input_file' type="file" name="Photo" value="点击选择图片" style="margin-left:10px;">	</br>
+					排序号：<input class='update_input' type="text" name="Sort" style='width:20px;'>
+					<input class="submit" type="submit" value="完成">				
+				</form>
+			</article>
+			<article class="giveinfo">
+				<header>
+					<h2>当前推荐</h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th>序号</th>
+							<th>app名称</th>
+							<th>链接地址</th>
+							<th>下载地址</th>
+							<th>越狱地址</th>
+							<th>图片</th>
+							<th>排序号</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td>{$vo.Name}</td>
+							<td>{$vo.Link}</td>
+							<td>{$vo.Download}</td>
+							<td>{$vo.Yueyu}</td>
+							<td><img src="{$vo.photo}"></td>
+							<td>{$vo.Sort}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/Index/iphone_rec_update?id={$vo.id}">修改</a>&nbsp;&nbsp;<a onclick="if(confirm('确定删除?')==false)return false;" href="<?php echo WEB_ROOT?>index.php/Index/iphone_rec_del?id={$vo.id}">删除</a></td>
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+
+		</section>
+	</div>
+	<footer>
+			
+	</footer>
+</div>	
+</body>
+</html>
+
+

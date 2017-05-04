@@ -1,0 +1,43 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>用户</h2>
+                </header>           
+                <div id="table_w">
+                <table id="num">
+                    <thead>
+                        <tr>
+                            <th>GameID</th>
+                            <th>昵称</th>
+                            <th>游戏</th>
+                            <th>银行</th>
+                            <th>总</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.NickName}</td>
+							<td>{$vo.Score}</td>
+							<td>{$vo.InsureScore}</td>
+                            <td>{$vo.Total}</td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+<script type="text/javascript">
+setTimeout("self.location.reload();",60000);
+</script>
+</div>  
+</body>
+</html>

@@ -1,0 +1,115 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="giveinfo">
+				<header>
+					<h2>损耗统计<span class="h2_right_2"><a style="margin-left:-100px;padding-right:36px;" href="<?php echo WEB_ROOT?>index.php/Day/waste_now">当前损耗</a><a href="<?php echo WEB_ROOT?>index.php/Day/filter">添加过滤</a></span></h2>
+				</header>
+				<div id="table_w1">
+				<table id="num">
+					<thead>
+						<tr>
+							<th width="5%">序号</th>
+							<th width="5%">时间</th>
+							<th width="10%">豪车漂移</th>
+							<th width="10%">冠军赛马</th>
+							<th width="10%">欢乐斗牛</th>
+							<th width="10%">二人斗牛</th>
+							<th width="10%">通比牛牛</th>
+							<th width="10%">欢乐五张</th>
+							<th width="10%">十三张</th>
+							<th width="10%">百人角斗场</th>
+							<th width="10%">欢乐30秒</th>
+							<th width="10%">欢乐小九</th>
+							<th width="10%">欢乐两张</th>
+							<th width="10%">合计</th>
+						</tr>
+					</thead>
+					<tbody>
+						<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>
+							<td>{$vo.insert_date}</td>
+							<td>{$vo.G_108}</td>
+							<td>{$vo.G_114}</td>
+							<td>{$vo.G_27}</td>
+							<td>{$vo.G_102}</td>
+							<td>{$vo.G_28}</td>
+							<td>{$vo.G_19}</td>
+							<td>{$vo.G_7}</td>
+							<td>{$vo.G_104}</td>
+							<td>{$vo.G_122}</td>
+							<td>{$vo.G_109}</td>
+							<td>{$vo.G_105}</td>
+							<td>{$vo.sum}</td>
+						</tr>
+						</foreach>
+					</tbody>
+					
+				</table>
+				</div>
+			</article>			
+
+		</section>
+	</div>
+	<footer>
+		<ol class="pagination">
+            <li><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=1" rel="next">首页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=<?php echo $pageNo-1<1?1:$pageNo-1 ?>" rel="prev">上页</a></li>
+            <?php 
+            	if($pageNum>5){
+					if($pageNo<5){
+						for($i=1;$i<=5;$i++){?>
+                    
+                   <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php               
+            		}else if($pageNo>=5 && $pageNo<$pageNum){?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-2;$i<=$pageNo+2;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php	
+						} ?>
+					<li class='page_no'>......</li>
+			<?php
+					}else{?>
+					
+					<li class='page_no'>......</li>	
+			<?php	
+						for($i=$pageNo-3;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php
+						}
+					}	
+				}else{?>
+			<?php
+					for($i=1;$i<=$pageNum;$i++){?>
+                    
+                    <li class='page_no'><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=<?php echo $i?>"><?php echo $i?></a></li>
+			<?php 	
+					}
+				}	
+            ?>
+            
+            <li><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=<?php echo $pageNo+1>$pageNum?$pageNum:$pageNo+1 ?>" rel="next">下页</a></li>
+            <li><a href="<?php echo WEB_ROOT?>index.php/Day/waste?pageNo=<?php echo $pageNum?>" rel="next">末页</a></li>
+            <li class="mt_2">共：<span class='page_num'><?php echo $pageNum?></span>页</li>
+            <li>
+                <input type="text" id="pages">
+                <input type="button" value="go" id="go">
+                
+            </li>           
+        </ol>			
+	</footer>
+</div>	
+</body>
+</html>
+
+

@@ -1,0 +1,31 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="iphone_form">
+				<header>
+					<h2>推荐添加</h2>
+				</header>			
+				<form action="<?php echo WEB_ROOT?>index.php/Index/andriow_pla_update_do" method="get">
+				<input type="hidden" name="id" value="{$result.id}">
+					<span class="span_right">app名称：</span><input class='update_input' type="text" name="Sort_name" value="{$result.Sort_name}"></br>
+					<span class="span_right">app标识：</span><input class='update_input' type="text" name="Sort_id" value="{$result.Sort_id}"></br>
+					<span class="span_right">版本名称：</span><input class='update_input' type="text" name="Version_name" value="{$result.Version_name}"></br>
+					<span class="span_right">版本号：</span><input class='update_input' type="text" name="Version_no" value="{$result.Version_no}"></br>
+					<span class="span_right">平台名称：</span><input class='update_input' type="text" name="Platform_name" value="{$result.Platform_name}"></br>
+					<span class="span_right">平台标识：</span><input class='update_input' type="text" name="Platform_id" value="{$result.Platform_id}"></br>
+					<span class="span_right">下载地址：</span><input class='update_input' type="text" name="Download" value="{$result.Download}"></br>	
+					<span class="span_right">更新说明：</span><textarea cols=30 rows=4 name="Describe" style="overflow:auto" class='update_input'>{$result.Describe}</textarea></br>										
+					<input class="submit" type="submit" value="完成">				
+				</form>
+			</article>
+		</section>
+	</div>
+	<footer>
+			
+	</footer>
+</div>	
+</body>
+</html>
+
+

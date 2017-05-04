@@ -1,0 +1,30 @@
+[ 2016-12-07T01:11:41+08:00 ] http://www.izhongsai.com/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T01:11:41+08:00 ] http://www.izhongsai.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002205s ]
+[ 2016-12-07T01:11:41+08:00 ] http://www.izhongsai.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002381s ]
+[ 2016-12-07T08:27:27+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T08:27:27+08:00 ] http://www.baidu.com/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001810s ]
+[ 2016-12-07T08:27:27+08:00 ] http://www.baidu.com/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001979s ]
+[ 2016-12-07T12:30:45+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T12:30:45+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001680s ]
+[ 2016-12-07T12:30:45+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001819s ]
+[ 2016-12-07T12:30:45+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T12:30:45+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001661s ]
+[ 2016-12-07T12:30:45+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001794s ]
+[ 2016-12-07T14:30:13+08:00 ] https://www.baidu.com | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T14:30:13+08:00 ] https://www.baidu.com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002196s ]
+[ 2016-12-07T14:30:13+08:00 ] https://www.baidu.com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002361s ]
+[ 2016-12-07T14:30:14+08:00 ] https://www.google.com | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T14:30:14+08:00 ] https://www.google.com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001688s ]
+[ 2016-12-07T14:30:14+08:00 ] https://www.google.com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001858s ]
+[ 2016-12-07T14:30:14+08:00 ] http://www.boxun.com | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T14:30:14+08:00 ] http://www.boxun.com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001662s ]
+[ 2016-12-07T14:30:14+08:00 ] http://www.boxun.com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001827s ]
+[ 2016-12-07T14:30:14+08:00 ] http://www.123cha.com | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T14:30:14+08:00 ] http://www.123cha.com | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001680s ]
+[ 2016-12-07T14:30:14+08:00 ] http://www.123cha.com | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001842s ]
+[ 2016-12-07T22:09:19+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T22:09:19+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001683s ]
+[ 2016-12-07T22:09:19+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001853s ]
+[ 2016-12-07T23:12:58+08:00 ] / | INFO: Tag[ app_begin ] --START--
+[ 2016-12-07T23:12:58+08:00 ] / | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001683s ]
+[ 2016-12-07T23:12:58+08:00 ] / | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001853s ]

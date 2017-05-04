@@ -1,0 +1,55 @@
+<?php 
+	require_once('head.html'); 
+?>
+		<section class="mainwarp">
+			<article class="usersinfo">
+				<header>
+					<h2>用户信息<span class="h2_right_2"><a href="<?php echo WEB_ROOT?>index.php/User/tel_re">返回</a></span></h2>
+				</header>
+				<div id="table_w">
+				<table id="num">
+					<thead>
+						<tr>
+							<th width='2%'>序号</th>
+							<th width='5%'>GameID</th>
+							<th width='5%'>账号</th>
+							<th width='5%'>昵称</th>
+							<th width='5%'>最后登陆机器</th>
+							<th width='2%'>赢</th>
+							<th width='2%'>输</th>
+							<th width='2%'>总</th>
+							<th width='5%'>注册时间</th>
+						</tr>
+					</thead>
+					<tbody>
+					<foreach name='result' item='vo'>
+						<tr>
+							<td>{$vo.no}</td>						
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+							<td>{$vo.Accounts}</td>
+							<td>{$vo.NickName}</td>
+							<td>{$vo.LastLogonMobile}</td>
+							<td>{$vo.wl.win}</td>
+							<td>{$vo.wl.lose}</td>
+							<td>{$vo.wl.zong}</td>
+							<td>{$vo.RegisterDate}</td>
+						</tr>
+					</foreach>																												
+					</tbody>
+					
+				</table></div>
+			</article>		
+
+		</section>
+	</div>
+	<footer>
+		
+		
+	</footer>
+</div>	
+</body>
+</html>
+
+
+
+

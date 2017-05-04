@@ -1,0 +1,82 @@
+<?php 
+    require_once('head.html'); 
+?>
+        <section class="mainwarp">
+            <article class="expand_query">
+                <header>
+                    <h2>5678新注册用户&nbsp;&nbsp;&nbsp;&nbsp;<a style='color:#2996cc' href="<?php echo WEB_ROOT?>index.php/User/cz_5678">5678充值</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style='color:#2996cc' href="<?php echo WEB_ROOT?>index.php/User/zz_5678">5678转账</a>&nbsp;&nbsp;&nbsp;&nbsp;<a style='color:#2996cc' href="<?php echo WEB_ROOT?>index.php/User/userCount_5678">5678新注册用户统计</a></h2>
+                </header>           
+				<form action="<?php echo WEB_ROOT?>index.php/User/newUser_5678" method="GET" style="padding:15px 198px 0">
+                        <span>起止日期：&nbsp;&nbsp;</span>
+                        <input type="text" style='width:140px' name="start_date" value="{$start_date}">&nbsp;-
+                        <input type="text" style='width:140px' name="end_date" value="{$end_date}">&nbsp;&nbsp;
+                        <input class="querybutton" type="submit" id="date_submit" value="查询">                    
+                    </form>
+                <div id="table">
+				<span>当前注册总数:{$sum}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前有效用户:{$yx}&nbsp;&nbsp;昵称为红色&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;括号内红色数字为该帐号注册时的注册ip和注册机器码的关联号数量</span>
+                <table id="num">
+                    <thead>
+                        <tr>
+							<th>序号</th>
+                            <th>GameID</th>
+                            <th>帐号</th>
+                            <th>昵称</th>
+							<th>身上</th>
+                            <th>保险箱</th>
+							<th>注册方式</th>
+                            <th>注册IP</th>
+                            <th>注册机器码</th>
+                            <th>最后登录IP</th>
+                            <th>最后登录机器码</th>
+                            <th>注册时间</th>
+							<th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <foreach name='rs' item='vo'>
+                        <tr>
+							<td>{$vo.no}</td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/userInfo?UserID={$vo.UserID}" target="_blank">{$vo.GameID}</a></td>
+                            <td>{$vo.Accounts}</td>
+                            <td><if condition="$vo.CustomID gt 0 or $vo.LockMobileFrom gt 0"><span style='color:red'>{$vo.NickName}</span>
+                                <else />{$vo.NickName}</if></td>
+							<td>{$vo.Score}</td>
+							<td>{$vo.InsureScore}</td>
+							<td><if condition="$vo.RegisterFrom eq 1 ">IOS
+                                </if><if condition="$vo.RegisterFrom eq 2 ">Android
+                                </if><if condition="$vo.RegisterFrom eq 3 ">PC
+                                </if><if condition="$vo.RegisterFrom eq 5 ">5678捕鱼
+                                </if><if condition="$vo.RegisterFrom eq 6 ">游客
+                                </if><if condition="$vo.RegisterFrom eq 7 ">推广网页
+                                </if><if condition="$vo.RegisterFrom gt 10 and $vo.RegisterFrom lt 15">微信登录
+                                </if><if condition="$vo.RegisterFrom eq 15">5678微信登录
+                                </if><if condition="$vo.RegisterFrom eq 8 ">微信注册
+                                </if><if condition="$vo.RegisterFrom gt 100 ">IOS
+                                </if></td>
+							<td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=1&con={$vo.RegisterIP}" target="_blank">{$vo.RegisterIP}</a>&nbsp;&nbsp;<span style='color:red'>({$vo.IP_C})</span></br>({$vo['Re_city']['country']}{$vo['Re_city']['area']})</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=2&con={$vo.RegisterMachine}" target="_blank">{$vo.RegisterMachine}</a>&nbsp;&nbsp;<span style='color:red'>({$vo.MAC_C})</span></td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=3&con={$vo.LastLogonIP}" target="_blank">{$vo.LastLogonIP}</a></br>({$vo['Login_city']['country']}{$vo['Login_city']['area']})</td>
+                            <td><a href="<?php echo WEB_ROOT?>index.php/User/ip_search?UserID={$vo.UserID}&type=4&con={$vo.LastLogonMachine}" target="_blank">{$vo.LastLogonMachine}</a></td>
+                            <td>{$vo.RegisterDate}</td>
+							<td><if condition="$vo.CustomFaceVer eq 1 ">已屏蔽
+                                </if><if condition="$vo.CustomFaceVer eq 0 "><span class='pb' name='{$vo.UserID}' style="color: #2996cc;cursor: pointer;">屏蔽</span>
+                                </if></td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                    
+                </table>
+                </div>
+            </article>          
+
+        </section>
+    </div>
+</div>  
+</body>
+<script type="text/javascript">
+    $(".pb").click(function(){
+        var a=$(this).attr('name');
+        $.get("zcpb?UserID="+a);
+});
+</script>
+</html>
